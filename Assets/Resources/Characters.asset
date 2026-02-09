@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf592430c52e6474bbdfbbd5d0fc9b14, type: 3}
+  m_Name: Characters
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterData
+  characterSets:
+  - name: The Takasu Family
+    characterList:
+    - name: Takasu Ryuuji
+      description: A stay-at-home dad who always takes great care of his family.
+        He goes to great lengths to ensure that his children are well-fed and his
+        wife comes back from work to a clean home. While the people around him fear
+        the glare from his sanpaku eyes, his children seek comfort in his gentle
+        gaze. Even though his daughters struggle at school and his wife gets stressed
+        from her role as a mother, he continues to work to his strengths, ensuring
+        his meals put bright smiles on their faces.
+      fullBody: {fileID: 1179552336, guid: bf8b83e931bd17b4cb9ca89f2d661e9a, type: 3}
+      portrait: {fileID: -485068846, guid: 3a4021be62606ac4cb10a9f945107ad5, type: 3}
+    - name: Takasu Taiga
+      description: The breadwinner and matriarch of the family. With her strong fighting
+        spirit and charisma, she became a feisty and wealthy salarywoman to support
+        her family of six, but being a mother has been an absolute nightmare. The
+        fear of where her daughters will be in the future is constantly looming over
+        her, and she feels totally powerless over them, especially with how much
+        bigger they were compared to her. Well, as long as everyone comes home at
+        the end of the day, they'll be fine, right?
+      fullBody: {fileID: -641699782, guid: bf8b83e931bd17b4cb9ca89f2d661e9a, type: 3}
+      portrait: {fileID: -694222292, guid: 3a4021be62606ac4cb10a9f945107ad5, type: 3}
+    - name: Takasu Haruko
+      description: The first and the oldest of the Takasu sisters... by about six
+        minutes. Takasu Haruko is the smartest of the triplets. Well, she isn't that
+        smart, since she's one of the lower performing students of the class. But
+        she's always trying to help her sisters just barely pass their exams. She's
+        also formed a weird antagonistic relationship with her English teacher, since
+        she gets bugged by her the most. It's hard to blame her when she's just doing
+        everything she can to fit in.
+      fullBody: {fileID: -142460827, guid: bf8b83e931bd17b4cb9ca89f2d661e9a, type: 3}
+      portrait: {fileID: 844526020, guid: 3a4021be62606ac4cb10a9f945107ad5, type: 3}
+    - name: Takasu Mitsuko
+      description: Compared to her sisters, she's a lot more passive and mellow.
+        While she spends most of her time in her own world, she always tries to be
+        kind wherever she can. She usually finds herself getting between her sisters,
+        while her sisters are always trying to protect her from any threats that
+        come her way. She really, really loves books, so much so that it disrupts
+        her performance in class. While she hides from the scary world outside her
+        books, her wish to share this love of books remains.
+      fullBody: {fileID: 498879243, guid: bf8b83e931bd17b4cb9ca89f2d661e9a, type: 3}
+      portrait: {fileID: -1637285999, guid: 3a4021be62606ac4cb10a9f945107ad5, type: 3}
+    - name: Takasu Katsuko
+      description: All brawn, no brains. That's what she is. There isn't a better
+        feeling than being stronger than everyone else. But status isn't the reason
+        she became so strong. Her strength helps her knock any obstacles out of her
+        sisters' way. She's the most hostile of the sisters, so nobody dares to mess
+        with her, besides a few outliers. She isn't afraid to get violent as long
+        as it protects the secure triangle the sisters have formed. But at worst,
+        you'll get put six feet under. The only one that can take her on is Haruko,
+        who is always trying to get her study.
+      fullBody: {fileID: -1369041939, guid: bf8b83e931bd17b4cb9ca89f2d661e9a, type: 3}
+      portrait: {fileID: 717102683, guid: 3a4021be62606ac4cb10a9f945107ad5, type: 3}
+    - name: Takasu Yuuchi
+      description: The youngest in the family and an avid gamer. He's in a weird
+        position when it comes to his family. His sisters never stopped treating
+        him like a kid. Especially Katsuko, who's always picking on him. He doesn't
+        find his father very remarkable, and his mother is extremely doting towards
+        him. Now in his second year of junior high, he goes about his life without
+        a care in the world, only needing his video games and gamer friends to keep
+        him company, or so he believes.
+      fullBody: {fileID: 1361690147, guid: bf8b83e931bd17b4cb9ca89f2d661e9a, type: 3}
+      portrait: {fileID: 1285027366, guid: 3a4021be62606ac4cb10a9f945107ad5, type: 3}
+  - name: Class 2-C of 2029
+    characterList:
+    - name: Sagawa Kaito
+      description: 'A young man with the one and only goal to care for the family
+        that his mother and father had worked so hard to build. He studies long hours
+        to maintain his good grades with a part-time job on the side to alleviate
+        his single mother''s financial burdens. He''s not someone that likes to spend
+        time messing around, nor does he want anyone else''s pity, no matter how
+        much sleep he loses. He needs to stay focused to keep anything from falling
+        apart. Unfortunately, after getting thrown into a pair project assigned by
+        Yuri-sensei, one girl would become his biggest distraction: Takasu Haruko.'
+      fullBody: {fileID: -1076436613, guid: bf8b83e931bd17b4cb9ca89f2d661e9a, type: 3}
+      portrait: {fileID: 756736880, guid: 3a4021be62606ac4cb10a9f945107ad5, type: 3}
+    - name: Ninomae Arisa
+      description: She's always trying to stay true to her own values no matter what,
+        even if it makes herself look a little too serious sometimes. Lightening
+        up isn't easy for her, but as Takasu Mitsuko's best friend, she tries to
+        become someone more fun to be around. At the same time, she helps Mitsuko
+        keep her head out of the clouds.
+      fullBody: {fileID: 1536323627, guid: bf8b83e931bd17b4cb9ca89f2d661e9a, type: 3}
+      portrait: {fileID: -1351316507, guid: 3a4021be62606ac4cb10a9f945107ad5, type: 3}
+    - name: Kishida Mie
+      description: Also Takasu Mitsuko's best friend.
+      fullBody: {fileID: 0}
+      portrait: {fileID: 0}
+    - name: Koigakubo Tarou
+      description: His struggle to speak makes him a really quiet boy. Most of his
+        responses come in the form of a shake or a nod, and any word that leaves
+        his mouth is barely audible. He even has a hard time talking to his own mother.
+        Even though his grades are alright, his lack of sociability leaves more to
+        be desired. That's why he chose to join the student council in hopes of becoming
+        more proactive. His days there wouldn't be easy, but through all his troubles,
+        he'd start to grow closer to Takano Saki, his classmate who would join the
+        council alongside him.
+      fullBody: {fileID: 0}
+      portrait: {fileID: 0}
+    - name: Takano Saki
+      description: A short and plump girl with a strong will and a heart of gold.
+        In spite of her size, she never holds herself back from achieving big things.
+        The harmony of the classroom amongst all the students in her class is of
+        utmost importance, so she always delivers a big smile to everyone she talks
+        to. She's destined for student council president!
+      fullBody: {fileID: 0}
+      portrait: {fileID: 0}
+    - name: Yoshida Satoshi
+      description: He's a little aloof and likes hanging around Katsuko (to her dismay).
+      fullBody: {fileID: 0}
+      portrait: {fileID: 0}
+    - name: Kogarashi Hitomi
+      description: A transfer student with looks that can make all the girls swoon
+        (even Katsuko!). What happened at his old school remains a secret to all
+        his new classmates as he tries to integrate himself into Ohashi High School.
+        Once he feels secure in his new school life, his true character begins to
+        unfold.
+      fullBody: {fileID: 0}
+      portrait: {fileID: 0}
+  - name: Others
+    characterList:
+    - name: Koigakubo Yuri
+      description: A woman in her 50s returning to her teaching job after her son
+        enrolled into the high school she taught at. She also got to keep her family
+        name after marrying.
+      fullBody: {fileID: 0}
+      portrait: {fileID: 0}
+    - name: Takasu Yasuko
+      description: The grandmother to the Takasu sisters. Mitsuko is closest to her!
+      fullBody: {fileID: 0}
+      portrait: {fileID: 0}
+    - name: Noto Hisanosuke
+      description: The child of Noto Maya and Noto Hisamitsu, and Takasu Yuuchi's
+        closest friend/gaming buddy.
+      fullBody: {fileID: 0}
+      portrait: {fileID: 0}

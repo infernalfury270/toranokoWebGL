@@ -6,3 +6,5 @@
 Assembly-CSharp-Editor.csproj
 Assembly-CSharp.csproj
 ToranokoWebGL.sln
+/.vs
+/obj
