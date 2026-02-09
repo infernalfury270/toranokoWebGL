@@ -2,3 +2,7 @@
 /Temp
 /UserSettings
 /Logs
+.vsconfig
+Assembly-CSharp-Editor.csproj
+Assembly-CSharp.csproj
+ToranokoWebGL.sln
