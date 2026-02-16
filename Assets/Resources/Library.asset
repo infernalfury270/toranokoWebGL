@@ -39,3 +39,7 @@ MonoBehaviour:
       pdf: {fileID: 102900000, guid: e64772f8a18eae242a57eb74f77847c4, type: 3}
     - name: 'Chapter 4: Do The Right Thing'
       pdf: {fileID: 102900000, guid: c728cfc3110879f47968f8374206a592, type: 3}
+    - name: 'Chapter 5: I Want To See You'
+      pdf: {fileID: 102900000, guid: 367b4f7b7af8cd24a879c0460359574c, type: 3}
+    - name: 'Chapter 6: Our Path Forward'
+      pdf: {fileID: 102900000, guid: f0f735fffdd69814285875791b7daca9, type: 3}
