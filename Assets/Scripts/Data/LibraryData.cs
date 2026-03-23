@@ -16,7 +16,8 @@ public class LibraryData : SingletonScriptableObject<LibraryData>
         public class Chapter
         {
             public string name;
-            public Object pdf;
+            public string fileUrl;
+            public string dateAdded;
         }
         public List<Chapter> chapters;
     }

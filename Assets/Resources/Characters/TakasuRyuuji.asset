@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6d9004416d76c6499bb5cc8be070323, type: 3}
+  m_Name: TakasuRyuuji
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterInfo
+  characterName: Takasu Ryuuji
+  description: A stay-at-home dad who always takes great care of his family. He goes
+    to great lengths to ensure that his children are well-fed and his wife comes
+    back from work to a clean home. While the people around him fear the glare from
+    his sanpaku eyes, his children seek comfort in his gentle gaze. Even though his
+    daughters struggle at school and his wife gets stressed from her role as a mother,
+    he continues to work to his strengths, ensuring his meals put bright smiles on
+    their faces.
+  fullBody: {fileID: 21300000, guid: 37151a44be0f2d14b8e6401de17e1ed9, type: 3}
+  portrait: {fileID: 21300000, guid: 1bebd280421958c44a76c9285c8bd086, type: 3}

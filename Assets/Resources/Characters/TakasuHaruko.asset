@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6d9004416d76c6499bb5cc8be070323, type: 3}
+  m_Name: TakasuHaruko
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterInfo
+  characterName: Takasu Haruko
+  description: The first and the oldest of the Takasu sisters... by about six minutes.
+    Takasu Haruko is the smartest of the triplets. Well, she isn't that smart, since
+    she's one of the lower performing students of the class. But she's always trying
+    to help her sisters just barely pass their exams. She's also formed a weird antagonistic
+    relationship with her English teacher, since she gets bugged by her the most.
+    It's hard to blame her when she's just doing everything she can to fit in.
+  fullBody: {fileID: 21300000, guid: b0140d3d5845bf94ba8bfef162384a32, type: 3}
+  portrait: {fileID: 21300000, guid: 398618a7ff83bcf40aef1876ee2ae2d4, type: 3}

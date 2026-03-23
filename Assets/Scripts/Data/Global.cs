@@ -4,4 +4,5 @@ using UnityEngine;
 public class Global : SingletonScriptableObject<Global>
 {
     public Sprite placeholderSprite;
+    public bool DebugMode;
 }

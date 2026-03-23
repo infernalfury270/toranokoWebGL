@@ -18,7 +18,10 @@ MonoBehaviour:
       the series/the author. The newsletters also have little shorts involving the
       characters written for fun.
     cover: {fileID: 21300000, guid: ec7b367bc8fbcd2488c11ac53f9a7d18, type: 3}
-    chapters: []
+    chapters:
+    - name: Volume 0 Full Release
+      fileUrl: 
+      dateAdded: 
   - name: Volume 0
     description: '"I promise, I''ll never let you go." The tides had turned for the
       Takasu family after the delivery of Taiga''s triplets had gone awry, leaving
@@ -29,17 +32,26 @@ MonoBehaviour:
       even when Taiga herself would try to go against them.\n\nA look at the future
       of the Takasu family after the events of Toradora! and the precursor to the
       spinoff sequel, Toranoko!'
-    cover: {fileID: 21300000, guid: b81a8e07a8a12604099947e56250f1d0, type: 3}
+    cover: {fileID: 21300000, guid: 66c2ea6b9237e23439929a1fba01395a, type: 3}
     chapters:
+    - name: Complete Volume
+      fileUrl: 
+      dateAdded: 
     - name: 'Chapter 1: When You Least Expect It'
-      pdf: {fileID: 102900000, guid: 20bfcc2e13bf4cd459a42e5999d386d6, type: 3}
+      fileUrl: https://infernalfury270.github.io/toranoko/read/2_1.pdf
+      dateAdded: 27/10/25
     - name: 'Chapter 2: She''s My Responsibility'
-      pdf: {fileID: 102900000, guid: c60f4752347963b4f9878fc31535ebe9, type: 3}
+      fileUrl: https://infernalfury270.github.io/toranoko/read/2_2.pdf
+      dateAdded: 27/10/25
     - name: 'Chapter 3: Sharing The Burden'
-      pdf: {fileID: 102900000, guid: e64772f8a18eae242a57eb74f77847c4, type: 3}
+      fileUrl: https://infernalfury270.github.io/toranoko/read/2_3.pdf
+      dateAdded: 1/1/26
     - name: 'Chapter 4: Do The Right Thing'
-      pdf: {fileID: 102900000, guid: c728cfc3110879f47968f8374206a592, type: 3}
+      fileUrl: https://infernalfury270.github.io/toranoko/read/2_4.pdf
+      dateAdded: 1/1/26
     - name: 'Chapter 5: I Want To See You'
-      pdf: {fileID: 102900000, guid: 367b4f7b7af8cd24a879c0460359574c, type: 3}
+      fileUrl: https://infernalfury270.github.io/toranoko/read/2_5.pdf
+      dateAdded: 16/2/26
     - name: 'Chapter 6: Our Path Forward'
-      pdf: {fileID: 102900000, guid: f0f735fffdd69814285875791b7daca9, type: 3}
+      fileUrl: https://infernalfury270.github.io/toranoko/read/2_6.pdf
+      dateAdded: 16/2/26

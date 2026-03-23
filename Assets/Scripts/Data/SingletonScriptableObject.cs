@@ -1,8 +1,8 @@
 using UnityEngine;
 public class SingletonScriptableObject<T> : ScriptableObject where T : ScriptableObject
 {
-    private T _instance;
-    public T Instance
+    private static T _instance;
+    public static T Instance
     {
         get {
             if (_instance == null)
@@ -10,7 +10,7 @@ public class SingletonScriptableObject<T> : ScriptableObject where T : Scriptabl
             return _instance; 
         }
     }
-    private T Load()
+    private static T Load()
     {
         if (_instance != null) return _instance;
         var search = Resources.LoadAll<T>("");
