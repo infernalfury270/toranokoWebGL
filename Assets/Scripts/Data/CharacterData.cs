@@ -10,6 +10,13 @@ public class CharacterData : SingletonScriptableObject<CharacterData>
         public string name;
         public List<CharacterInfo> characterList;
     }
-    public Sprite characterPortraitPlaceholder;
+    [System.Serializable]
+    public class RelationshipInfo
+    {
+        public string name;
+        public Sprite sprite;
+        public Color color;
+    }
+    public List<RelationshipInfo> relationshipInfo;
     public List<CharacterSet> characterSets;
 }

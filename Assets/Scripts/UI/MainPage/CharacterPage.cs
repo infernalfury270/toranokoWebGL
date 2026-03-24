@@ -1,6 +1,10 @@
+using NUnit.Framework;
 using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using UnityEngine;
+using UnityEngine.TextCore.Text;
 using UnityEngine.UI;
 
 public class CharacterPage : MonoBehaviour
@@ -13,15 +17,23 @@ public class CharacterPage : MonoBehaviour
     [SerializeField] TMP_Text _setTitle, _charName, _charDesc, _prevChar, _nextChar;
     [SerializeField] Image _charFullBody, _charPortrait;
 
+    [SerializeField] TMP_Text _relationshipTitle;
+    [SerializeField] DisableScrollWithHeight _relationshipScroll;
+    [SerializeField] RectTransform _relationshipContent, _relationshipDisplay;
+    [SerializeField] Slider _timelineSlider;
+
     int _entriesPerRow;
     int _currSet;
     int _charIndex;
+    CharacterInfo _currCharacter;
+    int _lastPeriodA, _lastPeriodB;
     private void Awake()
     {
         //_entriesPerRow = (int)Mathf.Ceil((_charContent.rect.width - _charLayout.padding.left - _charLayout.padding.right) 
         //    / (_charLayout.cellSize.x + _charLayout.spacing.x));
         //Debug.Log(_entriesPerRow);
         _entriesPerRow = 3;
+        _lastPeriodA = _lastPeriodB = -1;
     }
     private IEnumerator RebuildSets()
     {
@@ -42,6 +54,16 @@ public class CharacterPage : MonoBehaviour
         yield return new WaitForEndOfFrame();
         _charScroll.ToggleCheck();
     }
+    private IEnumerator RebuildRelationships()
+    {
+        yield return new WaitForEndOfFrame();
+        LayoutRebuilder.ForceRebuildLayoutImmediate(_relationshipContent);
+        yield return new WaitForEndOfFrame();
+        _relationshipContent.sizeDelta = new Vector2(_relationshipContent.sizeDelta.x, _relationshipDisplay.sizeDelta.y * _relationshipContent.childCount);
+        yield return new WaitForEndOfFrame();
+        yield return new WaitForEndOfFrame();
+        _relationshipScroll.ToggleCheck();
+    }
     public void LoadSets()
     {
         for (int i = _setContent.childCount - 1;  i >= 0; i--)
@@ -56,6 +78,7 @@ public class CharacterPage : MonoBehaviour
         StartCoroutine(RebuildSets());
         SelectSet(0);
         ToggleInfo(false);
+        _timelineSlider.onValueChanged.AddListener(UpdateRelationships);
     }
     public void SelectSet(int index)
     {
@@ -91,6 +114,68 @@ public class CharacterPage : MonoBehaviour
         _charPortrait.sprite = character.portrait != null ? character.portrait : Global.Instance.placeholderSprite;
         _prevChar.text = GetPrevCharacter().characterName;
         _nextChar.text = GetNextCharacter().characterName;
+        LoadRelationships(character);
+    }
+    public void LoadRelationships(CharacterInfo character)
+    {
+        _currCharacter = character;
+        _relationshipTitle.text = _currCharacter.characterName + "'s Relationships";
+        _lastPeriodA = _lastPeriodB = -1;
+        UpdateRelationships(_timelineSlider.value);
+    }
+    public void UpdateRelationships(float value)
+    {
+        if (_currCharacter == null) return;
+        int point = (int)Mathf.Round(value * 300);
+        if (point >= _lastPeriodA && point < _lastPeriodB) return;
+        _lastPeriodA = -1;
+        _lastPeriodB = 301;
+        List<int> periodEnds = new();
+        for (int i = _relationshipContent.childCount -1; i >= 0; i--)
+            Destroy(_relationshipContent.GetChild(i).gameObject);
+        for (int i = 0; i < _currCharacter.relationships.Count; i++)
+        {
+            var charRelation = _currCharacter.relationships[i];
+            if (charRelation.stages.Count == 0) continue;
+            var newEntry = Instantiate(_relationshipDisplay, _relationshipContent);
+            newEntry.Find("Self").Find("Icon").GetComponent<Image>().sprite = _currCharacter.portrait;
+            newEntry.Find("SelfName").GetComponentInChildren<TMP_Text>().text = _currCharacter.characterName;
+            if (charRelation.character.portrait != null)
+                newEntry.Find("Other").Find("Icon").GetComponent<Image>().sprite = charRelation.character.portrait;
+            newEntry.Find("OtherName").GetComponentInChildren<TMP_Text>().text = charRelation.character.characterName;
+            newEntry.Find("Scribble").localRotation = Quaternion.Euler(0, 0, Random.Range(0, 360f));
+
+            TMP_Text title = newEntry.Find("Title").GetComponent<TMP_Text>();
+            TMP_Text comment = newEntry.Find("Comment").GetComponent<TMP_Text>();
+            Image relationIcon = newEntry.Find("RelationCircle").Find("Relationship").GetComponent<Image>();
+            for (int j = 0; j < charRelation.stages.Count; j++)
+            {
+                var stage = charRelation.stages[j];
+                if (point >= stage.storyProgression)
+                {
+                    var info = CharacterData.Instance.relationshipInfo[(int)stage.relationship];
+                    title.text = info.name;
+                    title.color = info.color;
+                    if (string.IsNullOrEmpty(stage.comment))
+                        comment.text = "\"...\"";
+                    else
+                        comment.text = "\"" + stage.comment + "\"";
+                    relationIcon.sprite = info.sprite;
+                    if (stage.storyProgression > _lastPeriodA)
+                        _lastPeriodA = stage.storyProgression;
+                } else
+                {
+                    periodEnds.Add(stage.storyProgression);
+                    break;
+                }
+            }
+        }
+        for (int i = 0; i < periodEnds.Count; i++)
+        {
+            if (periodEnds[i] < _lastPeriodB && periodEnds[i] > _lastPeriodA)
+                _lastPeriodB = periodEnds[i];
+        }
+        StartCoroutine(RebuildRelationships());
     }
     private int IncrementSetIndex(int curr, int inc)
     {

@@ -12,7 +12,70 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf592430c52e6474bbdfbbd5d0fc9b14, type: 3}
   m_Name: Characters
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
-  characterPortraitPlaceholder: {fileID: 21300000, guid: b2ee67fe1f9512747ac77b79dd678db0, type: 3}
+  relationshipInfo:
+  - name: Neutral
+    sprite: {fileID: 21300000, guid: eee042270ce769848bb08c8ca38aaea3, type: 3}
+    color: {r: 0.6754716, g: 0.6754716, b: 0.6754716, a: 1}
+  - name: Acquaintance
+    sprite: {fileID: 21300000, guid: 78eccc52c0bc0e54c9aed5ff95e87ef9, type: 3}
+    color: {r: 0.55968845, g: 0.81886786, b: 0.5361267, a: 1}
+  - name: Quite Friendly
+    sprite: {fileID: 21300000, guid: 5c000d3d5ff6825468ab98d5dc1aefd9, type: 3}
+    color: {r: 0.41799706, g: 0.8415094, b: 0.40487713, a: 1}
+  - name: Very Pleasant
+    sprite: {fileID: 21300000, guid: f75b8d04ed1f50b4ab11320717b032a9, type: 3}
+    color: {r: 0.3679244, g: 1, b: 0.5079428, a: 1}
+  - name: Close
+    sprite: {fileID: 21300000, guid: 2f3fc676cd58bff4993a3b4d5a914ebe, type: 3}
+    color: {r: 0.1566037, g: 1, b: 0.34518924, a: 1}
+  - name: Closest
+    sprite: {fileID: 21300000, guid: 917bb3f106413f34ca0f93b0a2a79e0e, type: 3}
+    color: {r: 0, g: 1, b: 0.20815563, a: 1}
+  - name: Uneasy
+    sprite: {fileID: 21300000, guid: 5a95600d26c5e4e4ebb2e3efc380d20d, type: 3}
+    color: {r: 0.8037735, g: 0.6111712, b: 0.6111712, a: 1}
+  - name: Irritated
+    sprite: {fileID: 21300000, guid: b7cae804246100a468da195493aa9d58, type: 3}
+    color: {r: 0.81886786, g: 0.47432533, b: 0.47432533, a: 1}
+  - name: Hostile
+    sprite: {fileID: 21300000, guid: 5bba0ce1d6225cf40aaab82e76acef24, type: 3}
+    color: {r: 1, g: 0.26226407, b: 0.26226407, a: 1}
+  - name: Hate
+    sprite: {fileID: 21300000, guid: 8b76f14d3da8c9e48a9ef1f0115439bb, type: 3}
+    color: {r: 0.93207544, g: 0.22334634, b: 0.38134328, a: 1}
+  - name: Despised
+    sprite: {fileID: 21300000, guid: 4aadc2adb1887494ab4996f917759078, type: 3}
+    color: {r: 0.8490566, g: 0.3828765, b: 0.7015917, a: 1}
+  - name: Simmering Feelings
+    sprite: {fileID: 21300000, guid: 5d98e38eafba8624a8d05fe1546d14ce, type: 3}
+    color: {r: 0.9997038, g: 0.84339625, b: 1, a: 1}
+  - name: Confidently Affectionate
+    sprite: {fileID: 21300000, guid: ace50083d6f7c664fabcf89a62fcd960, type: 3}
+    color: {r: 1, g: 0.73018867, b: 1, a: 1}
+  - name: Deeply In Love
+    sprite: {fileID: 21300000, guid: 7357feb2bda6ed14983ae53657a7d67b, type: 3}
+    color: {r: 1, g: 0.5566037, b: 1, a: 1}
+  - name: Physically Intimate
+    sprite: {fileID: 21300000, guid: 2acc6a08e474a0443bbd8b510f840e39, type: 3}
+    color: {r: 1, g: 0.3754716, b: 1, a: 1}
+  - name: Just Married
+    sprite: {fileID: 21300000, guid: a793759a7f5cc5f44b422bc5cb41e826, type: 3}
+    color: {r: 1, g: 0.2924527, b: 1, a: 1}
+  - name: Uncertain
+    sprite: {fileID: 21300000, guid: d7cb752a86600f94ba793cb1749ad76a, type: 3}
+    color: {r: 0.74754864, g: 0.66576713, b: 0.8037735, a: 1}
+  - name: Heartbroken
+    sprite: {fileID: 21300000, guid: a4aa39ab569d4214a97cc59a0f9f2dbf, type: 3}
+    color: {r: 0.74990153, g: 0.61356354, b: 0.8490566, a: 1}
+  - name: Toxic
+    sprite: {fileID: 21300000, guid: e6d8f8be39b158a4c9cf2a90ccb604c5, type: 3}
+    color: {r: 0.66233903, g: 0.45158416, b: 0.8113208, a: 1}
+  - name: Destructive
+    sprite: {fileID: 21300000, guid: 7b76216176ed23845a99219b6994661d, type: 3}
+    color: {r: 0.63978046, g: 0.31957993, b: 0.8867924, a: 1}
+  - name: Lethal
+    sprite: {fileID: 21300000, guid: 3f4a65ed4b54fb04886de8c1412f9e8f, type: 3}
+    color: {r: 0.6040076, g: 0.30326095, b: 0.8415094, a: 1}
   characterSets:
   - name: The Takasu Family
     characterList:

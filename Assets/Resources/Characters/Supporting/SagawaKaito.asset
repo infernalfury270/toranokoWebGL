@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6d9004416d76c6499bb5cc8be070323, type: 3}
+  m_Name: SagawaKaito
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterInfo
+  characterName: Sagawa Kaito
+  description: 'A young man with the one and only goal to care for the family that
+    his mother and father had worked so hard to build. He studies long hours to maintain
+    his good grades with a part-time job on the side to alleviate his single mother''s
+    financial burdens. He''s not someone that likes to spend time messing around,
+    nor does he want anyone else''s pity, no matter how much sleep he loses. He needs
+    to stay focused to keep anything from falling apart. Unfortunately, after getting
+    thrown into a pair project assigned by Yuri-sensei, one girl would become his
+    biggest distraction: Takasu Haruko.'
+  fullBody: {fileID: 21300000, guid: a4a514bdec7a297448e94153fd438c5b, type: 3}
+  portrait: {fileID: 21300000, guid: b87d5a6c3a4aad04db657d8a4beafd1c, type: 3}

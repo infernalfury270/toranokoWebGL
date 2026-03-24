@@ -2,6 +2,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
+
 
 
 
@@ -65,6 +67,8 @@ public class MainPageManager : MonoBehaviour//, IPointerClickHandler
         page.canvasGrp.alpha = 0;
         page.canvasGrp.blocksRaycasts = false;
     }
+
+    public void ToExploreScene() => SceneManager.LoadScene("ExploreScene");
 
 //    public void OnPointerClick(PointerEventData eventData)
 //    {
