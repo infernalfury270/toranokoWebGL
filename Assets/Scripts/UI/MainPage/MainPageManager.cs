@@ -69,6 +69,8 @@ public class MainPageManager : MonoBehaviour//, IPointerClickHandler
     }
 
     public void ToExploreScene() => SceneManager.LoadScene("ExploreScene");
+    public void ToOGWebsite() => Application.OpenURL("https://infernalfury270.github.io/toranoko/");
+    public void OpenLink(string link) => Application.OpenURL(link);
 
 //    public void OnPointerClick(PointerEventData eventData)
 //    {

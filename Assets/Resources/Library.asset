@@ -55,3 +55,23 @@ MonoBehaviour:
     - name: 'Chapter 6: Our Path Forward'
       fileUrl: https://infernalfury270.github.io/toranoko/read/2_6.pdf
       dateAdded: 16/2/26
+  - name: Takasu Haruko
+    description: 
+    cover: {fileID: 21300000, guid: ec7b367bc8fbcd2488c11ac53f9a7d18, type: 3}
+    chapters: []
+  - name: Takasu Mitsuko
+    description: 
+    cover: {fileID: 21300000, guid: ec7b367bc8fbcd2488c11ac53f9a7d18, type: 3}
+    chapters: []
+  - name: Takasu Taiga
+    description: 
+    cover: {fileID: 21300000, guid: ec7b367bc8fbcd2488c11ac53f9a7d18, type: 3}
+    chapters: []
+  - name: Haruko & Mitsuko
+    description: 
+    cover: {fileID: 21300000, guid: ec7b367bc8fbcd2488c11ac53f9a7d18, type: 3}
+    chapters: []
+  - name: Takasu Katsuko
+    description: 
+    cover: {fileID: 21300000, guid: ec7b367bc8fbcd2488c11ac53f9a7d18, type: 3}
+    chapters: []
