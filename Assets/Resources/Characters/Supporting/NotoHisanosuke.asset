@@ -15,5 +15,6 @@ MonoBehaviour:
   characterName: Noto Hisanosuke
   description: The child of Noto Maya and Noto Hisamitsu, and Takasu Yuuchi's closest
     friend/gaming buddy.
-  fullBody: {fileID: 0}
-  portrait: {fileID: 0}
+  fullBody: {fileID: 21300000, guid: ae51cb79290315748992c467bd61b101, type: 3}
+  portrait: {fileID: 21300000, guid: 5d87506c1d42b9b4092655839e895f74, type: 3}
+  relationships: []

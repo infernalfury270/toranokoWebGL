@@ -22,3 +22,28 @@ MonoBehaviour:
     their faces.
   fullBody: {fileID: 21300000, guid: 37151a44be0f2d14b8e6401de17e1ed9, type: 3}
   portrait: {fileID: 21300000, guid: 1bebd280421958c44a76c9285c8bd086, type: 3}
+  relationships:
+  - name: 
+    character: {fileID: 11400000, guid: dd6c719f114c5884bad0ca2d176f1648, type: 2}
+    stages: []
+  - name: 
+    character: {fileID: 11400000, guid: 94adab033d567a2489e342053d94579d, type: 2}
+    stages: []
+  - name: 
+    character: {fileID: 11400000, guid: 9a37b3f5fd958004bba2c106a2580af1, type: 2}
+    stages: []
+  - name: 
+    character: {fileID: 11400000, guid: 1069d608ddedbbe4ea26946b346e6c63, type: 2}
+    stages: []
+  - name: 
+    character: {fileID: 11400000, guid: 55a3c7e8fa975994dab138f1804d4834, type: 2}
+    stages: []
+  - name: 
+    character: {fileID: 11400000, guid: c9602679b725d884db59cada9692373a, type: 2}
+    stages: []
+  - name: 
+    character: {fileID: 11400000, guid: 005537d58d9b8f145b2a757e4b1b5d30, type: 2}
+    stages: []
+  - name: 
+    character: {fileID: 11400000, guid: cdc72b4112884364d960e2529bddaf9e, type: 2}
+    stages: []

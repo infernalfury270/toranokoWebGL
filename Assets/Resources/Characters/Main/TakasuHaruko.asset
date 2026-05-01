@@ -68,7 +68,7 @@ MonoBehaviour:
         you want to be, then do that on your own!
     - name: 200
       storyProgression: 200
-      relationship: 9
+      relationship: 7
       comment: If you don't want to be around me anymore, so be it! I've been happier
         without you!
     - name: 230
@@ -120,6 +120,33 @@ MonoBehaviour:
       storyProgression: 250
       relationship: 8
       comment: G-get off my shoulder and just let me do what I want!
+    - name: 300
+      storyProgression: 300
+      relationship: 3
+      comment: Wh-whatever...
+  - name: Koigakubo Yuri
+    character: {fileID: 11400000, guid: d411c21d515fe4a4cae0fffbbc885d31, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 0
+      comment: I'll do my best.
+    - name: 25
+      storyProgression: 25
+      relationship: 6
+      comment: I keep getting into trouble...
+    - name: 75
+      storyProgression: 75
+      relationship: 7
+      comment: I'm trying as hard as I can, woman!
+    - name: 150
+      storyProgression: 150
+      relationship: 2
+      comment: I... I managed to exceed her expectations!
+    - name: 200
+      storyProgression: 200
+      relationship: 3
+      comment: I know you have my back, Yuri-sensei!
   - name: Sagawa Kaito
     character: {fileID: 11400000, guid: c9602679b725d884db59cada9692373a, type: 2}
     stages:
@@ -165,8 +192,8 @@ MonoBehaviour:
       relationship: 14
       comment: We've shown each other everything... It feels like nothing can tear
         us apart.
-    - name: 250
-      storyProgression: 250
+    - name: 255
+      storyProgression: 255
       relationship: 17
       comment: I'm an idiot... I didn't mean to hurt him... I was only thinking of
         myself...
@@ -313,29 +340,6 @@ MonoBehaviour:
       storyProgression: 275
       relationship: 10
       comment: You'll be dead the next time we meet!
-  - name: Koigakubo Yuri
-    character: {fileID: 11400000, guid: d411c21d515fe4a4cae0fffbbc885d31, type: 2}
-    stages:
-    - name: 0
-      storyProgression: 0
-      relationship: 0
-      comment: I'll do my best.
-    - name: 25
-      storyProgression: 25
-      relationship: 6
-      comment: I keep getting into trouble...
-    - name: 75
-      storyProgression: 75
-      relationship: 7
-      comment: I'm trying as hard as I can, woman!
-    - name: 150
-      storyProgression: 150
-      relationship: 2
-      comment: I... I managed to exceed her expectations!
-    - name: 200
-      storyProgression: 200
-      relationship: 3
-      comment: I know you have my back, Yuri-sensei!
   - name: Takasu Yasuko
     character: {fileID: 11400000, guid: 005537d58d9b8f145b2a757e4b1b5d30, type: 2}
     stages:
@@ -359,7 +363,7 @@ MonoBehaviour:
       relationship: 1
       comment: It's been a while since we've seen each other, but she's nice from
         what I remember.
-    - name: 0
+    - name: 175
       storyProgression: 175
       relationship: 2
       comment: She treated us after she came back from America!

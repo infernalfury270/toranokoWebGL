@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CharacterInfo
   characterName: Yoshida Satoshi
   description: He's a little aloof and likes hanging around Katsuko (to her dismay).
-  fullBody: {fileID: 0}
-  portrait: {fileID: 0}
+  fullBody: {fileID: 21300000, guid: b11ef480364d64746b3d9344f1eab2bf, type: 3}
+  portrait: {fileID: 21300000, guid: 82bbba956c1c7c64d92e43e8655c68fa, type: 3}
+  relationships: []

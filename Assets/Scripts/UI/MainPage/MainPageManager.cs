@@ -3,6 +3,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
+using System;
+using System.Collections;
+
+
 
 
 
@@ -19,6 +23,7 @@ public class MainPageEditor : Editor
         _pageToOpen = EditorGUILayout.IntField("To Open", _pageToOpen);
         if (GUILayout.Button("Open Page"))
         {
+            ((MainPageManager)target).HideAllPages();
             ((MainPageManager)target).OpenPage(_pageToOpen);
         }
     }
@@ -31,10 +36,13 @@ public class MainPageManager : MonoBehaviour//, IPointerClickHandler
     [SerializeField] List<Page> _pages;
     [SerializeField] RectTransform _contentFrame;
     [SerializeField] float _yOffset = 125;
-    private Page _currOpened;
 
+    private static readonly float _transTime = 0.25f;
+    private Page _currOpened;
+    private int _transCount;
     private void Awake()
     {
+        _transCount = 0;
         _mainScrollbar.value = 1;
         for (int i = 0; i < _pages.Count; i++)
         {
@@ -42,30 +50,73 @@ public class MainPageManager : MonoBehaviour//, IPointerClickHandler
             _pages[i].OnPreload?.Invoke();
             HidePage(_pages[i]);
         }
-        OpenPage(0);
-    }
-    public void OpenPage(int index)
-    {
-        if (index < 0 || index >= _pages.Count || _pages[index] == null) return;
-        if (_currOpened != null)
-        {
-            _currOpened.OnClose?.Invoke();
-            HidePage(_currOpened);
-        }
-        _currOpened = _pages[index];
+        _currOpened = _pages[0];
         _currOpened.OnOpen?.Invoke();
         ShowPage(_currOpened);
     }
-    private void ShowPage(Page page)
+    public void OpenPage(int index)
     {
-        page.canvasGrp.alpha = 1;
+        if (index < 0 || index >= _pages.Count || _pages[index] == null || _currOpened == _pages[index]) return;
+        _transCount++;
+        if (_currOpened != null)
+        {
+            _currOpened.OnClose?.Invoke();
+            HidePage(_currOpened, true);
+        }
+        _currOpened = _pages[index];
+        _currOpened.OnOpen?.Invoke();
+        ShowPage(_currOpened, true);
+    }
+    private void ShowPage(Page page, bool transition = false)
+    {
         page.canvasGrp.blocksRaycasts = true;
         _contentFrame.sizeDelta = new Vector2(_contentFrame.sizeDelta.x, page.rT.sizeDelta.y + _yOffset);
+        if (Application.isPlaying && transition)
+        {
+            StartCoroutine(TransitionPage(page, true));
+        } else
+        {
+            page.canvasGrp.alpha = 1;
+        }
     }
-    private void HidePage(Page page)
+    private IEnumerator TransitionPage(Page page, bool transIn)
     {
-        page.canvasGrp.alpha = 0;
+        float t = 0;
+        int ind = _transCount;
+        while (t <= _transTime)
+        {
+            if (ind != _transCount)
+            {
+                yield break;
+            }
+            float a = Time.deltaTime / _transTime;
+            if (transIn)
+                page.canvasGrp.alpha += a;
+            else
+                page.canvasGrp.alpha -= a;
+            t += Time.deltaTime;
+            yield return new WaitForEndOfFrame();
+        }
+    }
+    public void HideAllPages()
+    {
+        for (int i = 0; i < _pages.Count; i++)
+        {
+            if (_pages == null) continue;
+            HidePage(_pages[i]);
+        }
+    }
+    private void HidePage(Page page, bool transition = false)
+    {
         page.canvasGrp.blocksRaycasts = false;
+        if (Application.isPlaying && transition)
+        {
+            StartCoroutine(TransitionPage(page, false));
+        }
+        else
+        {
+            page.canvasGrp.alpha = 0;
+        }
     }
 
     public void ToExploreScene() => SceneManager.LoadScene("ExploreScene");

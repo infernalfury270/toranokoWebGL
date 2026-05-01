@@ -16,6 +16,63 @@ MonoBehaviour:
   description: Playing to become softball world champion in America. She plans on
     settling down in Japan with her American fiancee after winning and takes on a
     job as a softball coach after retiring. She also likes to treat Taiga and her
-    family sometimes.
+    family when she gets the chance.
   fullBody: {fileID: 0}
   portrait: {fileID: 0}
+  relationships:
+  - name: Takasu Taiga
+    character: {fileID: 11400000, guid: dd6c719f114c5884bad0ca2d176f1648, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 5
+      comment: We still text a lot! I know she watches my games.
+  - name: Takasu Ryuuji
+    character: {fileID: 11400000, guid: d2082e7f2c181c4479e3e99a1996ad34, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 4
+      comment: Really happy for him and his family!
+  - name: Kitamura Yuusaku
+    character: {fileID: 11400000, guid: de13e7c31359b3641b7ba1e869733eeb, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 2
+      comment: Ran into him a few times!
+  - name: Kawashima Ami
+    character: {fileID: 11400000, guid: 3c892378169223b49bb7bc0ad680814e, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 2
+      comment: I buy whatever magazines manage to arrive here!
+  - name: Takasu Haruko
+    character: {fileID: 11400000, guid: 94adab033d567a2489e342053d94579d, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 2
+      comment: She's really mature!
+  - name: Takasu Mitsuko
+    character: {fileID: 11400000, guid: 9a37b3f5fd958004bba2c106a2580af1, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 2
+      comment: Her voice is adorable...
+  - name: Takasu Katsuko
+    character: {fileID: 11400000, guid: 1069d608ddedbbe4ea26946b346e6c63, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 2
+      comment: I love sporty types! Looks like she's following in my footsteps!
+  - name: Takasu Yuuchi
+    character: {fileID: 11400000, guid: 55a3c7e8fa975994dab138f1804d4834, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 2
+      comment: He... He looks exactly like Taiga!?

@@ -18,3 +18,60 @@ MonoBehaviour:
     in space.
   fullBody: {fileID: 0}
   portrait: {fileID: 0}
+  relationships:
+  - name: Takasu Ryuuji
+    character: {fileID: 11400000, guid: d2082e7f2c181c4479e3e99a1996ad34, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 4
+      comment: Hope he's enjoying my gifts from America.
+  - name: Takasu Taiga
+    character: {fileID: 11400000, guid: dd6c719f114c5884bad0ca2d176f1648, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 4
+      comment: Cheering her on for her journey through motherhood.
+  - name: Kushieda Minori
+    character: {fileID: 11400000, guid: dc268a8534575254dac472a77c2d34d6, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 2
+      comment: I've been to one of her games before.
+  - name: Kawashima Ami
+    character: {fileID: 11400000, guid: 3c892378169223b49bb7bc0ad680814e, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 4
+      comment: She's the same as ever.
+  - name: Takasu Haruko
+    character: {fileID: 11400000, guid: 94adab033d567a2489e342053d94579d, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 2
+      comment: She has her mother's sense of style.
+  - name: Takasu Mitsuko
+    character: {fileID: 11400000, guid: 9a37b3f5fd958004bba2c106a2580af1, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 2
+      comment: She seems very kind.
+  - name: Takasu Katsuko
+    character: {fileID: 11400000, guid: 1069d608ddedbbe4ea26946b346e6c63, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 2
+      comment: I like her energy.
+  - name: Takasu Yuuchi
+    character: {fileID: 11400000, guid: 55a3c7e8fa975994dab138f1804d4834, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 2
+      comment: Did... Did we discover cloning already?

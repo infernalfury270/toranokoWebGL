@@ -19,3 +19,60 @@ MonoBehaviour:
     now and then. She helped to purchase Taiga and Ryuuji's new home for them.
   fullBody: {fileID: 0}
   portrait: {fileID: 0}
+  relationships:
+  - name: Takasu Ryuuji
+    character: {fileID: 11400000, guid: d2082e7f2c181c4479e3e99a1996ad34, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 4
+      comment: Looks like a respectable father to me.
+  - name: Takasu Taiga
+    character: {fileID: 11400000, guid: dd6c719f114c5884bad0ca2d176f1648, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 4
+      comment: I know she's trying her hardest.
+  - name: Kitamura Yuusaku
+    character: {fileID: 11400000, guid: de13e7c31359b3641b7ba1e869733eeb, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 4
+      comment: Too busy playing around with Sumire, huh?
+  - name: Kushieda Minori
+    character: {fileID: 11400000, guid: dc268a8534575254dac472a77c2d34d6, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 2
+      comment: Hmph... She used to be cuter.
+  - name: Takasu Haruko
+    character: {fileID: 11400000, guid: 94adab033d567a2489e342053d94579d, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 2
+      comment: Love how much care she puts into fashion.
+  - name: Takasu Mitsuko
+    character: {fileID: 11400000, guid: 9a37b3f5fd958004bba2c106a2580af1, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 2
+      comment: She's very down-to-earth. Love chatting with her.
+  - name: Takasu Katsuko
+    character: {fileID: 11400000, guid: 1069d608ddedbbe4ea26946b346e6c63, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 2
+      comment: She's full of passion. That's what makes her shine.
+  - name: Takasu Yuuchi
+    character: {fileID: 11400000, guid: 55a3c7e8fa975994dab138f1804d4834, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 2
+      comment: Seeing that cute face on someone more reserved is refreshing.

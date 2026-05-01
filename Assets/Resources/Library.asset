@@ -18,6 +18,8 @@ MonoBehaviour:
       the series/the author. The newsletters also have little shorts involving the
       characters written for fun.
     cover: {fileID: 21300000, guid: ec7b367bc8fbcd2488c11ac53f9a7d18, type: 3}
+    contentWarning: 0
+    theme: 0
     chapters:
     - name: Volume 0 Full Release
       fileUrl: 
@@ -33,6 +35,8 @@ MonoBehaviour:
       of the Takasu family after the events of Toradora! and the precursor to the
       spinoff sequel, Toranoko!'
     cover: {fileID: 21300000, guid: 66c2ea6b9237e23439929a1fba01395a, type: 3}
+    contentWarning: 0
+    theme: 0
     chapters:
     - name: Complete Volume
       fileUrl: 
@@ -56,22 +60,67 @@ MonoBehaviour:
       fileUrl: https://infernalfury270.github.io/toranoko/read/2_6.pdf
       dateAdded: 16/2/26
   - name: Takasu Haruko
-    description: 
+    description: Haruko began high school with a mission to ensure all her sisters
+      graduate. But in her 2nd year, her focus shifted when Yuri assigned her to
+      a pair project with a boy named <b>Sagawa Kaito</b>. Despite first impressions,
+      a bond began to form beyond their assignment when they learned they weren't
+      so different. Soon, she'd find that a new path with this boy had opened for
+      her.
     cover: {fileID: 21300000, guid: ec7b367bc8fbcd2488c11ac53f9a7d18, type: 3}
+    contentWarning: 0
+    theme: 1
     chapters: []
   - name: Takasu Mitsuko
-    description: 
+    description: 'Mitsuko entered her high school with only one goal in mind: make
+      some friends! Growing up, she was always absorbed in her books and never made
+      a genuine friend. However, when her loneliness led her to catch feelings for
+      a friend of her parents, she knew things had to change. After just her 1st
+      year, she already had <b>Ninomae Arisa</b> and <b>Kishida Mie</b> by her side.
+      But with Arisa as her best friend, could she be yearning for something more?'
     cover: {fileID: 21300000, guid: ec7b367bc8fbcd2488c11ac53f9a7d18, type: 3}
+    contentWarning: 0
+    theme: 2
     chapters: []
   - name: Takasu Taiga
-    description: 
+    description: The tension she felt raising her daughters settled as they grew
+      older. Getting calls from teachers became routine. Eventually, she decided
+      to focus all her care into raising her son, Yuuchi, to ensure he grows to be
+      an upstanding person. She wanted to show him more kindness, too. While his
+      grades were good and he rarely got into trouble, she'd come to realise that
+      she might never feel secure about her parenting.
     cover: {fileID: 21300000, guid: ec7b367bc8fbcd2488c11ac53f9a7d18, type: 3}
+    contentWarning: 0
+    theme: 3
     chapters: []
   - name: Haruko & Mitsuko
-    description: 
+    description: Going into their 3rd year, the sisters had gone their separate ways.
+      Bad blood had grown between Haruko and Katsuko, leading her to find a partner
+      of her own. While Haruko and Mitsuko experienced challenges with their own
+      relationships, Katsuko remained in the background. After feeling changes in
+      their environment as a result of their split, they'd realise that they might've
+      been better together after all.
     cover: {fileID: 21300000, guid: ec7b367bc8fbcd2488c11ac53f9a7d18, type: 3}
+    contentWarning: 0
+    theme: 4
     chapters: []
   - name: Takasu Katsuko
-    description: 
+    description: 'The final act and resolution.
+
+
+      The story would conclude
+      with their high school graduation, after a bright future would be secured for
+      the three sisters.'
     cover: {fileID: 21300000, guid: ec7b367bc8fbcd2488c11ac53f9a7d18, type: 3}
+    contentWarning: 1
+    theme: 5
+    chapters: []
+  - name: Toranoko!
+    description: 'Katsuko applies to a university while her sisters go their own
+      paths.
+
+
+      An epilogue, the final volume. A look into the sisters'' future.'
+    cover: {fileID: 21300000, guid: ec7b367bc8fbcd2488c11ac53f9a7d18, type: 3}
+    contentWarning: 0
+    theme: 6
     chapters: []

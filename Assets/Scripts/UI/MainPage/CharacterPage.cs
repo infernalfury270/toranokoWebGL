@@ -1,10 +1,7 @@
-using NUnit.Framework;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using TMPro;
 using UnityEngine;
-using UnityEngine.TextCore.Text;
 using UnityEngine.UI;
 
 public class CharacterPage : MonoBehaviour
@@ -22,11 +19,18 @@ public class CharacterPage : MonoBehaviour
     [SerializeField] RectTransform _relationshipContent, _relationshipDisplay;
     [SerializeField] Slider _timelineSlider;
 
+    [SerializeField] CanvasGroup _internalInfoGrp1, _internalInfoGrp2;
+    [SerializeField] CanvasGroup _entryGrp;
+
+    private static readonly float _switchTime = 0.25f;
     int _entriesPerRow;
     int _currSet;
     int _charIndex;
     CharacterInfo _currCharacter;
     int _lastPeriodA, _lastPeriodB;
+    bool _isInfoActive;
+    int _selectCount;
+    int _setCount;
     private void Awake()
     {
         //_entriesPerRow = (int)Mathf.Ceil((_charContent.rect.width - _charLayout.padding.left - _charLayout.padding.right) 
@@ -34,6 +38,8 @@ public class CharacterPage : MonoBehaviour
         //Debug.Log(_entriesPerRow);
         _entriesPerRow = 3;
         _lastPeriodA = _lastPeriodB = -1;
+        _charIndex = -1;
+        _currSet = -1;
     }
     private IEnumerator RebuildSets()
     {
@@ -59,11 +65,12 @@ public class CharacterPage : MonoBehaviour
         yield return new WaitForEndOfFrame();
         LayoutRebuilder.ForceRebuildLayoutImmediate(_relationshipContent);
         yield return new WaitForEndOfFrame();
-        _relationshipContent.sizeDelta = new Vector2(_relationshipContent.sizeDelta.x, _relationshipDisplay.sizeDelta.y * _relationshipContent.childCount);
+        _relationshipContent.sizeDelta = new Vector2(_relationshipContent.sizeDelta.x, (_relationshipDisplay.sizeDelta.y - 50) * _relationshipContent.childCount + 50);
         yield return new WaitForEndOfFrame();
         yield return new WaitForEndOfFrame();
         _relationshipScroll.ToggleCheck();
     }
+    public void RelationshipRebuild() => StartCoroutine(RebuildRelationships());
     public void LoadSets()
     {
         for (int i = _setContent.childCount - 1;  i >= 0; i--)
@@ -73,7 +80,10 @@ public class CharacterPage : MonoBehaviour
             var set = Instantiate(_setBtn, _setContent);
             set.GetComponentInChildren<TMP_Text>().text = CharacterData.Instance.characterSets[i].name;
             int index = i;
-            set.onClick.AddListener(() => SelectSet(index));
+            set.onClick.AddListener(delegate
+            {
+                SelectSet(index);
+            });
         }
         StartCoroutine(RebuildSets());
         SelectSet(0);
@@ -82,32 +92,70 @@ public class CharacterPage : MonoBehaviour
     }
     public void SelectSet(int index)
     {
-        for (int i = _charContent.childCount - 1; i >= 0; i--)
-            Destroy(_charContent.GetChild(i).gameObject);
+        if (index == _currSet) return;
         _currSet = index;
         var set = CharacterData.Instance.characterSets[index];
+        StartCoroutine(TransitionSets(set));
+    }
+    private IEnumerator TransitionSets(CharacterData.CharacterSet set)
+    {
+        _setCount++;
+        int index = _setCount;
+        while (_entryGrp.alpha > 0)
+        {
+            if (index != _setCount) yield break;
+            _entryGrp.alpha -= Time.deltaTime / _switchTime;
+            yield return new WaitForEndOfFrame();
+        }
+        for (int i = _charContent.childCount - 1; i >= 0; i--)
+            Destroy(_charContent.GetChild(i).gameObject);
         for (int i = 0; i < set.characterList.Count; i++)
         {
             var entry = Instantiate(_charBtn, _charContent);
             entry.GetComponentInChildren<TMP_Text>().text = set.characterList[i].characterName;
             Sprite portrait = set.characterList[i].portrait;
-            if (portrait != null) {
+            if (portrait != null)
+            {
                 entry.transform.Find("CharacterPortrait").GetComponent<Image>().sprite = portrait;
             }
             int ind = i;
             entry.onClick.AddListener(delegate
             {
+                _internalInfoGrp1.alpha = _internalInfoGrp2.alpha = 0;
                 SelectCharacter(ind);
                 ToggleInfo(true);
             });
         }
-        _setTitle.text = set.name;
         StartCoroutine(RebuildEntries());
+        while (_entryGrp.alpha < 1)
+        {
+            if (index != _setCount) yield break;
+            _entryGrp.alpha += Time.deltaTime / _switchTime;
+            yield return new WaitForEndOfFrame();
+        }
     }
     public void SelectCharacter(int index)
     {
+        bool diff = _charIndex != index;
         _charIndex = index;
         CharacterInfo character = CharacterData.Instance.characterSets[_currSet].characterList[_charIndex];
+        if (diff)
+            StartCoroutine(SwitchCharacterInterpolate(character));
+        else
+            _internalInfoGrp1.alpha = _internalInfoGrp2.alpha = 1;
+    }
+    private IEnumerator SwitchCharacterInterpolate(CharacterInfo character)
+    {
+        _selectCount++;
+        int ind = _selectCount;
+        while (_internalInfoGrp1.alpha > 0 || _internalInfoGrp2.alpha > 0)
+        {
+            if (ind != _selectCount) yield break;
+            _internalInfoGrp1.alpha -= Time.deltaTime / _switchTime;
+            _internalInfoGrp2.alpha -= Time.deltaTime / _switchTime;
+            yield return new WaitForEndOfFrame();
+        }
+        _setTitle.text = CharacterData.Instance.characterSets[_currSet].name;
         _charName.text = character.characterName;
         _charDesc.text = character.description;
         _charFullBody.sprite = character.fullBody != null ? character.fullBody : Global.Instance.placeholderSprite;
@@ -115,6 +163,13 @@ public class CharacterPage : MonoBehaviour
         _prevChar.text = GetPrevCharacter().characterName;
         _nextChar.text = GetNextCharacter().characterName;
         LoadRelationships(character);
+        while (_internalInfoGrp1.alpha < 1 || _internalInfoGrp2.alpha < 1)
+        {
+            if (ind != _selectCount) yield break;
+            _internalInfoGrp1.alpha += Time.deltaTime / _switchTime;
+            _internalInfoGrp2.alpha += Time.deltaTime / _switchTime;
+            yield return new WaitForEndOfFrame();
+        }
     }
     public void LoadRelationships(CharacterInfo character)
     {
@@ -138,7 +193,8 @@ public class CharacterPage : MonoBehaviour
             var charRelation = _currCharacter.relationships[i];
             if (charRelation.stages.Count == 0) continue;
             var newEntry = Instantiate(_relationshipDisplay, _relationshipContent);
-            newEntry.Find("Self").Find("Icon").GetComponent<Image>().sprite = _currCharacter.portrait;
+            if (_currCharacter.portrait != null)
+                newEntry.Find("Self").Find("Icon").GetComponent<Image>().sprite = _currCharacter.portrait;
             newEntry.Find("SelfName").GetComponentInChildren<TMP_Text>().text = _currCharacter.characterName;
             if (charRelation.character.portrait != null)
                 newEntry.Find("Other").Find("Icon").GetComponent<Image>().sprite = charRelation.character.portrait;
@@ -202,10 +258,26 @@ public class CharacterPage : MonoBehaviour
     }
     public void ToggleInfo(bool isActive)
     {
-        _setGrp.alpha = isActive ? 0 : 1;
-        _setGrp.blocksRaycasts = !isActive;
-        _infoGrp.alpha = isActive ? 1 : 0;
-        _infoGrp.blocksRaycasts = isActive;
+        _isInfoActive = isActive;
+        //_setGrp.alpha = _isInfoActive ? 0 : 1;
+        _setGrp.blocksRaycasts = !_isInfoActive;
+        //_infoGrp.alpha = _isInfoActive ? 1 : 0;
+        _infoGrp.blocksRaycasts = _isInfoActive;
+        StartCoroutine(InterpolatePage(_isInfoActive ? _infoGrp : _setGrp, _isInfoActive ? _setGrp : _infoGrp));
+    }
+    private IEnumerator InterpolatePage(CanvasGroup active, CanvasGroup inactive)
+    {
+        bool readCheck = _isInfoActive;
+        float t = 0;
+        while (t <= _switchTime)
+        {
+            if (readCheck != _isInfoActive) yield break;
+            float alphaStep = Time.deltaTime / _switchTime;
+            active.alpha += alphaStep;
+            inactive.alpha -= alphaStep;
+            t += Time.deltaTime;
+            yield return new WaitForEndOfFrame();
+        }
     }
     private CharacterInfo GetPrevCharacter()
     {

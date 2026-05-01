@@ -17,5 +17,6 @@ MonoBehaviour:
     Katsuko!). What happened at his old school remains a secret to all his new classmates
     as he tries to integrate himself into Ohashi High School. Once he feels secure
     in his new school life, his true character begins to unfold.
-  fullBody: {fileID: 0}
-  portrait: {fileID: 0}
+  fullBody: {fileID: 21300000, guid: 7d90cf3ebdeedf44cb6cacc99c30f631, type: 3}
+  portrait: {fileID: 21300000, guid: 54f28fddc172d7b4bbc847acebec32e4, type: 3}
+  relationships: []

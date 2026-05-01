@@ -16,3 +16,18 @@ MonoBehaviour:
   description: A colleague of Taiga's. They became close friends through work.
   fullBody: {fileID: 0}
   portrait: {fileID: 0}
+  relationships:
+  - name: 
+    character: {fileID: 11400000, guid: dd6c719f114c5884bad0ca2d176f1648, type: 2}
+    stages:
+    - name: 
+      storyProgression: 0
+      relationship: 4
+      comment: I'm always at her service! She makes work fun!
+  - name: 
+    character: {fileID: 11400000, guid: d2082e7f2c181c4479e3e99a1996ad34, type: 2}
+    stages:
+    - name: 
+      storyProgression: 0
+      relationship: 1
+      comment: I'll call him when Taiga's in trouble.

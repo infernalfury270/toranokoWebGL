@@ -22,3 +22,358 @@ MonoBehaviour:
     of books remains.
   fullBody: {fileID: 21300000, guid: 92b496b2ce0900444b62a6f2b7e19589, type: 3}
   portrait: {fileID: 21300000, guid: e23e6cdc27a584d42a95a4bb1976f000, type: 3}
+  relationships:
+  - name: Takasu Haruko
+    character: {fileID: 11400000, guid: 94adab033d567a2489e342053d94579d, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 5
+      comment: She's always looking out for me.
+    - name: 100
+      storyProgression: 100
+      relationship: 5
+      comment: She's just nice to have around.
+    - name: 180
+      storyProgression: 180
+      relationship: 6
+      comment: I think I prefer being with my friends.
+    - name: 200
+      storyProgression: 200
+      relationship: 7
+      comment: I wish I could find love...
+    - name: 290
+      storyProgression: 290
+      relationship: 5
+      comment: Let's work together.
+  - name: Takasu Katsuko
+    character: {fileID: 11400000, guid: 1069d608ddedbbe4ea26946b346e6c63, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 5
+      comment: She cares about me a lot.
+    - name: 50
+      storyProgression: 50
+      relationship: 5
+      comment: Maybe she should relax a little...
+    - name: 170
+      storyProgression: 170
+      relationship: 7
+      comment: It'd be nice if she could find some friends of her own...
+    - name: 240
+      storyProgression: 240
+      relationship: 6
+      comment: Wh-what's happening? Why are you just letting him...
+    - name: 250
+      storyProgression: 250
+      relationship: 6
+      comment: It can't be... This whole time...
+    - name: 270
+      storyProgression: 270
+      relationship: 6
+      comment: I have to do something!
+    - name: 275
+      storyProgression: 275
+      relationship: 6
+      comment: I'm sorry, Katsuko...
+    - name: 290
+      storyProgression: 290
+      relationship: 5
+      comment: I'll fight for you, Katsuko.
+  - name: Takasu Yuuchi
+    character: {fileID: 11400000, guid: 55a3c7e8fa975994dab138f1804d4834, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 3
+      comment: He's nice and not too loud.
+    - name: 300
+      storyProgression: 300
+      relationship: 3
+      comment: He's very helpful and caring!
+  - name: Takasu Ryuuji
+    character: {fileID: 11400000, guid: d2082e7f2c181c4479e3e99a1996ad34, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 3
+      comment: He always speaks very kindly.
+    - name: 200
+      storyProgression: 200
+      relationship: 4
+      comment: He's very understanding.
+  - name: Takasu Taiga
+    character: {fileID: 11400000, guid: dd6c719f114c5884bad0ca2d176f1648, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 6
+      comment: She's just a little scary...
+    - name: 300
+      storyProgression: 300
+      relationship: 2
+      comment: Well, maybe she's not that bad.
+  - name: Koigakubo Yuri
+    character: {fileID: 11400000, guid: d411c21d515fe4a4cae0fffbbc885d31, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 0
+      comment: I'll try to pay attention.
+    - name: 25
+      storyProgression: 25
+      relationship: 6
+      comment: She gets a little loud when she gets annoyed.
+    - name: 75
+      storyProgression: 75
+      relationship: 6
+      comment: She confiscated so many of my books...
+    - name: 150
+      storyProgression: 150
+      relationship: 1
+      comment: Well... I am improving a little...
+    - name: 290
+      storyProgression: 290
+      relationship: 2
+      comment: She's been kind to us.
+  - name: Sagawa Kaito
+    character: {fileID: 11400000, guid: c9602679b725d884db59cada9692373a, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 0
+      comment: Ah, I never noticed him.
+    - name: 100
+      storyProgression: 100
+      relationship: 0
+      comment: He seems alright.
+    - name: 150
+      storyProgression: 150
+      relationship: 1
+      comment: It's nice that he's getting close to Haruko.
+    - name: 195
+      storyProgression: 195
+      relationship: 2
+      comment: He's... actually quite helpful.
+    - name: 290
+      storyProgression: 290
+      relationship: 3
+      comment: He's like a brother.
+  - name: Ninomae Arisa
+    character: {fileID: 11400000, guid: 1801885d89f72374e8d8f225007555ab, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 0
+      comment: She's pretty...
+    - name: 10
+      storyProgression: 10
+      relationship: 1
+      comment: My... My first friend!
+    - name: 15
+      storyProgression: 15
+      relationship: 6
+      comment: I'm not good at this at all...
+    - name: 25
+      storyProgression: 25
+      relationship: 2
+      comment: We really are friends!
+    - name: 50
+      storyProgression: 50
+      relationship: 3
+      comment: I love spending time with her.
+    - name: 100
+      storyProgression: 100
+      relationship: 4
+      comment: New school year with her!
+    - name: 150
+      storyProgression: 150
+      relationship: 11
+      comment: I want to be more than friends... But I know she doesn't feel the
+        same.
+    - name: 190
+      storyProgression: 190
+      relationship: 17
+      comment: No... Don't leave! I need you!
+    - name: 195
+      storyProgression: 195
+      relationship: 16
+      comment: I'm sorry, Arisa. I'm helpless.
+    - name: 200
+      storyProgression: 200
+      relationship: 5
+      comment: We'll always be friends, no matter how far apart we are.
+  - name: Kishida Mie
+    character: {fileID: 11400000, guid: 75a38326ef94e1c499364e6bea112370, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 0
+      comment: She doesn't seem like she wants to be talked to.
+    - name: 30
+      storyProgression: 30
+      relationship: 1
+      comment: She's more interesting than I thought.
+    - name: 35
+      storyProgression: 35
+      relationship: 2
+      comment: I love having another friend who loves books!
+    - name: 50
+      storyProgression: 50
+      relationship: 3
+      comment: She's very silly!
+    - name: 100
+      storyProgression: 100
+      relationship: 4
+      comment: I'm ready for another year of fun with her!
+    - name: 200
+      storyProgression: 200
+      relationship: 4
+      comment: At least she's still with me...
+    - name: 215
+      storyProgression: 215
+      relationship: 6
+      comment: You're... making other friends?
+    - name: 230
+      storyProgression: 230
+      relationship: 3
+      comment: I'll support you as much as I can!
+    - name: 290
+      storyProgression: 290
+      relationship: 5
+      comment: She's always by my side.
+  - name: Koigakubo Tarou
+    character: {fileID: 11400000, guid: 6b80ba0c077c73d4aa5699e5c44366b9, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 0
+      comment: I don't really know anything about him.
+    - name: 100
+      storyProgression: 100
+      relationship: 1
+      comment: He doesn't talk much, but he seems nice.
+    - name: 300
+      storyProgression: 300
+      relationship: 2
+      comment: He's very reliable.
+  - name: Takano Saki
+    character: {fileID: 11400000, guid: a197f9d1e638c64499a9da8564c2c785, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 1
+      comment: She's very friendly.
+    - name: 100
+      storyProgression: 100
+      relationship: 2
+      comment: It's nice being in the same class as her.
+    - name: 300
+      storyProgression: 300
+      relationship: 3
+      comment: I appreciate her watching over us.
+  - name: Yoshida Satoshi
+    character: {fileID: 11400000, guid: a1f794b0c2aed9d45b59d7b4572c8dfb, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 0
+      comment: He looks nice.
+    - name: 100
+      storyProgression: 100
+      relationship: 1
+      comment: He's fun to be around.
+    - name: 195
+      storyProgression: 195
+      relationship: 2
+      comment: Another friend!
+    - name: 230
+      storyProgression: 230
+      relationship: 3
+      comment: He's given me some good advice.
+    - name: 300
+      storyProgression: 300
+      relationship: 4
+      comment: He's been supportive of us all the way through.
+  - name: Kogarashi Hitomi
+    character: {fileID: 11400000, guid: fed86471980176d498fa75256439b42d, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 0
+      comment: I don't believe we've met.
+    - name: 100
+      storyProgression: 100
+      relationship: 0
+      comment: He's attracting a lot of eyes.
+    - name: 135
+      storyProgression: 135
+      relationship: 1
+      comment: He's got a nice and soft voice.
+    - name: 190
+      storyProgression: 180
+      relationship: 2
+      comment: It's great to see him and Katsuko so close.
+    - name: 240
+      storyProgression: 240
+      relationship: 6
+      comment: What is he doing to her? I can't tell what I'm seeing.
+    - name: 250
+      storyProgression: 250
+      relationship: 8
+      comment: This whole time... That's how it's been?
+    - name: 265
+      storyProgression: 270
+      relationship: 9
+      comment: I have to do something about it!
+    - name: 275
+      storyProgression: 275
+      relationship: 9
+      comment: I can't handle this alone!
+    - name: 280
+      storyProgression: 280
+      relationship: 10
+      comment: What have you done to my sister!? How can you continue smiling after
+        all that!?
+    - name: 290
+      storyProgression: 290
+      relationship: 10
+      comment: I'm not afraid to fight anymore. I won't hold back.
+  - name: Takasu Yasuko
+    character: {fileID: 11400000, guid: 005537d58d9b8f145b2a757e4b1b5d30, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 5
+      comment: Ya-chan is one of my best friends! I love her!
+  - name: Kitamura Yuusaku
+    character: {fileID: 11400000, guid: de13e7c31359b3641b7ba1e869733eeb, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 1
+      comment: He seems nice.
+  - name: Kushieda Minori
+    character: {fileID: 11400000, guid: dc268a8534575254dac472a77c2d34d6, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 1
+      comment: She seems lovely.
+    - name: 175
+      storyProgression: 175
+      relationship: 2
+      comment: She understands me a little.
+  - name: Kawashima Ami
+    character: {fileID: 11400000, guid: 3c892378169223b49bb7bc0ad680814e, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 16
+      comment: Uwaah!? Wh-what did I just do!? I don't think I can look her in the
+        face again...
+    - name: 75
+      storyProgression: 75
+      relationship: 3
+      comment: I'll just pretend that didn't happen.

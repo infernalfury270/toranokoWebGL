@@ -1,0 +1,205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6d9004416d76c6499bb5cc8be070323, type: 3}
+  m_Name: TakasuTaiga
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterInfo
+  characterName: Takasu Taiga
+  description: The breadwinner and matriarch of the family. With her strong fighting
+    spirit and charisma, she became a feisty and wealthy salarywoman to support her
+    family of six, but being a mother has been an absolute nightmare. The fear of
+    where her daughters will be in the future is constantly looming over her, and
+    she feels totally powerless over them, especially with how much bigger they were
+    compared to her. Well, as long as everyone comes home at the end of the day,
+    they'll be fine, right?
+  fullBody: {fileID: 21300000, guid: 2ecd4f9930118ce499642032db8cc6f4, type: 3}
+  portrait: {fileID: 21300000, guid: a0c520ceb6724cf439aba4592704f215, type: 3}
+  relationships:
+  - name: Takasu Ryuuji
+    character: {fileID: 11400000, guid: d2082e7f2c181c4479e3e99a1996ad34, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 15
+      comment: I've got no complaints.
+    - name: 175
+      storyProgression: 175
+      relationship: 16
+      comment: Wish he'd do a little more than what he's used to.
+    - name: 200
+      storyProgression: 200
+      relationship: 14
+      comment: I'm happy with what he's done.
+    - name: 250
+      storyProgression: 250
+      relationship: 15
+      comment: No way... After 14 years... Should I really go through with this one
+        more time?
+    - name: 300
+      storyProgression: 300
+      relationship: 15
+      comment: Let's keep moving forward.
+  - name: Takasu Haruko
+    character: {fileID: 11400000, guid: 94adab033d567a2489e342053d94579d, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 6
+      comment: She's pushing herself the most... But is this really the best my girls
+        can do?
+    - name: 0
+      storyProgression: 160
+      relationship: 2
+      comment: It's great to see her improving.
+    - name: 250
+      storyProgression: 250
+      relationship: 8
+      comment: What the hell have you been up to with that boy, Haruko!?
+    - name: 300
+      storyProgression: 300
+      relationship: 3
+      comment: Guess it can't be helped... I need to watch her closely now.
+  - name: Takasu Mitsuko
+    character: {fileID: 11400000, guid: 9a37b3f5fd958004bba2c106a2580af1, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 6
+      comment: Wish she'd talk to me more... Or... Talk to other people at least.
+    - name: 50
+      storyProgression: 50
+      relationship: 2
+      comment: I'm glad she's making friends.
+    - name: 200
+      storyProgression: 200
+      relationship: 3
+      comment: Really liking this chatty side of her.
+    - name: 300
+      storyProgression: 300
+      relationship: 3
+      comment: She's a free spirit.
+  - name: Takasu Katsuko
+    character: {fileID: 11400000, guid: 1069d608ddedbbe4ea26946b346e6c63, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 6
+      comment: I don't know what to do about her...
+    - name: 190
+      storyProgression: 190
+      relationship: 16
+      comment: There's no way I can get close to her...
+    - name: 250
+      storyProgression: 250
+      relationship: 17
+      comment: Please... Don't talk about yourself that way...
+    - name: 275
+      storyProgression: 275
+      relationship: 17
+      comment: This is all my fault, isn't it?
+    - name: 290
+      storyProgression: 290
+      relationship: 6
+      comment: I should've shown you more love.
+    - name: 300
+      storyProgression: 300
+      relationship: 3
+      comment: My arms are open for you, Katsuko.
+  - name: Takasu Yuuchi
+    character: {fileID: 11400000, guid: 55a3c7e8fa975994dab138f1804d4834, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 2
+      comment: Am I doing this right?
+    - name: 100
+      storyProgression: 100
+      relationship: 2
+      comment: Things seem to be going well.
+    - name: 165
+      storyProgression: 165
+      relationship: 17
+      comment: I... I didn't know him as well as I thought I did...
+    - name: 175
+      storyProgression: 175
+      relationship: 4
+      comment: Your mother's here for you...
+    - name: 200
+      storyProgression: 200
+      relationship: 5
+      comment: Thank you for loving me, Yuuchi...
+  - name: Sagawa Kaito
+    character: {fileID: 11400000, guid: c9602679b725d884db59cada9692373a, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 0
+      comment: 
+    - name: 100
+      storyProgression: 100
+      relationship: 0
+      comment: 
+    - name: 160
+      storyProgression: 160
+      relationship: 6
+      comment: Need to keep my eye on that boy...
+    - name: 190
+      storyProgression: 190
+      relationship: 2
+      comment: Looks like Haruko's happy with him...
+    - name: 250
+      storyProgression: 250
+      relationship: 9
+      comment: I just want to talk to him. I just want to talk to him.
+    - name: 297
+      storyProgression: 297
+      relationship: 10
+      comment: YOU CAN'T BE SERIOUS.
+    - name: 300
+      storyProgression: 300
+      relationship: 2
+      comment: Ugh... I'll support them with all I have.
+  - name: Takasu Yasuko
+    character: {fileID: 11400000, guid: 005537d58d9b8f145b2a757e4b1b5d30, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 5
+      comment: Wouldn't be here without her!
+  - name: Ogawa Aiko
+    character: {fileID: 11400000, guid: cdc72b4112884364d960e2529bddaf9e, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 4
+      comment: She feels like family.
+  - name: Kitamura Yuusaku
+    character: {fileID: 11400000, guid: de13e7c31359b3641b7ba1e869733eeb, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 4
+      comment: He makes me text to him in English. Not a problem for me. Ryuuji,
+        however...
+  - name: Kushieda Minori
+    character: {fileID: 11400000, guid: dc268a8534575254dac472a77c2d34d6, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 5
+      comment: Love seeing her winning everywhere.
+  - name: Kawashima Ami
+    character: {fileID: 11400000, guid: 3c892378169223b49bb7bc0ad680814e, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 4
+      comment: She's been a huge help since the start. Can't deny that.

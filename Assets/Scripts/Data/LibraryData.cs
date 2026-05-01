@@ -7,10 +7,22 @@ public class LibraryData : SingletonScriptableObject<LibraryData>
     [System.Serializable]
     public class Book
     {
+        public enum THEME
+        {
+            DEFAULT,
+            HARUKO,
+            MITSUKO,
+            TAIGA,
+            HARUKO_MITSUKO,
+            KATSUKO,
+            TORANOKO
+        }
         public string name;
         [TextArea(5,10)]
         public string description;
         public Sprite cover;
+        public bool contentWarning;
+        public THEME theme;
 
         [System.Serializable]
         public class Chapter

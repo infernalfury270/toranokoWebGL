@@ -58,7 +58,7 @@ MonoBehaviour:
   - name: Physically Intimate
     sprite: {fileID: 21300000, guid: 2acc6a08e474a0443bbd8b510f840e39, type: 3}
     color: {r: 1, g: 0.3754716, b: 1, a: 1}
-  - name: Just Married
+  - name: True Love
     sprite: {fileID: 21300000, guid: a793759a7f5cc5f44b422bc5cb41e826, type: 3}
     color: {r: 1, g: 0.2924527, b: 1, a: 1}
   - name: Uncertain
@@ -72,10 +72,10 @@ MonoBehaviour:
     color: {r: 0.66233903, g: 0.45158416, b: 0.8113208, a: 1}
   - name: Destructive
     sprite: {fileID: 21300000, guid: 7b76216176ed23845a99219b6994661d, type: 3}
-    color: {r: 0.63978046, g: 0.31957993, b: 0.8867924, a: 1}
+    color: {r: 0.7286533, g: 0.3754716, b: 1, a: 1}
   - name: Lethal
     sprite: {fileID: 21300000, guid: 3f4a65ed4b54fb04886de8c1412f9e8f, type: 3}
-    color: {r: 0.6040076, g: 0.30326095, b: 0.8415094, a: 1}
+    color: {r: 0.6972518, g: 0.3150943, b: 1, a: 1}
   characterSets:
   - name: The Takasu Family
     characterList:
@@ -95,7 +95,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 6b80ba0c077c73d4aa5699e5c44366b9, type: 2}
     - {fileID: 11400000, guid: a1f794b0c2aed9d45b59d7b4572c8dfb, type: 2}
     - {fileID: 11400000, guid: fed86471980176d498fa75256439b42d, type: 2}
-  - name: Others
+  - name: Extended Family & Friends
     characterList:
     - {fileID: 11400000, guid: 005537d58d9b8f145b2a757e4b1b5d30, type: 2}
     - {fileID: 11400000, guid: f0b969bbf06e1624fa7d00f0d6ae7149, type: 2}

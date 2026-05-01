@@ -14,5 +14,106 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CharacterInfo
   characterName: Takasu Yasuko
   description: The grandmother to the Takasu sisters. Mitsuko is closest to her!
-  fullBody: {fileID: 0}
-  portrait: {fileID: 0}
+  fullBody: {fileID: 21300000, guid: b15ffaf818c4b074088e8edd54cd9a67, type: 3}
+  portrait: {fileID: 21300000, guid: 9dd54447a776d0445949d51aca5cf4fb, type: 3}
+  relationships:
+  - name: Takasu Ryuuji
+    character: {fileID: 11400000, guid: d2082e7f2c181c4479e3e99a1996ad34, type: 2}
+    stages:
+    - name: 
+      storyProgression: 0
+      relationship: 5
+      comment: My little boy's all grown up!
+  - name: Takasu Taiga
+    character: {fileID: 11400000, guid: dd6c719f114c5884bad0ca2d176f1648, type: 2}
+    stages:
+    - name: 
+      storyProgression: 0
+      relationship: 5
+      comment: Taiga-chan gave me such a big family!
+  - name: Takasu Haruko
+    character: {fileID: 11400000, guid: 94adab033d567a2489e342053d94579d, type: 2}
+    stages:
+    - name: 
+      storyProgression: 0
+      relationship: 4
+      comment: My granddaughter is so pretty!
+  - name: Takasu Mitsuko
+    character: {fileID: 11400000, guid: 9a37b3f5fd958004bba2c106a2580af1, type: 2}
+    stages:
+    - name: 
+      storyProgression: 0
+      relationship: 5
+      comment: She's so fun to talk to! I love that she visits me the most!
+  - name: Takasu Katsuko
+    character: {fileID: 11400000, guid: 1069d608ddedbbe4ea26946b346e6c63, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 4
+      comment: I love my crazy granddaughter!
+    - name: 300
+      storyProgression: 300
+      relationship: 4
+      comment: I'll support her the best I can.
+  - name: Takasu Yuuchi
+    character: {fileID: 11400000, guid: 55a3c7e8fa975994dab138f1804d4834, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 3
+      comment: Such a cute grandson!
+  - name: Sagawa Kaito
+    character: {fileID: 11400000, guid: c9602679b725d884db59cada9692373a, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 0
+      comment: 
+    - name: 190
+      storyProgression: 190
+      relationship: 3
+      comment: G-grandchildren!? No... Great grandchildren!
+  - name: Ninomae Arisa
+    character: {fileID: 11400000, guid: 1801885d89f72374e8d8f225007555ab, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 0
+      comment: 
+    - name: 50
+      storyProgression: 50
+      relationship: 2
+      comment: Ah! Mitsuko's first friend. She's very lovely!
+  - name: Kishida Mie
+    character: {fileID: 11400000, guid: 75a38326ef94e1c499364e6bea112370, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 0
+      comment: 
+    - name: 50
+      storyProgression: 50
+      relationship: 2
+      comment: What a silly girl. Happy to have her around!
+  - name: Kitamura Yuusaku
+    character: {fileID: 11400000, guid: de13e7c31359b3641b7ba1e869733eeb, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 1
+      comment: Ah... It's been a while since I've seen that boy...
+  - name: Kushieda Minori
+    character: {fileID: 11400000, guid: dc268a8534575254dac472a77c2d34d6, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 1
+      comment: Oh, yes, I remember her! She was nice.
+  - name: Kawashima Ami
+    character: {fileID: 11400000, guid: 3c892378169223b49bb7bc0ad680814e, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 3
+      comment: I could never forget Ami-chan!

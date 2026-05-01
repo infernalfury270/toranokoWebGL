@@ -23,3 +23,493 @@ MonoBehaviour:
     study.
   fullBody: {fileID: 21300000, guid: 5405de38358b4c94fac9de5a17e17c79, type: 3}
   portrait: {fileID: 21300000, guid: c514af5ff6f0fea4097444afaac67ece, type: 3}
+  relationships:
+  - name: Takasu Haruko
+    character: {fileID: 11400000, guid: 94adab033d567a2489e342053d94579d, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 5
+      comment: Sisters stick together, always!
+    - name: 100
+      storyProgression: 100
+      relationship: 5
+      comment: I hate studying... Can't we just go to the mall instead?
+    - name: 160
+      storyProgression: 160
+      relationship: 6
+      comment: Oi... You're with that boy too much... I don't like it.
+    - name: 180
+      storyProgression: 180
+      relationship: 8
+      comment: Y-you can't do this to me! I don't have anyone else!
+    - name: 190
+      storyProgression: 190
+      relationship: 7
+      comment: I don't need you anymore.
+    - name: 200
+      storyProgression: 200
+      relationship: 6
+      comment: What... What's happening? Haruko... Help me...
+    - name: 225
+      storyProgression: 225
+      relationship: 7
+      comment: Is this how it's supposed to be, Haruko?
+    - name: 240
+      storyProgression: 240
+      relationship: 8
+      comment: It's not fair... This isn't right...
+    - name: 250
+      storyProgression: 250
+      relationship: 9
+      comment: Why did you have to push me away?
+    - name: 275
+      storyProgression: 275
+      relationship: 10
+      comment: WASN'T THIS WHAT YOU WANTED?
+    - name: 280
+      storyProgression: 280
+      relationship: 9
+      comment: Please, don't save me... I've been terrible to you all those years,
+        haven't I?
+    - name: 290
+      storyProgression: 290
+      relationship: 6
+      comment: Why... After all the trouble I've caused... Why?
+    - name: 300
+      storyProgression: 300
+      relationship: 5
+      comment: Thank you...
+  - name: Takasu Mitsuko
+    character: {fileID: 11400000, guid: 9a37b3f5fd958004bba2c106a2580af1, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 5
+      comment: You're always safe with me, Mitsuko!
+    - name: 50
+      storyProgression: 50
+      relationship: 5
+      comment: D-doesn't matter how many friends you have! I'm always watching over
+        you!
+    - name: 170
+      storyProgression: 170
+      relationship: 6
+      comment: You don't need me anymore? That's fine, I guess...
+    - name: 225
+      storyProgression: 225
+      relationship: 6
+      comment: I can't let you see me like this...
+    - name: 240
+      storyProgression: 240
+      relationship: 7
+      comment: Why couldn't I be like you?
+    - name: 250
+      storyProgression: 250
+      relationship: 8
+      comment: Why was I the only one who couldn't...
+    - name: 270
+      storyProgression: 270
+      relationship: 9
+      comment: Don't tell anyone... Please... It's all I have...
+    - name: 275
+      storyProgression: 275
+      relationship: 10
+      comment: How could you do this to me, Mitsuko?
+    - name: 280
+      storyProgression: 280
+      relationship: 9
+      comment: I'm sorry... I'm such a mess...
+    - name: 290
+      storyProgression: 290
+      relationship: 6
+      comment: You don't have to...
+    - name: 300
+      storyProgression: 300
+      relationship: 5
+      comment: Thank you...
+  - name: Takasu Yuuchi
+    character: {fileID: 11400000, guid: 55a3c7e8fa975994dab138f1804d4834, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 3
+      comment: He's small and cute. I could kick him around like a football.
+    - name: 100
+      storyProgression: 100
+      relationship: 3
+      comment: I'm glad he's getting along with Mom. Better than I have.
+    - name: 175
+      storyProgression: 175
+      relationship: 4
+      comment: I'll look after you, Yuuchi.
+    - name: 200
+      storyProgression: 200
+      relationship: 6
+      comment: Don't look at me... I'm disgusting...
+    - name: 250
+      storyProgression: 250
+      relationship: 8
+      comment: How am I supposed to be your sister when I'm such a mess?
+    - name: 275
+      storyProgression: 275
+      relationship: 10
+      comment: Didn't I tell you not to look at me!?
+    - name: 290
+      storyProgression: 290
+      relationship: 6
+      comment: This isn't right... I'm supposed to be watching over you...
+    - name: 300
+      storyProgression: 300
+      relationship: 5
+      comment: It's good to have you by my side.
+  - name: Takasu Ryuuji
+    character: {fileID: 11400000, guid: d2082e7f2c181c4479e3e99a1996ad34, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 2
+      comment: I mean, his food is good and he cleans up after me.
+    - name: 100
+      storyProgression: 100
+      relationship: 1
+      comment: What else am I supposed to say about him?
+    - name: 200
+      storyProgression: 200
+      relationship: 6
+      comment: I... I don't want him to look at me that way...
+    - name: 225
+      storyProgression: 225
+      relationship: 7
+      comment: What can he even do? He's just a househusband!
+    - name: 250
+      storyProgression: 250
+      relationship: 8
+      comment: Useless!
+    - name: 275
+      storyProgression: 275
+      relationship: 10
+      comment: Leave me alone!
+    - name: 280
+      storyProgression: 280
+      relationship: 9
+      comment: I don't want your help, alright!?
+    - name: 290
+      storyProgression: 290
+      relationship: 6
+      comment: Am I still your little girl... After everything that's happened to
+        me?
+    - name: 300
+      storyProgression: 300
+      relationship: 4
+      comment: I... I need you, Dad.
+  - name: Takasu Taiga
+    character: {fileID: 11400000, guid: dd6c719f114c5884bad0ca2d176f1648, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 7
+      comment: Stop fussing over me!
+    - name: 190
+      storyProgression: 190
+      relationship: 8
+      comment: I don't need you anymore!
+    - name: 225
+      storyProgression: 225
+      relationship: 9
+      comment: I didn't ask you to suffer for me!
+    - name: 250
+      storyProgression: 250
+      relationship: 10
+      comment: Why did you even give birth to me?
+    - name: 275
+      storyProgression: 275
+      relationship: 10
+      comment: I don't want to see you ever again.
+    - name: 280
+      storyProgression: 280
+      relationship: 9
+      comment: There's nothing you can do to fix me.
+    - name: 290
+      storyProgression: 290
+      relationship: 6
+      comment: I'm sorry. I'm sorry for everything.
+    - name: 300
+      storyProgression: 300
+      relationship: 3
+      comment: I'll be fine on my own... No, I'll even make you proud. Just watch.
+  - name: Koigakubo Yuri
+    character: {fileID: 11400000, guid: d411c21d515fe4a4cae0fffbbc885d31, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 7
+      comment: This woman taught Mom? So what?
+    - name: 100
+      storyProgression: 100
+      relationship: 8
+      comment: I'll do whatever I want! I don't care about school anyway!
+    - name: 200
+      storyProgression: 200
+      relationship: 7
+      comment: If I'm so troublesome, then leave me alone!
+    - name: 225
+      storyProgression: 225
+      relationship: 6
+      comment: Please... Just leave me alone...
+    - name: 250
+      storyProgression: 250
+      relationship: 9
+      comment: I don't want to go to anymore classes!
+    - name: 290
+      storyProgression: 290
+      relationship: 6
+      comment: After everything, you're still...
+    - name: 300
+      storyProgression: 300
+      relationship: 1
+      comment: I... I won't disappoint you.
+  - name: Sagawa Kaito
+    character: {fileID: 11400000, guid: c9602679b725d884db59cada9692373a, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 6
+      comment: Ugh... Boys...
+    - name: 100
+      storyProgression: 100
+      relationship: 7
+      comment: That idiot better not do anything to my sister.
+    - name: 160
+      storyProgression: 160
+      relationship: 8
+      comment: Who even are you!? This doesn't make any sense!
+    - name: 180
+      storyProgression: 180
+      relationship: 9
+      comment: Stay away from my sister!
+    - name: 190
+      storyProgression: 190
+      relationship: 7
+      comment: Whatever. You can have her. I don't care.
+    - name: 250
+      storyProgression: 250
+      relationship: 10
+      comment: It's all your fault... I'm all alone because of you...
+    - name: 275
+      storyProgression: 275
+      relationship: 9
+      comment: My feelings won't change, even with your help.
+    - name: 280
+      storyProgression: 280
+      relationship: 16
+      comment: Why couldn't I find someone like you?
+    - name: 290
+      storyProgression: 290
+      relationship: 6
+      comment: I've only caused you trouble...
+    - name: 300
+      storyProgression: 300
+      relationship: 1
+      comment: I think I'm okay having you around.
+  - name: Ninomae Arisa
+    character: {fileID: 11400000, guid: 1801885d89f72374e8d8f225007555ab, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 0
+      comment: Who?
+    - name: 10
+      storyProgression: 10
+      relationship: 6
+      comment: I don't hold back against girls. If she hurts Mitsuko I'm cracking
+        her skull open.
+    - name: 25
+      storyProgression: 25
+      relationship: 6
+      comment: Urgh... I don't like how Mitsuko hangs with her all the time...
+    - name: 100
+      storyProgression: 100
+      relationship: 6
+      comment: I don't care how friendly she is. There has to be a catch.
+    - name: 150
+      storyProgression: 150
+      relationship: 0
+      comment: Whatever. We're nothing alike. I won't force myself to be friendly
+        with her.
+    - name: 300
+      storyProgression: 300
+      relationship: 1
+      comment: I suppose it's nice to know another friendly face.
+  - name: Kishida Mie
+    character: {fileID: 11400000, guid: 75a38326ef94e1c499364e6bea112370, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 0
+      comment: She looks a little creepy.
+    - name: 35
+      storyProgression: 35
+      relationship: 6
+      comment: Why would Mitsuko be friends with a perv like her?
+    - name: 100
+      storyProgression: 100
+      relationship: 6
+      comment: Oi... The way she touches Mitsuko... Isn't that a bit much!?
+    - name: 150
+      storyProgression: 150
+      relationship: 0
+      comment: Whatever... As long as she isn't giving Mitsuko any trouble.
+    - name: 160
+      storyProgression: 160
+      relationship: 0
+      comment: She didn't seem too weird when she came over for a sleepover.
+    - name: 300
+      storyProgression: 300
+      relationship: 1
+      comment: At least she's a good person...
+  - name: Koigakubo Tarou
+    character: {fileID: 11400000, guid: 6b80ba0c077c73d4aa5699e5c44366b9, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 0
+      comment: Having your mom as a teacher is a little weird, isn't it?
+    - name: 100
+      storyProgression: 100
+      relationship: 6
+      comment: He's not a talker... But I guess I don't have any complaints?
+    - name: 300
+      storyProgression: 300
+      relationship: 1
+      comment: He's more caring than I thought.
+  - name: Takano Saki
+    character: {fileID: 11400000, guid: a197f9d1e638c64499a9da8564c2c785, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 1
+      comment: Hm. She's pretty cute. Like a little hamster.
+    - name: 100
+      storyProgression: 100
+      relationship: 11
+      comment: I suppose it is quite nice having a cute face around here.
+    - name: 300
+      storyProgression: 300
+      relationship: 3
+      comment: I'm glad she has my back.
+  - name: Yoshida Satoshi
+    character: {fileID: 11400000, guid: a1f794b0c2aed9d45b59d7b4572c8dfb, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 0
+      comment: Urgh... Boys...
+    - name: 100
+      storyProgression: 100
+      relationship: 6
+      comment: Does he think I'm some kind of circus animal?
+    - name: 225
+      storyProgression: 225
+      relationship: 16
+      comment: I can't take your kindness... Don't look at me...
+    - name: 300
+      storyProgression: 300
+      relationship: 11
+      comment: Maybe when I'm ready... But not right now...
+  - name: Kogarashi Hitomi
+    character: {fileID: 11400000, guid: fed86471980176d498fa75256439b42d, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 0
+      comment: Who?
+    - name: 100
+      storyProgression: 100
+      relationship: 0
+      comment: Woah, he's hot.
+    - name: 150
+      storyProgression: 150
+      relationship: 6
+      comment: He's nice, but I can't take any attention away from my sisters.
+    - name: 180
+      storyProgression: 180
+      relationship: 11
+      comment: He really understands me?
+    - name: 190
+      storyProgression: 190
+      relationship: 12
+      comment: I think I've finally found the one!
+    - name: 200
+      storyProgression: 200
+      relationship: 16
+      comment: H-huh? N-no! You can't! You can't...
+    - name: 225
+      storyProgression: 225
+      relationship: 17
+      comment: But you were supposed to be the one...
+    - name: 240
+      storyProgression: 240
+      relationship: 18
+      comment: I want it to stop but I don't want to be alone...
+    - name: 250
+      storyProgression: 250
+      relationship: 19
+      comment: I can't lift a fist anymore... I don't want to be a monster anymore...
+        But...
+    - name: 265
+      storyProgression: 265
+      relationship: 20
+      comment: Just do what you want with me... I have nobody but you...
+    - name: 275
+      storyProgression: 275
+      relationship: 20
+      comment: What do I do, Hitomi?
+    - name: 280
+      storyProgression: 280
+      relationship: 20
+      comment: Where are we going, Hitomi?
+    - name: 290
+      storyProgression: 290
+      relationship: 20
+      comment: I'm sorry, Hitomi. It's my fault too.
+    - name: 300
+      storyProgression: 300
+      relationship: 20
+      comment: I don't know if I ever want to see you again.
+  - name: Takasu Yasuko
+    character: {fileID: 11400000, guid: 005537d58d9b8f145b2a757e4b1b5d30, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 4
+      comment: She's a lot of fun!
+  - name: Kitamura Yuusaku
+    character: {fileID: 11400000, guid: de13e7c31359b3641b7ba1e869733eeb, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 1
+      comment: Uhh... Who? Well, he seems friendly at least.
+  - name: Kushieda Minori
+    character: {fileID: 11400000, guid: dc268a8534575254dac472a77c2d34d6, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 1
+      comment: I'm no good with names. But I like her personality.
+    - name: 175
+      storyProgression: 175
+      relationship: 2
+      comment: Can't go wrong with her.
+    - name: 300
+      storyProgression: 300
+      relationship: 2
+      comment: Hope she isn't upset I quit softball.
+  - name: Kawashima Ami
+    character: {fileID: 11400000, guid: 3c892378169223b49bb7bc0ad680814e, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 3
+      comment: It's always a fun time when she's around!

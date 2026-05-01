@@ -156,7 +156,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -10, y: 0}
+  m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6116068864703095696
 CanvasRenderer:
@@ -186,7 +186,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Newsletters
+  m_text: Extended Family & Friends
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 82a6c4bb77632fd4baac762644a8b23b, type: 2}
   m_sharedMaterial: {fileID: -5167944245637005323, guid: 82a6c4bb77632fd4baac762644a8b23b, type: 2}
@@ -213,11 +213,11 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
+  m_fontSize: 13.85
   m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 15
+  m_fontSizeMin: 13
   m_fontSizeMax: 18
   m_fontStyle: 0
   m_HorizontalAlignment: 2

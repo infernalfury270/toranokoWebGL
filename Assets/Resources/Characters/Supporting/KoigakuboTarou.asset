@@ -20,5 +20,6 @@ MonoBehaviour:
     chose to join the student council in hopes of becoming more proactive. His days
     there wouldn't be easy, but through all his troubles, he'd start to grow closer
     to Takano Saki, his classmate who would join the council alongside him.
-  fullBody: {fileID: 0}
-  portrait: {fileID: 0}
+  fullBody: {fileID: 21300000, guid: ec8077039b60af84880e58e67f453738, type: 3}
+  portrait: {fileID: 21300000, guid: 60ea4f110cecfc04da824f3c7d16e89b, type: 3}
+  relationships: []
