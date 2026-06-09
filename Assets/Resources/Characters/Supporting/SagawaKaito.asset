@@ -23,3 +23,193 @@ MonoBehaviour:
     biggest distraction: Takasu Haruko.'
   fullBody: {fileID: 21300000, guid: a4a514bdec7a297448e94153fd438c5b, type: 3}
   portrait: {fileID: 21300000, guid: b87d5a6c3a4aad04db657d8a4beafd1c, type: 3}
+  relationships:
+  - name: Takasu Haruko
+    character: {fileID: 11400000, guid: 94adab033d567a2489e342053d94579d, type: 2}
+    stages:
+    - name: 0 | NEUTRAL
+      storyProgression: 0
+      relationship: 0
+      comment: 
+    - name: 100 | ENEMY_UNEASY
+      storyProgression: 100
+      relationship: 6
+      comment: 
+    - name: 125 | LOVE_CONSIDERING
+      storyProgression: 125
+      relationship: 11
+      comment: 
+    - name: 150 | ENEMY_UNEASY
+      storyProgression: 150
+      relationship: 6
+      comment: 
+    - name: 160 | LOVE_CONSIDERING
+      storyProgression: 160
+      relationship: 11
+      comment: 
+    - name: 170 | LOVE_HEARTBREAK
+      storyProgression: 170
+      relationship: 17
+      comment: 
+    - name: 190 | LOVE_YEARNING
+      storyProgression: 190
+      relationship: 13
+      comment: 
+    - name: 210 | LOVE_CONFIDENT
+      storyProgression: 210
+      relationship: 12
+      comment: 
+    - name: 230 | LOVE_INTENSE
+      storyProgression: 230
+      relationship: 14
+      comment: 
+    - name: 255 | LOVE_HEARTBREAK
+      storyProgression: 255
+      relationship: 17
+      comment: 
+    - name: 275 | LOVE_CONSIDERING
+      storyProgression: 275
+      relationship: 11
+      comment: 
+    - name: 290 | LOVE_EXTREME
+      storyProgression: 290
+      relationship: 15
+      comment: 
+  - name: Takasu Mitsuko
+    character: {fileID: 11400000, guid: 9a37b3f5fd958004bba2c106a2580af1, type: 2}
+    stages:
+    - name: 0 | NEUTRAL
+      storyProgression: 0
+      relationship: 0
+      comment: 
+    - name: 180 | FRIEND_FRIENDLY
+      storyProgression: 180
+      relationship: 2
+      comment: 
+    - name: 300 | FRIEND_PLEASANT
+      storyProgression: 300
+      relationship: 3
+      comment: 
+  - name: Takasu Katsuko
+    character: {fileID: 11400000, guid: 1069d608ddedbbe4ea26946b346e6c63, type: 2}
+    stages:
+    - name: 0 | ENEMY_UNEASY
+      storyProgression: 0
+      relationship: 6
+      comment: 
+    - name: 100 | ENEMY_IRRITATION
+      storyProgression: 100
+      relationship: 7
+      comment: 
+    - name: 200 | ENEMY_UNEASY
+      storyProgression: 200
+      relationship: 6
+      comment: 
+    - name: 280 | FRIEND_ACQUAINTANCE
+      storyProgression: 280
+      relationship: 1
+      comment: 
+    - name: 300 | FRIEND_FRIENDLY
+      storyProgression: 300
+      relationship: 2
+      comment: 
+  - name: Takasu Taiga
+    character: {fileID: 11400000, guid: dd6c719f114c5884bad0ca2d176f1648, type: 2}
+    stages:
+    - name: 0 | NEUTRAL
+      storyProgression: 0
+      relationship: 0
+      comment: 
+    - name: 160 | ENEMY_UNEASY
+      storyProgression: 160
+      relationship: 6
+      comment: 
+    - name: 300 | ENEMY_UNEASY
+      storyProgression: 300
+      relationship: 6
+      comment: 
+  - name: Takasu Ryuuji
+    character: {fileID: 11400000, guid: d2082e7f2c181c4479e3e99a1996ad34, type: 2}
+    stages:
+    - name: 0 | NEUTRAL
+      storyProgression: 0
+      relationship: 0
+      comment: 
+    - name: 160 | FRIEND_FRIENDLY
+      storyProgression: 160
+      relationship: 2
+      comment: 
+    - name: 300 | FRIEND_PLEASANT
+      storyProgression: 300
+      relationship: 3
+      comment: 
+  - name: Sagawa Michika
+    character: {fileID: 11400000, guid: d9f38a068f15f7a47afe2d863c0b415f, type: 2}
+    stages:
+    - name: 0 | FRIEND_CLOSE
+      storyProgression: 0
+      relationship: 4
+      comment: 
+  - name: Sagawa Umika
+    character: {fileID: 11400000, guid: 526cb5c9f2fa05849b8fa83b59c992d1, type: 2}
+    stages:
+    - name: 0 | FRIEND_CLOSE
+      storyProgression: 0
+      relationship: 4
+      comment: 
+  - name: Sagawa Yoshito
+    character: {fileID: 11400000, guid: 948584d3106237841b4ffc5224cc5790, type: 2}
+    stages:
+    - name: 0 | FRIEND_CLOSE
+      storyProgression: 0
+      relationship: 4
+      comment: 
+  - name: Sagawa Fumika
+    character: {fileID: 11400000, guid: 7f9cbc875e8791b48a9dc988fade9c59, type: 2}
+    stages:
+    - name: 0 | ENEMY_UNEASY
+      storyProgression: 0
+      relationship: 6
+      comment: 
+    - name: 165 | LOVE_HEARTBREAK
+      storyProgression: 165
+      relationship: 17
+      comment: 
+    - name: 180 | FRIEND_CLOSE
+      storyProgression: 180
+      relationship: 4
+      comment: 
+    - name: 200 | NEUTRAL
+      storyProgression: 200
+      relationship: 0
+      comment: 
+  - name: Koigakubo Tarou
+    character: {fileID: 11400000, guid: 6b80ba0c077c73d4aa5699e5c44366b9, type: 2}
+    stages:
+    - name: 0 | NEUTRAL
+      storyProgression: 0
+      relationship: 0
+      comment: 
+    - name: 0 | FRIEND_ACQUAINTANCE
+      storyProgression: 25
+      relationship: 1
+      comment: 
+  - name: Kogarashi Hitomi
+    character: {fileID: 11400000, guid: fed86471980176d498fa75256439b42d, type: 2}
+    stages:
+    - name: 0 | NEUTRAL
+      storyProgression: 0
+      relationship: 0
+      comment: 
+    - name: 100 | NEUTRAL
+      storyProgression: 100
+      relationship: 0
+      comment: 
+    - name: 225 | FRIEND_ACQUAINTANCE
+      storyProgression: 225
+      relationship: 1
+      comment: 
+    - name: 275 | ENEMY_DESPISE
+      storyProgression: 275
+      relationship: 10
+      comment: 

@@ -21,3 +21,117 @@ MonoBehaviour:
     needing his video games and gamer friends to keep him company, or so he believes.
   fullBody: {fileID: 21300000, guid: 580336c43b3d1a041a12b2c8b522cbb3, type: 3}
   portrait: {fileID: 21300000, guid: 3d0b89639cd08f04ba8325e876701893, type: 3}
+  relationships:
+  - name: Takasu Ryuuji
+    character: {fileID: 11400000, guid: d2082e7f2c181c4479e3e99a1996ad34, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 2
+      comment: He's my dad, I guess.
+    - name: 170
+      storyProgression: 170
+      relationship: 6
+      comment: Just leave me alone.
+    - name: 200
+      storyProgression: 200
+      relationship: 3
+      comment: I can't take him for granted.
+  - name: Takasu Taiga
+    character: {fileID: 11400000, guid: dd6c719f114c5884bad0ca2d176f1648, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 1
+      comment: She puts a lot of attention on me.
+    - name: 100
+      storyProgression: 100
+      relationship: 1
+      comment: A little overbearing.
+    - name: 160
+      storyProgression: 160
+      relationship: 7
+      comment: I can't stand being near her.
+    - name: 170
+      storyProgression: 170
+      relationship: 17
+      comment: I'm not worthy of her love.
+    - name: 175
+      storyProgression: 175
+      relationship: 4
+      comment: Mom...
+    - name: 200
+      storyProgression: 200
+      relationship: 5
+      comment: I'm glad she's by my side.
+  - name: Takasu Haruko
+    character: {fileID: 11400000, guid: 94adab033d567a2489e342053d94579d, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 0
+      comment: Whatever.
+    - name: 300
+      storyProgression: 300
+      relationship: 2
+      comment: She's a goof.
+  - name: Takasu Mitsuko
+    character: {fileID: 11400000, guid: 9a37b3f5fd958004bba2c106a2580af1, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 0
+      comment: She doesn't bother anyone.
+    - name: 300
+      storyProgression: 300
+      relationship: 2
+      comment: She's kind, I suppose.
+  - name: Takasu Katsuko
+    character: {fileID: 11400000, guid: 1069d608ddedbbe4ea26946b346e6c63, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 0
+      comment: She keeps looking at me funny...
+    - name: 175
+      storyProgression: 175
+      relationship: 2
+      comment: I'm... happy she's watching over me.
+    - name: 250
+      storyProgression: 250
+      relationship: 6
+      comment: What's going on, Katsuko?
+    - name: 290
+      storyProgression: 290
+      relationship: 3
+      comment: We have to be there for each other.
+    - name: 300
+      storyProgression: 300
+      relationship: 4
+      comment: I'm here.
+  - name: Takasu Yasuko
+    character: {fileID: 11400000, guid: 005537d58d9b8f145b2a757e4b1b5d30, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 4
+      comment: She's always fun to be around.
+  - name: Noto Hisanosuke
+    character: {fileID: 11400000, guid: f0b969bbf06e1624fa7d00f0d6ae7149, type: 2}
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 2
+      comment: He's chill.
+    - name: 160
+      storyProgression: 160
+      relationship: 6
+      comment: Can he even talk about anything else.
+    - name: 162
+      storyProgression: 162
+      relationship: 8
+      comment: Why am I even friends with this guy?
+    - name: 175
+      storyProgression: 175
+      relationship: 2
+      comment: It's alright.

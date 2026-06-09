@@ -5,6 +5,10 @@ using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 using System;
 using System.Collections;
+using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.UI;
+
+
 
 
 
@@ -36,12 +40,19 @@ public class MainPageManager : MonoBehaviour//, IPointerClickHandler
     [SerializeField] List<Page> _pages;
     [SerializeField] RectTransform _contentFrame;
     [SerializeField] float _yOffset = 125;
+    [SerializeField] RectTransform _particleRect;
+    [SerializeField] ParticleSystem _clickParticle;
+    [SerializeField] Canvas _parentCanvas;
+    [SerializeField] Animator _transition;
+    [SerializeField] AudioSource _exploreEnterSFX;
 
+    private InputAction _action;
     private static readonly float _transTime = 0.25f;
     private Page _currOpened;
     private int _transCount;
     private void Awake()
     {
+        _action = InputSystem.actions.FindAction("Click");
         _transCount = 0;
         _mainScrollbar.value = 1;
         for (int i = 0; i < _pages.Count; i++)
@@ -53,6 +64,25 @@ public class MainPageManager : MonoBehaviour//, IPointerClickHandler
         _currOpened = _pages[0];
         _currOpened.OnOpen?.Invoke();
         ShowPage(_currOpened);
+    }
+    private void Update()
+    {
+        if (_action.WasPressedThisFrame())
+        {
+            if (EventSystem.current.currentSelectedGameObject != null && EventSystem.current.currentSelectedGameObject.GetComponent<Button>())
+            {
+                var screenpoint = Mouse.current.position.ReadValue();
+                Vector2 localPoint;
+                RectTransformUtility.ScreenPointToLocalPointInRectangle(
+                    _parentCanvas.transform as RectTransform,
+                    screenpoint,
+                    null,
+                    out localPoint
+                );
+                _particleRect.anchoredPosition = localPoint;
+                _clickParticle.Emit(3);
+            }
+        }
     }
     public void OpenPage(int index)
     {
@@ -119,7 +149,16 @@ public class MainPageManager : MonoBehaviour//, IPointerClickHandler
         }
     }
 
-    public void ToExploreScene() => SceneManager.LoadScene("ExploreScene");
+    public void ToExploreScene() => StartCoroutine(ToExplore());
+    private IEnumerator ToExplore() {
+        _transition.Play("FootstepRecover");
+        _exploreEnterSFX.Play();
+        yield return new WaitForEndOfFrame();
+        while (_transition.GetCurrentAnimatorStateInfo(0).normalizedTime < 1)
+            yield return new WaitForEndOfFrame();
+        yield return new WaitForSeconds(2.0f);
+        SceneManager.LoadScene("ExploreScene");
+    }
     public void ToOGWebsite() => Application.OpenURL("https://infernalfury270.github.io/toranoko/");
     public void OpenLink(string link) => Application.OpenURL(link);
 

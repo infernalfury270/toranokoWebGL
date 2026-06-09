@@ -66,7 +66,7 @@ MonoBehaviour:
       a bond began to form beyond their assignment when they learned they weren't
       so different. Soon, she'd find that a new path with this boy had opened for
       her.
-    cover: {fileID: 21300000, guid: ec7b367bc8fbcd2488c11ac53f9a7d18, type: 3}
+    cover: {fileID: 21300000, guid: e1a3cdb0ccb49e746b43bd625f938b28, type: 3}
     contentWarning: 0
     theme: 1
     chapters: []
@@ -77,7 +77,7 @@ MonoBehaviour:
       a friend of her parents, she knew things had to change. After just her 1st
       year, she already had <b>Ninomae Arisa</b> and <b>Kishida Mie</b> by her side.
       But with Arisa as her best friend, could she be yearning for something more?'
-    cover: {fileID: 21300000, guid: ec7b367bc8fbcd2488c11ac53f9a7d18, type: 3}
+    cover: {fileID: 21300000, guid: 2067daf78a2bd734597944872de2c61f, type: 3}
     contentWarning: 0
     theme: 2
     chapters: []
@@ -88,7 +88,7 @@ MonoBehaviour:
       an upstanding person. She wanted to show him more kindness, too. While his
       grades were good and he rarely got into trouble, she'd come to realise that
       she might never feel secure about her parenting.
-    cover: {fileID: 21300000, guid: ec7b367bc8fbcd2488c11ac53f9a7d18, type: 3}
+    cover: {fileID: 21300000, guid: be189a6c38d196f4c9f05174016e4409, type: 3}
     contentWarning: 0
     theme: 3
     chapters: []
@@ -99,7 +99,7 @@ MonoBehaviour:
       relationships, Katsuko remained in the background. After feeling changes in
       their environment as a result of their split, they'd realise that they might've
       been better together after all.
-    cover: {fileID: 21300000, guid: ec7b367bc8fbcd2488c11ac53f9a7d18, type: 3}
+    cover: {fileID: 21300000, guid: 19aa75edf72722e4cb8ae00405b251fc, type: 3}
     contentWarning: 0
     theme: 4
     chapters: []
@@ -110,7 +110,7 @@ MonoBehaviour:
       The story would conclude
       with their high school graduation, after a bright future would be secured for
       the three sisters.'
-    cover: {fileID: 21300000, guid: ec7b367bc8fbcd2488c11ac53f9a7d18, type: 3}
+    cover: {fileID: 21300000, guid: f66b2ee3380025046b56242dc47e92a9, type: 3}
     contentWarning: 1
     theme: 5
     chapters: []
@@ -120,7 +120,7 @@ MonoBehaviour:
 
 
       An epilogue, the final volume. A look into the sisters'' future.'
-    cover: {fileID: 21300000, guid: ec7b367bc8fbcd2488c11ac53f9a7d18, type: 3}
+    cover: {fileID: 21300000, guid: fa37d77f8ef76d4448d2aaa2a302bbb0, type: 3}
     contentWarning: 0
     theme: 6
     chapters: []

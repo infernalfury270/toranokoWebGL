@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6d9004416d76c6499bb5cc8be070323, type: 3}
+  m_Name: NotoHisamitsu
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterInfo
+  characterName: Noto Hisamitsu
+  description: An old friend of Ryuuji's from his time at Ohashi High School. Despite
+    his rocky marriage with his high school crush, he's always open to giving Ryuuji
+    some (less than helpful) advice.
+  fullBody: {fileID: 0}
+  portrait: {fileID: 0}
+  relationships:
+  - name: 
+    character: {fileID: 11400000, guid: 91bddbe818144c64ab4d912b0d810179, type: 2}
+    stages:
+    - name: 
+      storyProgression: 0
+      relationship: 11
+      comment: Great to see she's still pretty after all these years!
+  - name: 
+    character: {fileID: 11400000, guid: f0b969bbf06e1624fa7d00f0d6ae7149, type: 2}
+    stages:
+    - name: 
+      storyProgression: 0
+      relationship: 3
+      comment: Doesn't seem like he's causing anyone trouble.

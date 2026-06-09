@@ -25,6 +25,7 @@ public class CharacterPage : MonoBehaviour
     private static readonly float _switchTime = 0.25f;
     int _entriesPerRow;
     int _currSet;
+    int _currCharSet;
     int _charIndex;
     CharacterInfo _currCharacter;
     int _lastPeriodA, _lastPeriodB;
@@ -40,6 +41,7 @@ public class CharacterPage : MonoBehaviour
         _lastPeriodA = _lastPeriodB = -1;
         _charIndex = -1;
         _currSet = -1;
+        _currCharSet = -1;
     }
     private IEnumerator RebuildSets()
     {
@@ -122,7 +124,7 @@ public class CharacterPage : MonoBehaviour
             entry.onClick.AddListener(delegate
             {
                 _internalInfoGrp1.alpha = _internalInfoGrp2.alpha = 0;
-                SelectCharacter(ind);
+                SelectCharacter(ind, _currCharSet != _currSet);
                 ToggleInfo(true);
             });
         }
@@ -134,12 +136,13 @@ public class CharacterPage : MonoBehaviour
             yield return new WaitForEndOfFrame();
         }
     }
-    public void SelectCharacter(int index)
+    public void SelectCharacter(int index, bool differentSet)
     {
         bool diff = _charIndex != index;
+        _currCharSet = _currSet;
         _charIndex = index;
         CharacterInfo character = CharacterData.Instance.characterSets[_currSet].characterList[_charIndex];
-        if (diff)
+        if (diff || differentSet)
             StartCoroutine(SwitchCharacterInterpolate(character));
         else
             _internalInfoGrp1.alpha = _internalInfoGrp2.alpha = 1;
@@ -292,8 +295,7 @@ public class CharacterPage : MonoBehaviour
     public void IncrementCharacter(int inc)
     {
         int[] newIndexes = IncrementCharIndex(inc);
-        _currSet = newIndexes[1];
-        SelectSet(_currSet);
-        SelectCharacter(newIndexes[0]);
+        SelectSet(newIndexes[1]);
+        SelectCharacter(newIndexes[0], false);
     }
 }

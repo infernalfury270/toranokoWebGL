@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: TakasuYasuko
   m_EditorClassIdentifier: Assembly-CSharp::CharacterInfo
   characterName: Takasu Yasuko
-  description: The grandmother to the Takasu sisters. Mitsuko is closest to her!
+  description: The grandmother to the Takasu sisters. During their early years, she
+    was basically a third parent, easing the burden on Taiga and Ryuuji. They're
+    always happy to see her, especially Mitsuko, who had grown closest to her.
   fullBody: {fileID: 21300000, guid: b15ffaf818c4b074088e8edd54cd9a67, type: 3}
   portrait: {fileID: 21300000, guid: 9dd54447a776d0445949d51aca5cf4fb, type: 3}
   relationships:

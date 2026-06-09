@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6d9004416d76c6499bb5cc8be070323, type: 3}
+  m_Name: SagawaUmika
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterInfo
+  characterName: Sagawa Umika
+  description: Kaito's little sister. A twin. She enjoys arts and crafts with her
+    little sister, but needs Kaito to fund it behind their mother's back. Despite
+    their circumstances, seeing her mother and brother put their family before their
+    own health never makes her happy.
+  fullBody: {fileID: 0}
+  portrait: {fileID: 0}
+  relationships: []

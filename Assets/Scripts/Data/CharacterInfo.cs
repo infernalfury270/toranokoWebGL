@@ -1,13 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-
-
-
-#if UNITY_EDITOR
-using UnityEditor;
-#endif
-
 [CreateAssetMenu(fileName = "CharacterInfo", menuName = "Character/CharacterInfo")]
 public class CharacterInfo : ScriptableObject
 {
@@ -62,30 +55,3 @@ public class CharacterInfo : ScriptableObject
     public Sprite fullBody, portrait;
     public List<CharacterRelationship> relationships;
 }
-
-#if UNITY_EDITOR
-[CustomEditor(typeof(CharacterInfo))]
-public class CharacterInfoEditor : Editor
-{
-    public override void OnInspectorGUI()
-    {
-        base.OnInspectorGUI();
-        var targ = (CharacterInfo)target;
-        var texture1 = AssetPreview.GetAssetPreview(targ.fullBody != null ? targ.fullBody : Global.Instance.placeholderSprite);
-        GUILayout.Label(texture1);
-        var texture2 = AssetPreview.GetAssetPreview(targ.portrait != null ? targ.portrait : Global.Instance.placeholderSprite);
-        GUILayout.Label(texture2);
-        if (GUILayout.Button("Refresh"))
-        {
-            for (int i =0; i < targ.relationships.Count; i++)
-            {
-                targ.relationships[i].name = targ.relationships[i].character.characterName;
-                for (int j = 0; j < targ.relationships[i].stages.Count; j++)
-                {
-                    targ.relationships[i].stages[j].name = targ.relationships[i].stages[j].storyProgression.ToString();
-                }
-            }
-        }
-    }
-}
-#endif

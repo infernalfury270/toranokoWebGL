@@ -16,4 +16,86 @@ MonoBehaviour:
   description: He's a little aloof and likes hanging around Katsuko (to her dismay).
   fullBody: {fileID: 21300000, guid: b11ef480364d64746b3d9344f1eab2bf, type: 3}
   portrait: {fileID: 21300000, guid: 82bbba956c1c7c64d92e43e8655c68fa, type: 3}
-  relationships: []
+  relationships:
+  - name: Takasu Haruko
+    character: {fileID: 11400000, guid: 94adab033d567a2489e342053d94579d, type: 2}
+    stages:
+    - name: 0 | FRIEND_ACQUAINTANCE
+      storyProgression: 0
+      relationship: 1
+      comment: 
+  - name: Takasu Mitsuko
+    character: {fileID: 11400000, guid: 9a37b3f5fd958004bba2c106a2580af1, type: 2}
+    stages:
+    - name: 0 | FRIEND_ACQUAINTANCE
+      storyProgression: 0
+      relationship: 1
+      comment: 
+    - name: 195 | FRIEND_FRIENDLY
+      storyProgression: 195
+      relationship: 2
+      comment: 
+    - name: 230 | FRIEND_PLEASANT
+      storyProgression: 230
+      relationship: 3
+      comment: 
+    - name: 300 | FRIEND_CLOSE
+      storyProgression: 300
+      relationship: 4
+      comment: 
+  - name: Takasu Katsuko
+    character: {fileID: 11400000, guid: 1069d608ddedbbe4ea26946b346e6c63, type: 2}
+    stages:
+    - name: 0 | FRIEND_ACQUAINTANCE
+      storyProgression: 0
+      relationship: 1
+      comment: 
+    - name: 100 | LOVE_CONSIDERING
+      storyProgression: 100
+      relationship: 11
+      comment: 
+  - name: Koigakubo Tarou
+    character: {fileID: 11400000, guid: 6b80ba0c077c73d4aa5699e5c44366b9, type: 2}
+    stages:
+    - name: 0 | FRIEND_ACQUAINTANCE
+      storyProgression: 0
+      relationship: 1
+      comment: 
+    - name: 100 | FRIEND_FRIENDLY
+      storyProgression: 100
+      relationship: 2
+      comment: 
+  - name: Takano Saki
+    character: {fileID: 11400000, guid: a197f9d1e638c64499a9da8564c2c785, type: 2}
+    stages:
+    - name: 0 | FRIEND_ACQUAINTANCE
+      storyProgression: 0
+      relationship: 1
+      comment: 
+    - name: 100 | FRIEND_FRIENDLY
+      storyProgression: 100
+      relationship: 2
+      comment: 
+  - name: Kogarashi Hitomi
+    character: {fileID: 11400000, guid: fed86471980176d498fa75256439b42d, type: 2}
+    stages:
+    - name: 0 | NEUTRAL
+      storyProgression: 0
+      relationship: 0
+      comment: 
+    - name: 100 | FRIEND_ACQUAINTANCE
+      storyProgression: 100
+      relationship: 1
+      comment: 
+    - name: 200 | FRIEND_FRIENDLY
+      storyProgression: 200
+      relationship: 2
+      comment: 
+    - name: 250 | ENEMY_UNEASY
+      storyProgression: 250
+      relationship: 6
+      comment: 
+    - name: 300 | ENEMY_UNEASY
+      storyProgression: 300
+      relationship: 6
+      comment: 

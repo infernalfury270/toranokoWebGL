@@ -20,4 +20,121 @@ MonoBehaviour:
     student council president!
   fullBody: {fileID: 21300000, guid: 21ae31a041bf039469ffb09d05ae7b5e, type: 3}
   portrait: {fileID: 21300000, guid: 0f53e6df5c07a634ba74a921592a80f8, type: 3}
-  relationships: []
+  relationships:
+  - name: Koigakubo Tarou
+    character: {fileID: 11400000, guid: 6b80ba0c077c73d4aa5699e5c44366b9, type: 2}
+    stages:
+    - name: 0 | FRIEND_FRIENDLY
+      storyProgression: 0
+      relationship: 2
+      comment: 
+    - name: 50 | FRIEND_PLEASANT
+      storyProgression: 50
+      relationship: 3
+      comment: 
+    - name: 100 | FRIEND_CLOSE
+      storyProgression: 100
+      relationship: 4
+      comment: 
+    - name: 125 | LOVE_CONSIDERING
+      storyProgression: 125
+      relationship: 11
+      comment: 
+    - name: 175 | LOVE_CONFIDENT
+      storyProgression: 175
+      relationship: 12
+      comment: 
+    - name: 225 | LOVE_YEARNING
+      storyProgression: 225
+      relationship: 13
+      comment: 
+    - name: 300 | LOVE_INTENSE
+      storyProgression: 300
+      relationship: 14
+      comment: 
+  - name: Koigakubo Yuri
+    character: {fileID: 11400000, guid: d411c21d515fe4a4cae0fffbbc885d31, type: 2}
+    stages:
+    - name: 0 | FRIEND_FRIENDLY
+      storyProgression: 0
+      relationship: 2
+      comment: 
+    - name: 100 | FRIEND_ACQUAINTANCE
+      storyProgression: 100
+      relationship: 1
+      comment: 
+    - name: 180 | FRIEND_PLEASANT
+      storyProgression: 180
+      relationship: 3
+      comment: 
+  - name: Kogarashi Hitomi
+    character: {fileID: 11400000, guid: fed86471980176d498fa75256439b42d, type: 2}
+    stages:
+    - name: 0 | NEUTRAL
+      storyProgression: 0
+      relationship: 0
+      comment: 
+    - name: 100 | FRIEND_FRIENDLY
+      storyProgression: 100
+      relationship: 2
+      comment: 
+    - name: 200 | FRIEND_PLEASANT
+      storyProgression: 200
+      relationship: 3
+      comment: 
+    - name: 250 | LOVE_HEARTBREAK
+      storyProgression: 250
+      relationship: 17
+      comment: 
+    - name: 300 | ENEMY_ANGER
+      storyProgression: 300
+      relationship: 8
+      comment: 
+  - name: Takasu Haruko
+    character: {fileID: 11400000, guid: 94adab033d567a2489e342053d94579d, type: 2}
+    stages:
+    - name: 0 | FRIEND_FRIENDLY
+      storyProgression: 0
+      relationship: 2
+      comment: 
+    - name: 300 | FRIEND_PLEASANT
+      storyProgression: 300
+      relationship: 3
+      comment: 
+  - name: Takasu Mitsuko
+    character: {fileID: 11400000, guid: 9a37b3f5fd958004bba2c106a2580af1, type: 2}
+    stages:
+    - name: 0 | FRIEND_FRIENDLY
+      storyProgression: 0
+      relationship: 2
+      comment: 
+    - name: 300 | FRIEND_PLEASANT
+      storyProgression: 300
+      relationship: 3
+      comment: 
+  - name: Takasu Katsuko
+    character: {fileID: 11400000, guid: 1069d608ddedbbe4ea26946b346e6c63, type: 2}
+    stages:
+    - name: 0 | FRIEND_FRIENDLY
+      storyProgression: 0
+      relationship: 2
+      comment: 
+    - name: 50 | LOVE_CONSIDERING
+      storyProgression: 50
+      relationship: 11
+      comment: 
+    - name: 300 | FRIEND_PLEASANT
+      storyProgression: 300
+      relationship: 3
+      comment: 
+  - name: Kishida Mie
+    character: {fileID: 11400000, guid: 75a38326ef94e1c499364e6bea112370, type: 2}
+    stages:
+    - name: 0 | FRIEND_FRIENDLY
+      storyProgression: 0
+      relationship: 2
+      comment: 
+    - name: 200 | FRIEND_PLEASANT
+      storyProgression: 200
+      relationship: 3
+      comment: 

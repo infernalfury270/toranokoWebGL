@@ -22,6 +22,10 @@ public class DisableScrollWithHeight : MonoBehaviour
         _scrollRect.horizontal = horizontal ? _hrOG : false;
         _scrollRect.vertical = vertical ? _vtOG : false;
         if (_viewport != null)
+        {
             _viewport.raycastTarget = _scrollRect.horizontal || _scrollRect.vertical;
+        }
+        if (_scrollRect.verticalScrollbar != null && !_scrollRect.verticalScrollbar.gameObject.activeSelf)
+            _scrollRect.content.anchoredPosition = new Vector2(_scrollRect.content.anchoredPosition.x, 0);
     }
 }

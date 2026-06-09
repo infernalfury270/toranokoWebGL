@@ -23,27 +23,151 @@ MonoBehaviour:
   fullBody: {fileID: 21300000, guid: 37151a44be0f2d14b8e6401de17e1ed9, type: 3}
   portrait: {fileID: 21300000, guid: 1bebd280421958c44a76c9285c8bd086, type: 3}
   relationships:
-  - name: 
+  - name: Takasu Taiga
     character: {fileID: 11400000, guid: dd6c719f114c5884bad0ca2d176f1648, type: 2}
-    stages: []
-  - name: 
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 15
+      comment: Can't imagine a life without her!
+    - name: 170
+      storyProgression: 170
+      relationship: 16
+      comment: What am I doing wrong?
+    - name: 200
+      storyProgression: 200
+      relationship: 14
+      comment: I'll always try my best.
+    - name: 250
+      storyProgression: 250
+      relationship: 15
+      comment: Life is full of surprises!
+    - name: 300
+      storyProgression: 300
+      relationship: 15
+      comment: The future is looking bright...
+  - name: Takasu Haruko
     character: {fileID: 11400000, guid: 94adab033d567a2489e342053d94579d, type: 2}
-    stages: []
-  - name: 
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 4
+      comment: It's so hard to say no to her!
+    - name: 160
+      storyProgression: 160
+      relationship: 4
+      comment: She's all grown up...
+    - name: 250
+      storyProgression: 250
+      relationship: 4
+      comment: Wh... Huh?
+    - name: 300
+      storyProgression: 300
+      relationship: 4
+      comment: I'll support her the best I can!
+  - name: Takasu Mitsuko
     character: {fileID: 11400000, guid: 9a37b3f5fd958004bba2c106a2580af1, type: 2}
-    stages: []
-  - name: 
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 2
+      comment: She might be a little shy, but I'll always be looking after her.
+    - name: 50
+      storyProgression: 50
+      relationship: 2
+      comment: It's great seeing her grow.
+    - name: 200
+      storyProgression: 200
+      relationship: 3
+      comment: Very happy with how she's been growing.
+    - name: 300
+      storyProgression: 300
+      relationship: 3
+      comment: She's her own woman now.
+  - name: Takasu Katsuko
     character: {fileID: 11400000, guid: 1069d608ddedbbe4ea26946b346e6c63, type: 2}
-    stages: []
-  - name: 
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 1
+      comment: As long as I continue caring for her, I think she'll be fine.
+    - name: 190
+      storyProgression: 190
+      relationship: 6
+      comment: I have no clue what I'm supposed to do...
+    - name: 275
+      storyProgression: 275
+      relationship: 17
+      comment: I've been going about it all wrong...
+    - name: 290
+      storyProgression: 290
+      relationship: 0
+      comment: Is there any room for me to help?
+    - name: 300
+      storyProgression: 300
+      relationship: 3
+      comment: I'll always be here.
+  - name: Takasu Yuuchi
     character: {fileID: 11400000, guid: 55a3c7e8fa975994dab138f1804d4834, type: 2}
-    stages: []
-  - name: 
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 2
+      comment: He's an upstanding boy.
+    - name: 100
+      storyProgression: 100
+      relationship: 2
+      comment: Taiga's raising him well.
+    - name: 165
+      storyProgression: 165
+      relationship: 17
+      comment: How could this happen?
+    - name: 175
+      storyProgression: 175
+      relationship: 3
+      comment: I'll keep being a better father.
+    - name: 200
+      storyProgression: 200
+      relationship: 4
+      comment: I want to keep looking after you.
+  - name: Sagawa Kaito
     character: {fileID: 11400000, guid: c9602679b725d884db59cada9692373a, type: 2}
-    stages: []
-  - name: 
+    stages:
+    - name: 0
+      storyProgression: 0
+      relationship: 0
+      comment: 
+    - name: 160
+      storyProgression: 160
+      relationship: 2
+      comment: Great to see Haruko making friends!
+    - name: 190
+      storyProgression: 190
+      relationship: 3
+      comment: He's always welcome at our home.
+    - name: 250
+      storyProgression: 250
+      relationship: 3
+      comment: Happy to see him and Haruko getting closer...?
+    - name: 297
+      storyProgression: 297
+      relationship: 3
+      comment: Oh.
+    - name: 300
+      storyProgression: 300
+      relationship: 4
+      comment: He's part of the family!
+  - name: Takasu Yasuko
     character: {fileID: 11400000, guid: 005537d58d9b8f145b2a757e4b1b5d30, type: 2}
-    stages: []
-  - name: 
+    stages:
+    - name: 
+      storyProgression: 0
+      relationship: 5
+      comment: What else is there to say?
+  - name: Ogawa Aiko
     character: {fileID: 11400000, guid: cdc72b4112884364d960e2529bddaf9e, type: 2}
-    stages: []
+    stages:
+    - name: 
+      storyProgression: 0
+      relationship: 1
+      comment: I'm glad someone's watching over Taiga while she's at work.

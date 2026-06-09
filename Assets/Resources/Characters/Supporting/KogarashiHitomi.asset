@@ -19,4 +19,168 @@ MonoBehaviour:
     in his new school life, his true character begins to unfold.
   fullBody: {fileID: 21300000, guid: 7d90cf3ebdeedf44cb6cacc99c30f631, type: 3}
   portrait: {fileID: 21300000, guid: 54f28fddc172d7b4bbc847acebec32e4, type: 3}
-  relationships: []
+  relationships:
+  - name: Takasu Haruko
+    character: {fileID: 11400000, guid: 94adab033d567a2489e342053d94579d, type: 2}
+    stages:
+    - name: 0 | NEUTRAL
+      storyProgression: 0
+      relationship: 0
+      comment: 
+    - name: 100 | NEUTRAL
+      storyProgression: 100
+      relationship: 0
+      comment: 
+    - name: 135 | FRIEND_FRIENDLY
+      storyProgression: 135
+      relationship: 2
+      comment: 
+    - name: 275 | FRIEND_ACQUAINTANCE
+      storyProgression: 275
+      relationship: 1
+      comment: 
+  - name: Takasu Mitsuko
+    character: {fileID: 11400000, guid: 9a37b3f5fd958004bba2c106a2580af1, type: 2}
+    stages:
+    - name: 0 | NEUTRAL
+      storyProgression: 0
+      relationship: 0
+      comment: 
+    - name: 100 | NEUTRAL
+      storyProgression: 100
+      relationship: 0
+      comment: 
+    - name: 135 | FRIEND_FRIENDLY
+      storyProgression: 135
+      relationship: 2
+      comment: 
+    - name: 265 | FRIEND_ACQUAINTANCE
+      storyProgression: 265
+      relationship: 1
+      comment: 
+  - name: Takasu Katsuko
+    character: {fileID: 11400000, guid: 1069d608ddedbbe4ea26946b346e6c63, type: 2}
+    stages:
+    - name: 0 | NEUTRAL
+      storyProgression: 0
+      relationship: 0
+      comment: 
+    - name: 100 | NEUTRAL
+      storyProgression: 100
+      relationship: 0
+      comment: 
+    - name: 180 | LOVE_CONSIDERING
+      storyProgression: 180
+      relationship: 11
+      comment: 
+    - name: 190 | LOVE_CONFIDENT
+      storyProgression: 190
+      relationship: 12
+      comment: 
+    - name: 200 | LOVE_YEARNING
+      storyProgression: 200
+      relationship: 13
+      comment: 
+    - name: 250 | LOVE_INTENSE
+      storyProgression: 250
+      relationship: 14
+      comment: 
+    - name: 275 | LOVE_EXTREME
+      storyProgression: 275
+      relationship: 15
+      comment: 
+    - name: 290 | LOVE_DESTROYED
+      storyProgression: 290
+      relationship: 20
+      comment: 
+  - name: Kishida Mie
+    character: {fileID: 11400000, guid: 75a38326ef94e1c499364e6bea112370, type: 2}
+    stages:
+    - name: 0 | NEUTRAL
+      storyProgression: 0
+      relationship: 0
+      comment: 
+    - name: 100 | NEUTRAL
+      storyProgression: 100
+      relationship: 0
+      comment: 
+    - name: 290 | ENEMY_DESPISE
+      storyProgression: 290
+      relationship: 10
+      comment: 
+  - name: Koigakubo Tarou
+    character: {fileID: 11400000, guid: 6b80ba0c077c73d4aa5699e5c44366b9, type: 2}
+    stages:
+    - name: 0 | NEUTRAL
+      storyProgression: 0
+      relationship: 0
+      comment: 
+    - name: 100 | NEUTRAL
+      storyProgression: 100
+      relationship: 0
+      comment: 
+    - name: 200 | FRIEND_FRIENDLY
+      storyProgression: 200
+      relationship: 2
+      comment: 
+    - name: 250 | FRIEND_ACQUAINTANCE
+      storyProgression: 250
+      relationship: 1
+      comment: 
+  - name: Takano Saki
+    character: {fileID: 11400000, guid: a197f9d1e638c64499a9da8564c2c785, type: 2}
+    stages:
+    - name: 0 | NEUTRAL
+      storyProgression: 0
+      relationship: 0
+      comment: 
+    - name: 100 | NEUTRAL
+      storyProgression: 100
+      relationship: 0
+      comment: 
+    - name: 200 | FRIEND_FRIENDLY
+      storyProgression: 200
+      relationship: 2
+      comment: 
+    - name: 250 | FRIEND_ACQUAINTANCE
+      storyProgression: 250
+      relationship: 1
+      comment: 
+  - name: Yoshida Satoshi
+    character: {fileID: 11400000, guid: a1f794b0c2aed9d45b59d7b4572c8dfb, type: 2}
+    stages:
+    - name: 0 | NEUTRAL
+      storyProgression: 0
+      relationship: 0
+      comment: 
+    - name: 100 | NEUTRAL
+      storyProgression: 100
+      relationship: 0
+      comment: 
+    - name: 200 | FRIEND_FRIENDLY
+      storyProgression: 200
+      relationship: 2
+      comment: 
+    - name: 290 | FRIEND_ACQUAINTANCE
+      storyProgression: 290
+      relationship: 1
+      comment: 
+  - name: Sagawa Kaito
+    character: {fileID: 11400000, guid: c9602679b725d884db59cada9692373a, type: 2}
+    stages:
+    - name: 0 | NEUTRAL
+      storyProgression: 0
+      relationship: 0
+      comment: 
+    - name: 100 | NEUTRAL
+      storyProgression: 100
+      relationship: 0
+      comment: 
+    - name: 225 | FRIEND_FRIENDLY
+      storyProgression: 225
+      relationship: 2
+      comment: 
+    - name: 290 | FRIEND_ACQUAINTANCE
+      storyProgression: 290
+      relationship: 1
+      comment: 

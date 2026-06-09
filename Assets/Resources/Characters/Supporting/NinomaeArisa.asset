@@ -20,3 +20,99 @@ MonoBehaviour:
     of the clouds.
   fullBody: {fileID: 21300000, guid: 7acce89a08543734290a79887833e6ab, type: 3}
   portrait: {fileID: 21300000, guid: fe592574472b0614fadbe7d69509110d, type: 3}
+  relationships:
+  - name: Takasu Mitsuko
+    character: {fileID: 11400000, guid: 9a37b3f5fd958004bba2c106a2580af1, type: 2}
+    stages:
+    - name: 0 | NEUTRAL
+      storyProgression: 0
+      relationship: 0
+      comment: 
+    - name: 10 | FRIEND_ACQUAINTANCE
+      storyProgression: 10
+      relationship: 1
+      comment: 
+    - name: 15 | ENEMY_UNEASY
+      storyProgression: 15
+      relationship: 6
+      comment: 
+    - name: 25 | FRIEND_FRIENDLY
+      storyProgression: 25
+      relationship: 2
+      comment: 
+    - name: 50 | FRIEND_PLEASANT
+      storyProgression: 50
+      relationship: 3
+      comment: 
+    - name: 100 | FRIEND_CLOSE
+      storyProgression: 100
+      relationship: 4
+      comment: 
+    - name: 190 | LOVE_HEARTBREAK
+      storyProgression: 190
+      relationship: 17
+      comment: 
+    - name: 195 | LOVE_UNCERTAIN
+      storyProgression: 195
+      relationship: 16
+      comment: 
+    - name: 200 | FRIEND_BEST
+      storyProgression: 200
+      relationship: 5
+      comment: 
+  - name: Kishida Mie
+    character: {fileID: 11400000, guid: 75a38326ef94e1c499364e6bea112370, type: 2}
+    stages:
+    - name: 0 | NEUTRAL
+      storyProgression: 0
+      relationship: 0
+      comment: 
+    - name: 35 | ENEMY_UNEASY
+      storyProgression: 35
+      relationship: 6
+      comment: 
+    - name: 50 | FRIEND_FRIENDLY
+      storyProgression: 50
+      relationship: 2
+      comment: 
+    - name: 100 | FRIEND_CLOSE
+      storyProgression: 100
+      relationship: 4
+      comment: 
+    - name: 200 | FRIEND_BEST
+      storyProgression: 200
+      relationship: 5
+      comment: 
+  - name: Takasu Haruko
+    character: {fileID: 11400000, guid: 94adab033d567a2489e342053d94579d, type: 2}
+    stages:
+    - name: 
+      storyProgression: 0
+      relationship: 0
+      comment: 
+    - name: 
+      storyProgression: 100
+      relationship: 1
+      comment: 
+  - name: Takasu Katsuko
+    character: {fileID: 11400000, guid: 1069d608ddedbbe4ea26946b346e6c63, type: 2}
+    stages:
+    - name: 
+      storyProgression: 0
+      relationship: 0
+      comment: 
+    - name: 
+      storyProgression: 100
+      relationship: 6
+      comment: 
+  - name: Takasu Yasuko
+    character: {fileID: 11400000, guid: 005537d58d9b8f145b2a757e4b1b5d30, type: 2}
+    stages:
+    - name: 0 | NEUTRAL
+      storyProgression: 0
+      relationship: 0
+      comment: 
+    - name: 50 | FRIEND_FRIENDLY
+      storyProgression: 50
+      relationship: 2
+      comment: 

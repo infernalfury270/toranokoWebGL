@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: OgawaAiko
   m_EditorClassIdentifier: Assembly-CSharp::CharacterInfo
   characterName: Ogawa Aiko
-  description: A colleague of Taiga's. They became close friends through work.
+  description: A colleague of Taiga's. They became close friends through work, dedicated
+    to supporting each other.
   fullBody: {fileID: 0}
   portrait: {fileID: 0}
   relationships:

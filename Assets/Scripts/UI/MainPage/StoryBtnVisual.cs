@@ -10,7 +10,13 @@ public class StoryBtnVisual : MonoBehaviour, IPointerEnterHandler, IPointerExitH
     private static readonly float _tiltSpeed = 3.5f;
     [SerializeField] bool _isCharBtn = false;
     [SerializeField] RectTransform _frame;
+    [SerializeField] CanvasGroup _reveal;
     private bool _isEntered;
+    private void Start()
+    {
+        if (_reveal)
+            _reveal.alpha = 0;
+    }
     private Quaternion GetSelectRotation()
     {
         return Quaternion.Euler(0, 0, Mathf.Sin(Time.time * _tiltSpeed) * _maxTilt);
@@ -28,6 +34,8 @@ public class StoryBtnVisual : MonoBehaviour, IPointerEnterHandler, IPointerExitH
             t += Time.deltaTime;
             float a = t / _scaleTime;
             _frame.localScale = Vector3.Lerp(ogSize, _scale, a);
+            if (_reveal)
+                _reveal.alpha = a;
             if (!_isCharBtn)
                 _frame.rotation = Quaternion.Lerp(ogRot, GetSelectRotation(), a);
             yield return new WaitForEndOfFrame();
@@ -47,6 +55,8 @@ public class StoryBtnVisual : MonoBehaviour, IPointerEnterHandler, IPointerExitH
             t += Time.deltaTime;
             float a = t / _scaleTime;
             _frame.localScale = Vector3.Lerp(ogSize, Vector3.one, a);
+            if (_reveal)
+                _reveal.alpha = 1 - a;
             if (!_isCharBtn)
                 _frame.rotation = Quaternion.Lerp(ogRot, Quaternion.identity, a);
             yield return new WaitForEndOfFrame();

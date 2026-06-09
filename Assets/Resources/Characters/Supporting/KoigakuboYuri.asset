@@ -18,4 +18,122 @@ MonoBehaviour:
     marrying.
   fullBody: {fileID: 21300000, guid: 5ff5ca97efc33fe4aa0547523d068411, type: 3}
   portrait: {fileID: 21300000, guid: 905ed1e948c8f654c8aa15b792db92df, type: 3}
-  relationships: []
+  relationships:
+  - name: 
+    character: {fileID: 11400000, guid: 6b80ba0c077c73d4aa5699e5c44366b9, type: 2}
+    stages:
+    - name: 
+      storyProgression: 0
+      relationship: 0
+      comment: 
+    - name: 
+      storyProgression: 160
+      relationship: 6
+      comment: 
+    - name: 
+      storyProgression: 170
+      relationship: 17
+      comment: 
+    - name: 
+      storyProgression: 180
+      relationship: 3
+      comment: 
+  - name: 
+    character: {fileID: 11400000, guid: a197f9d1e638c64499a9da8564c2c785, type: 2}
+    stages:
+    - name: 
+      storyProgression: 0
+      relationship: 0
+      comment: 
+    - name: 
+      storyProgression: 100
+      relationship: 1
+      comment: 
+    - name: 
+      storyProgression: 180
+      relationship: 3
+      comment: 
+  - name: 
+    character: {fileID: 11400000, guid: 94adab033d567a2489e342053d94579d, type: 2}
+    stages:
+    - name: 
+      storyProgression: 0
+      relationship: 0
+      comment: 
+    - name: 
+      storyProgression: 50
+      relationship: 6
+      comment: 
+    - name: 
+      storyProgression: 100
+      relationship: 7
+      comment: 
+    - name: 
+      storyProgression: 160
+      relationship: 2
+      comment: 
+    - name: 
+      storyProgression: 200
+      relationship: 3
+      comment: 
+  - name: 
+    character: {fileID: 11400000, guid: 9a37b3f5fd958004bba2c106a2580af1, type: 2}
+    stages:
+    - name: 
+      storyProgression: 0
+      relationship: 0
+      comment: 
+    - name: 
+      storyProgression: 50
+      relationship: 6
+      comment: 
+    - name: 
+      storyProgression: 100
+      relationship: 7
+      comment: 
+    - name: 
+      storyProgression: 160
+      relationship: 1
+      comment: 
+    - name: 
+      storyProgression: 200
+      relationship: 2
+      comment: 
+  - name: 
+    character: {fileID: 11400000, guid: 1069d608ddedbbe4ea26946b346e6c63, type: 2}
+    stages:
+    - name: 
+      storyProgression: 0
+      relationship: 0
+      comment: 
+    - name: 
+      storyProgression: 50
+      relationship: 7
+      comment: 
+    - name: 
+      storyProgression: 100
+      relationship: 8
+      comment: 
+    - name: 
+      storyProgression: 250
+      relationship: 6
+      comment: 
+    - name: 
+      storyProgression: 300
+      relationship: 1
+      comment: 
+  - name: 
+    character: {fileID: 11400000, guid: dd6c719f114c5884bad0ca2d176f1648, type: 2}
+    stages:
+    - name: 
+      storyProgression: 0
+      relationship: 0
+      comment: 
+    - name: 
+      storyProgression: 50
+      relationship: 6
+      comment: 
+    - name: 
+      storyProgression: 175
+      relationship: 2
+      comment: 

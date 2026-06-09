@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CharacterInfo
   characterName: Noto Hisanosuke
   description: The child of Noto Maya and Noto Hisamitsu, and Takasu Yuuchi's closest
-    friend/gaming buddy.
+    friend/gaming buddy. No strong ambitions or feelings, just trying to get by comfortably.
+    He had gotten to know Yuuchi since he left the womb. They'd spent years becoming
+    gaming pros together, so Yuuchi was always his go-to. He's not the type for meaningful
+    conversation, though.
   fullBody: {fileID: 21300000, guid: ae51cb79290315748992c467bd61b101, type: 3}
   portrait: {fileID: 21300000, guid: 5d87506c1d42b9b4092655839e895f74, type: 3}
   relationships: []
