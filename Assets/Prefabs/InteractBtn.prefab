@@ -10,8 +10,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1825842529662344088, guid: aeae128ef03608e4983ab8f80dc9db4f, type: 3}
       propertyPath: m_Name
-      value: ExploreBtn Variant
+      value: InteractBtn
       objectReference: {fileID: 0}
+    - target: {fileID: 1994139078589616849, guid: aeae128ef03608e4983ab8f80dc9db4f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1a4f2b7cca69e1942b815ee84f535034, type: 3}
     - target: {fileID: 4379969912568315989, guid: aeae128ef03608e4983ab8f80dc9db4f, type: 3}
       propertyPath: m_SizeDelta.y
       value: -60

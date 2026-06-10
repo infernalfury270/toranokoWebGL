@@ -1,6 +1,7 @@
 using Coffee.UIExtensions;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -17,6 +18,7 @@ public class LoadingScreen : MonoBehaviour
     [SerializeField] UIParticle[] _spawnParticles;
     [SerializeField] UIParticle _loveParticle;
     [SerializeField] AudioSource _meow;
+    public UnityEvent OnLoadFinished;
     public void PlaySpawnParticle(int index)
     {
         if (index < 0 || index >= _spawnParticles.Length) return;
@@ -87,5 +89,6 @@ public class LoadingScreen : MonoBehaviour
         {
             _animator.Play("FootstepCover");
         }
+        OnLoadFinished?.Invoke();
     }
 }

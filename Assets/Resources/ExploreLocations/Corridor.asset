@@ -1,0 +1,227 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cede29fb1c517c74394a4a5cdd11d894, type: 3}
+  m_Name: Corridor
+  m_EditorClassIdentifier: Assembly-CSharp::LocationData
+  locationName: 2nd Floor (2)
+  baseInfo:
+    background: {fileID: 21300000, guid: 8703361aaddb1c5418b251a7dd7168c3, type: 3}
+    travelPts:
+    - pos: {x: 150, y: -50}
+      destination: {fileID: 11400000, guid: f2073c888d51f974797641ae31c22de7, type: 2}
+    - pos: {x: 500, y: 0}
+      destination: {fileID: 11400000, guid: 5bf2dd529ed81c64299e4a4396c791e7, type: 2}
+    - pos: {x: -150, y: -425}
+      destination: {fileID: 11400000, guid: c79a75f74d86fd64fbc9fa70efbcaf0c, type: 2}
+    - pos: {x: 750, y: -425}
+      destination: {fileID: 11400000, guid: c34c2ac6b782a8247b2b575ccfd4d85e, type: 2}
+    interactables:
+    - name: Bathroom
+      pos: {x: -600, y: -75}
+      OnInteract:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000, guid: e6364c0d44c54a544ba904513a886b55, type: 2}
+            m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+            m_MethodName: InvokeCutscene
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - name: Painting
+      pos: {x: -125, y: -125}
+      OnInteract:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000, guid: 9ecb1c1c748c1c7468fa094717b36eb0, type: 2}
+            m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+            m_MethodName: InvokeCutscene
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+  locationVariants:
+  - variantName: Night
+    day: -1
+    timeStart: 1900
+    timeEnd: 2159
+    variant:
+      background: {fileID: 21300000, guid: 20df00a03ecd52f47b2e28df8a382706, type: 3}
+      travelPts:
+      - pos: {x: 150, y: -50}
+        destination: {fileID: 11400000, guid: f2073c888d51f974797641ae31c22de7, type: 2}
+      - pos: {x: 500, y: 0}
+        destination: {fileID: 11400000, guid: 5bf2dd529ed81c64299e4a4396c791e7, type: 2}
+      - pos: {x: -150, y: -425}
+        destination: {fileID: 11400000, guid: c79a75f74d86fd64fbc9fa70efbcaf0c, type: 2}
+      - pos: {x: 750, y: -425}
+        destination: {fileID: 11400000, guid: c34c2ac6b782a8247b2b575ccfd4d85e, type: 2}
+      interactables:
+      - name: Bathroom
+        pos: {x: -600, y: -75}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: e6364c0d44c54a544ba904513a886b55, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+      - name: Painting
+        pos: {x: -125, y: -125}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: 9ecb1c1c748c1c7468fa094717b36eb0, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+  - variantName: Midnight
+    day: -1
+    timeStart: 2200
+    timeEnd: 559
+    variant:
+      background: {fileID: 21300000, guid: db5b91f4ec7bff44bb7ee5bfb4c70e1c, type: 3}
+      travelPts:
+      - pos: {x: 150, y: -50}
+        destination: {fileID: 11400000, guid: f2073c888d51f974797641ae31c22de7, type: 2}
+      - pos: {x: -150, y: -425}
+        destination: {fileID: 11400000, guid: c79a75f74d86fd64fbc9fa70efbcaf0c, type: 2}
+      - pos: {x: 750, y: -425}
+        destination: {fileID: 11400000, guid: c34c2ac6b782a8247b2b575ccfd4d85e, type: 2}
+      interactables:
+      - name: Bathroom
+        pos: {x: -600, y: -75}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: e6364c0d44c54a544ba904513a886b55, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+      - name: Painting
+        pos: {x: -125, y: -125}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: 9ecb1c1c748c1c7468fa094717b36eb0, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+      - name: Yuuchi's Bedroom
+        pos: {x: 500, y: 0}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: 2009747676f248b4b928c32ba15ef936, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+  - variantName: Midnight_NoYuuchi
+    day: 2
+    timeStart: 100
+    timeEnd: 159
+    variant:
+      background: {fileID: 21300000, guid: db5b91f4ec7bff44bb7ee5bfb4c70e1c, type: 3}
+      travelPts:
+      - pos: {x: 150, y: -50}
+        destination: {fileID: 11400000, guid: f2073c888d51f974797641ae31c22de7, type: 2}
+      - pos: {x: -150, y: -425}
+        destination: {fileID: 11400000, guid: c79a75f74d86fd64fbc9fa70efbcaf0c, type: 2}
+      - pos: {x: 750, y: -425}
+        destination: {fileID: 11400000, guid: c34c2ac6b782a8247b2b575ccfd4d85e, type: 2}
+      - pos: {x: 500, y: 0}
+        destination: {fileID: 11400000, guid: 5bf2dd529ed81c64299e4a4396c791e7, type: 2}
+      interactables:
+      - name: Bathroom
+        pos: {x: -600, y: -75}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: e6364c0d44c54a544ba904513a886b55, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+      - name: Painting
+        pos: {x: -125, y: -125}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: 9ecb1c1c748c1c7468fa094717b36eb0, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2

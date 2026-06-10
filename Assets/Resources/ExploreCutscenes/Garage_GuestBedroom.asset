@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce4091efa6b73194680553dd3dac51da, type: 3}
+  m_Name: Garage_GuestBedroom
+  m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
+  sequence:
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - (That's the guest bedroom.)
+    - (Yuuchi's room used to belong to Yasuko before she moved here.)
+    - (Now it's been vacant ever since Yasuko moved in with her parents to look after
+      them.)
+    - '(It''s meant to be saved for guests, but my daughters usually use it when
+      they want a little privacy.) '
+    - (The only other use I can think of for this room is if we had a fifth kid.)
+    - (It's not like that's happening anytime soon, though.)

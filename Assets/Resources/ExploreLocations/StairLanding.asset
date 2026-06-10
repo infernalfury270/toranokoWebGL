@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cede29fb1c517c74394a4a5cdd11d894, type: 3}
+  m_Name: StairLanding
+  m_EditorClassIdentifier: Assembly-CSharp::LocationData
+  locationName: 2nd Floor (1)
+  baseInfo:
+    background: {fileID: 21300000, guid: f2fdd3aec5705dd499446d2b55418e45, type: 3}
+    travelPts:
+    - pos: {x: -575, y: -250}
+      destination: {fileID: 11400000, guid: d6cc61b6a5ef4d84286cd78e46710adf, type: 2}
+    - pos: {x: 700, y: -250}
+      destination: {fileID: 11400000, guid: 7a978b2952a41084fbfa383020db3a6a, type: 2}
+    - pos: {x: -200, y: -425}
+      destination: {fileID: 11400000, guid: c34c2ac6b782a8247b2b575ccfd4d85e, type: 2}
+    interactables: []
+  locationVariants: []

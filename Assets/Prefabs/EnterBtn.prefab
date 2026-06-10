@@ -10,8 +10,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1825842529662344088, guid: aeae128ef03608e4983ab8f80dc9db4f, type: 3}
       propertyPath: m_Name
-      value: EnterBtn Variant
+      value: EnterBtn
       objectReference: {fileID: 0}
+    - target: {fileID: 1994139078589616849, guid: aeae128ef03608e4983ab8f80dc9db4f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1da9182dd6ea3f74baf3d5af1de17f53, type: 3}
     - target: {fileID: 4379969912568315989, guid: aeae128ef03608e4983ab8f80dc9db4f, type: 3}
       propertyPath: m_SizeDelta.x
       value: -20
