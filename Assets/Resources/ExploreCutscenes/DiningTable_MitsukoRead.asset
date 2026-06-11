@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce4091efa6b73194680553dd3dac51da, type: 3}
+  m_Name: DiningTable_MitsukoRead
+  m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
+  sequence:
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Mitsuko
+    dialogue:
+    - O-oh! D-dad... I didn't think you'd be awake...
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - I don't think you should be awake either...
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Mitsuko
+    dialogue:
+    - R-right... Sorry...
+    - Oh, I was getting a little warm, so I thought I'd wear my shirt like this...
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - Don't worry about it, Mitsuko.
+    - (It's a shocking sight at first... But I can't help but be reminded of all
+      the times I'd changed her diapers and bathed her.)
+    - (She's still my little girl, no matter how much her body changes.)
+    - Why're you reading in the middle of the night, Mitsuko?
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Mitsuko
+    dialogue:
+    - I just got this book back from Yuri today. She confiscated it last week, now
+      I want to catch up on all the reading I missed...
+    - It's also a lot quieter down here. Haruko and Katsuko snore really loudly...
+      Well, I snore just as loud, but I can't focus on my reading when I'm near them.
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - Can't you just read another time? You can't be missing your sleep, you know.
+      It's not the weekend yet, and you still have school.
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Mitsuko
+    dialogue:
+    - I just want to read as much as I can before... Before Yuri confiscates it again...
+    - She still has some books she hasn't returned, you know...
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - What? She hasn't confiscated any library books, has she?
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - I don't bring those to class... Not anymore, at least.
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - Why don't you ask Yuri about all those missing books, then?
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Mitsuko
+    dialogue:
+    - I... I... Mmmh... I don't want to... I don't want her to... If I ask...
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - But we bought those books for you, didn't we? They still belong to us. Are
+      you sure you're okay with that?
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Mitsuko
+    dialogue:
+    - I... I want to read them, but I... I... I can't just... If I speak to her,
+      she'll... I don't know...
+    - Oohooh... I don't know... I can't... I can't do...  anything about it...
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - (Is she... tearing up?)
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Mitsuko
+    dialogue:
+    - I'm sorry... I can't...
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - D-don't worry about it, Mitsuko.
+    - I'm sure she'll remember those books some day. Maybe something'll remind her.
+      You never know.
+    - Just try to stay out of trouble and try not to let your books get taken again,
+      okay?
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - Mhm...
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - (She's still the same little girl after all these years, huh?)
+    - (I'll just leave her alone for now...)
+  alternateSequences: []

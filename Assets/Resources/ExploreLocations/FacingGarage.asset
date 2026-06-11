@@ -57,4 +57,100 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
-  locationVariants: []
+  locationVariants:
+  - variantName: Night
+    day: -1
+    timeStart: 1900
+    timeEnd: 2159
+    variant:
+      background: {fileID: 21300000, guid: df3fd44c2bb13bc478d72c63b530db03, type: 3}
+      travelPts:
+      - pos: {x: -700, y: -300}
+        destination: {fileID: 11400000, guid: 386a0fb946d73774991d04d3fa38f965, type: 2}
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: 7b9b6a514c9390c428c66425e3760268, type: 2}
+      - pos: {x: -75, y: -125}
+        destination: {fileID: 11400000, guid: 31597505bcd9bd9418c20e217fe42385, type: 2}
+      interactables:
+      - name: Pantry
+        pos: {x: -350, y: 0}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: 12c647e365b656e49850a215d7d728a5, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+      - name: Glass Door
+        pos: {x: 575, y: 25}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: d4249cf26cb1a6f4b822e26a76d7ed9b, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+  - variantName: Midnight
+    day: -1
+    timeStart: 2200
+    timeEnd: 559
+    variant:
+      background: {fileID: 21300000, guid: aff767df3900e0c4e868f1ad9b1b3158, type: 3}
+      travelPts:
+      - pos: {x: -700, y: -300}
+        destination: {fileID: 11400000, guid: 386a0fb946d73774991d04d3fa38f965, type: 2}
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: 7b9b6a514c9390c428c66425e3760268, type: 2}
+      - pos: {x: -75, y: -125}
+        destination: {fileID: 11400000, guid: 31597505bcd9bd9418c20e217fe42385, type: 2}
+      interactables:
+      - name: Pantry
+        pos: {x: -350, y: 0}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: 12c647e365b656e49850a215d7d728a5, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+      - name: Glass Door
+        pos: {x: 575, y: 25}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: d4249cf26cb1a6f4b822e26a76d7ed9b, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2

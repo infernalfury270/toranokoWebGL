@@ -25,6 +25,7 @@ public class ExploreManager : MonoBehaviour
     [SerializeField] TMP_Text _speakerName, _dialogueText;
     [SerializeField] GameObject _confirmDialogue;
     [SerializeField] AudioSource[] _dialogueAudio;
+    [SerializeField] GameObject _creditBtns;
 
     CanvasGroup _locationTransition;
     private DateTime dateTime;
@@ -72,6 +73,8 @@ public class ExploreManager : MonoBehaviour
             SetLocation(_startLocationNight);
         }
     }
+    public void ToggleMusicCredits() => _creditBtns.SetActive(!_creditBtns.activeSelf);
+    public void OpenURL(string url) => Application.OpenURL(url);
     public void PlayBGM()
     {
         TimeSpan tod = dateTime.TimeOfDay;
@@ -174,14 +177,15 @@ public class ExploreManager : MonoBehaviour
     }
     public void RunCutscene(CutsceneData cutscene)
     {
-        if (_isTransitioning || _isCutsceneRunning || cutscene.sequence.Count < 1) return;
+        if (_isTransitioning || _isCutsceneRunning || cutscene.GetSequence(dateTime).Count < 1) return;
         StartCoroutine(CutsceneCoroutine(cutscene));
     }
     private IEnumerator CutsceneCoroutine(CutsceneData cutscene)
     {
+        var sequence = cutscene.GetSequence(dateTime);
         _isCutsceneRunning = true;
         _confirmDialogue.SetActive(false);
-        _speakerName.text = cutscene.sequence[0].speakerName;
+        _speakerName.text = sequence[0].speakerName;
         _dialogueText.text = string.Empty;
 
         bool canSkip = false;
@@ -194,10 +198,10 @@ public class ExploreManager : MonoBehaviour
             _interactablesGrp.alpha -= t;
             yield return new WaitForEndOfFrame();
         }
-        for (int i = 0; i < cutscene.sequence.Count; i++)
+        for (int i = 0; i < sequence.Count; i++)
         {
-            _speakerName.text = cutscene.sequence[i].speakerName;
-            var info = cutscene.sequence[i];
+            _speakerName.text = sequence[i].speakerName;
+            var info = sequence[i];
             if (info.clearBackground)
             {
                 StartCoroutine(FadeCutsceneBG(null));
@@ -248,7 +252,7 @@ public class ExploreManager : MonoBehaviour
                 }
             }
         }
-        FadeCutsceneBG(null);
+        StartCoroutine(FadeCutsceneBG(null));
         while (_dialogueGrp.alpha > 0 && _interactablesGrp.alpha < 1)
         {
             float t = Time.deltaTime / _fadeTime;

@@ -19,4 +19,166 @@ MonoBehaviour:
     - pos: {x: 0, y: -425}
       destination: {fileID: 11400000, guid: d6cc61b6a5ef4d84286cd78e46710adf, type: 2}
     interactables: []
-  locationVariants: []
+  locationVariants:
+  - variantName: Study
+    day: 2
+    timeStart: 1800
+    timeEnd: 1859
+    variant:
+      background: {fileID: 21300000, guid: 7aeefd396c00f2c41a9b25e4c8f6cc6f, type: 3}
+      travelPts:
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: d6cc61b6a5ef4d84286cd78e46710adf, type: 2}
+      interactables:
+      - name: Mitsuko
+        pos: {x: 450, y: -175}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: 04a2f0205e6811645a67deaa1d5d95d9, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+  - variantName: Library
+    day: 3
+    timeStart: 1700
+    timeEnd: 1859
+    variant:
+      background: {fileID: 21300000, guid: 86b2cf86df5a05f478ffd4da96456f29, type: 3}
+      travelPts:
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: d6cc61b6a5ef4d84286cd78e46710adf, type: 2}
+      interactables:
+      - name: Books
+        pos: {x: 175, y: -250}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: 57afa8b28618d4c4bb3f0d37776e3fed, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+  - variantName: Uniform
+    day: 5
+    timeStart: 1700
+    timeEnd: 1859
+    variant:
+      background: {fileID: 21300000, guid: 64588a31252171f4585be9ba22429053, type: 3}
+      travelPts:
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: d6cc61b6a5ef4d84286cd78e46710adf, type: 2}
+      interactables:
+      - name: Uniform
+        pos: {x: -175, y: -200}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: 760e73fd4c673454985b9c2aa029caed, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+  - variantName: MorningBed
+    day: 6
+    timeStart: 600
+    timeEnd: 959
+    variant:
+      background: {fileID: 21300000, guid: fee51ce794bb84640af8466df5ecdf8d, type: 3}
+      travelPts:
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: d6cc61b6a5ef4d84286cd78e46710adf, type: 2}
+      interactables:
+      - name: Mitsuko
+        pos: {x: 0, y: -150}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: 11ada839ac9e8b246aa27c907a177d9d, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+  - variantName: MorningBed2
+    day: 0
+    timeStart: 600
+    timeEnd: 959
+    variant:
+      background: {fileID: 21300000, guid: fee51ce794bb84640af8466df5ecdf8d, type: 3}
+      travelPts:
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: d6cc61b6a5ef4d84286cd78e46710adf, type: 2}
+      interactables:
+      - name: Mitsuko
+        pos: {x: 0, y: -150}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: 11ada839ac9e8b246aa27c907a177d9d, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+  - variantName: NightBed
+    day: -1
+    timeStart: 1900
+    timeEnd: 2159
+    variant:
+      background: {fileID: 21300000, guid: 480d7b015fc115146af7767154c04aa6, type: 3}
+      travelPts:
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: d6cc61b6a5ef4d84286cd78e46710adf, type: 2}
+      interactables:
+      - name: Mitsuko
+        pos: {x: 0, y: -150}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: 5b1379b268449f243b73968b9fbafbec, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2

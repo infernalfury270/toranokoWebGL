@@ -18,5 +18,157 @@ MonoBehaviour:
     travelPts:
     - pos: {x: 0, y: -425}
       destination: {fileID: 11400000, guid: 7a978b2952a41084fbfa383020db3a6a, type: 2}
-    interactables: []
-  locationVariants: []
+    interactables:
+    - name: Yuuchi's Bed
+      pos: {x: -150, y: -150}
+      OnInteract:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000, guid: e88aade24959c3e42818386a7e13137a, type: 2}
+            m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+            m_MethodName: InvokeCutscene
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+  locationVariants:
+  - variantName: Night
+    day: -1
+    timeStart: 1900
+    timeEnd: 2159
+    variant:
+      background: {fileID: 21300000, guid: cbf5f21bb9240864b892072ea6deea3b, type: 3}
+      travelPts:
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: 7a978b2952a41084fbfa383020db3a6a, type: 2}
+      interactables:
+      - name: Yuuchi
+        pos: {x: -150, y: -150}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: 92831841b6bea4a4a8c1c5e618c4cb2e, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+  - variantName: Midnight
+    day: -1
+    timeStart: 100
+    timeEnd: 159
+    variant:
+      background: {fileID: 21300000, guid: 624575df7e56a524a88887738018cd52, type: 3}
+      travelPts:
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: 7a978b2952a41084fbfa383020db3a6a, type: 2}
+      interactables:
+      - name: Yuuchi's Bed
+        pos: {x: -150, y: -150}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: 6dc16c61ca557124bbc90f87c070f7cc, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+  - variantName: YuuchiOutside
+    day: 6
+    timeStart: 1000
+    timeEnd: 1659
+    variant:
+      background: {fileID: 21300000, guid: 8b04ea2de90a3d3479248e0f839c4fb0, type: 3}
+      travelPts:
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: 7a978b2952a41084fbfa383020db3a6a, type: 2}
+      interactables:
+      - name: Yuuchi's Bed
+        pos: {x: -150, y: -150}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: 8fe179cbe3102974aa2b90f310448a2f, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+  - variantName: YuuchiGaming
+    day: 0
+    timeStart: 1000
+    timeEnd: 1659
+    variant:
+      background: {fileID: 21300000, guid: 667f0efe9f4e82046b3637853c7567b8, type: 3}
+      travelPts:
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: 7a978b2952a41084fbfa383020db3a6a, type: 2}
+      interactables:
+      - name: Yuuchi
+        pos: {x: -150, y: -150}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: 5eb324f3a6a2acd478950bac4cbd2461, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+  - variantName: YuuchiArcade
+    day: 0
+    timeStart: 1000
+    timeEnd: 1659
+    variant:
+      background: {fileID: 21300000, guid: 3adc65f63173c434f916ae30fc705f8d, type: 3}
+      travelPts:
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: 7a978b2952a41084fbfa383020db3a6a, type: 2}
+      interactables:
+      - name: Money
+        pos: {x: -700, y: -250}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: baf281cc7ed72f74b96f9c004355bb7a, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2

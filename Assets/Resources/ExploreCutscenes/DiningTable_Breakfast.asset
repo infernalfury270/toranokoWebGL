@@ -1,0 +1,313 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce4091efa6b73194680553dd3dac51da, type: 3}
+  m_Name: DiningTable_Breakfast
+  m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
+  sequence:
+  - background: {fileID: 21300000, guid: 2fcc1b08fa472324082d67a176d7ec3d, type: 3}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - (Looks like everyone's having breakfast.)
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Haruko
+    dialogue:
+    - Can't you spend a little less time in the bathroom!? I don't wanna be late
+      on the first day of the week!
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Katsuko
+    dialogue:
+    - You're always in there for half an hour! What difference does it make if I'm
+      in there for a few more minutes!?
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Haruko
+    dialogue:
+    - Unlike you, I actually care about my hygiene and appearance!
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - (Just an average morning...)
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Mitsuko
+    dialogue:
+    - You two...
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Taiga
+    dialogue:
+    - Can you two stop yelling!? The week's just started and you're already giving
+      me a migraine!
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Haruko
+    dialogue:
+    - B-but moooom!
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Katsuko
+    dialogue:
+    - Shut up!
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - (I just hope Haruko's doesn't knock over her giant mound of rice.)
+  alternateSequences:
+  - dayOfTheWeek: 2
+    sequence:
+    - background: {fileID: 21300000, guid: 2fcc1b08fa472324082d67a176d7ec3d, type: 3}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (Looks like everyone's having breakfast.)
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Haruko
+      dialogue:
+      - Of all the times, why the hell do you pick class time to fall asleep!? Last
+        I checked, you weren't ever the type to stay up past midnight!
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Katsuko
+      dialogue:
+      - How can I not fall asleep!? I'm just sitting at my table for a whole day!
+        If you care so much about class, just stop bothering me and let me sleep!
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Haruko
+      dialogue:
+      - I can't just "not bother you"! Yuri scolds me if I don't try waking you up!
+        She scolds me when I do try waking you up too, because I'd be distracting
+        her! This wouldn't be a problem if you just paid attention in class!
+      - That applies to you too, Mitsuko. You can't keep pulling out books while
+        Yuri has her back turned.
+      - I can't be the only one trying to catch everything that gets taught, you
+        know!
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Haruko
+      dialogue:
+      - S-sorry...
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - Why is this still a problem for you three!? Yuri never stops mentioning it!
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Katsuko
+      dialogue:
+      - It's not MY fault Yuri's classes are so boring and stupid.
+      - Besides, it's not like you're paying Yuri that much attention either, Haruko.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Haruko
+      dialogue:
+      - Well at least I try!
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - L-let's break it up, shall we?
+  - dayOfTheWeek: 3
+    sequence:
+    - background: {fileID: 21300000, guid: 2fcc1b08fa472324082d67a176d7ec3d, type: 3}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (Looks like everyone's having breakfast.)
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Haruko
+      dialogue:
+      - Oi! Katsuko! Your shirt's too open!
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Katsuko
+      dialogue:
+      - What the hell are you talking about? I always wear it like this!
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Haruko
+      dialogue:
+      - 'It''s showing too much! If you go out like that, your chest will definitely
+        fall out! Can''t you pull your shirt over just a little? '
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Katsuko
+      dialogue:
+      - No way! I'll have it as open as I want!
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - Just pull your damn shirt together, Katsuko! You shouldn't even be wearing
+        it like that in the first place! Especially not around your father and little
+        brother!
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - I really don't have a problem with it... I think Yuri's made plenty of a
+        fuss about it already.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (Please... Don't bring me into this...)
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Mitsuko
+      dialogue:
+      - H-Haruko's right, Katsuko. I think I can see a bit of nipple from here. You
+        might want to...
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Katsuko
+      dialogue:
+      - O-oh, you do? Sorry, Mitsuko...
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (I guess that settles it...)
+  - dayOfTheWeek: 4
+    sequence:
+    - background: {fileID: 21300000, guid: 2fcc1b08fa472324082d67a176d7ec3d, type: 3}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (Looks like everyone's having breakfast.)
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - Damn it! What did you girls do now!? I got a call from Yuri-sensei again!
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Haruko
+      dialogue:
+      - It wasn't MY fault! Katsuko wouldn't stop messing around and distracting
+        me!
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Katsuko
+      dialogue:
+      - Don't pin everything on me! You chose to join in! I remember you trying to
+        hold in that laugh! Besides, we only pissed off Yuri a little!
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - What do you mean "a little"!? She was whining in my ear the whole damn call!
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Mitsuko
+      dialogue:
+      - S-sorry, mom...
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Yuuchi
+      dialogue:
+      - (You're all too loud... Geez...)
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - If I get one more call from Yuri this week, I'm taking your phones for the
+        weekend!
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Haruko
+      dialogue:
+      - What!? Noooo!
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Katsuko
+      dialogue:
+      - You can't do that, mom!
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - And I'll take the book you're reading too, Mitsuko! You better keep yourself
+        out of trouble!
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Mitsuko
+      dialogue:
+      - Noooooo!
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (She's acting like a mother, alright...)
+  - dayOfTheWeek: 5
+    sequence:
+    - background: {fileID: 21300000, guid: 2fcc1b08fa472324082d67a176d7ec3d, type: 3}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (Looks like everyone's having breakfast.)
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Haruko
+      dialogue:
+      - Daaad! Help me out here! Katsuko was trying to---OooiiI!
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Katsuko
+      dialogue:
+      - Shut up! Shut up! I told you not to talk about that anymore!
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Mitsuko
+      dialogue:
+      - H-Haruko! Katsuko! Please stop fighting! You'll get yourselves hurt!
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - Haruko, Katsuko, please stop trying to strangle each other... (Don't knock
+        over that huge mound of rice either, please...)
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - Oi! What did your father just say!? Keep your hands to yourselves! Stop bringing
+        your fights to breakfast!
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Yuuchi
+      dialogue:
+      - (Every... damn... week...)
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Haruko
+      dialogue:
+      - But it's all because Katsuko wouldn't stop--
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Katsuko
+      dialogue:
+      - SHUT UP!!!!!!!!!!!!!!!
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (... ... You know what? It's the weekend tomorrow... I'm sure it'll all be
+        fine.)

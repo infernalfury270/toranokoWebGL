@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce4091efa6b73194680553dd3dac51da, type: 3}
+  m_Name: DiningTable_HarukoStudy
+  m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
+  sequence:
+  - background: {fileID: 21300000, guid: 4053aae4361be6648b69a821138a3a3f, type: 3}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - Hey, Haruko. You doing alright?
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Haruko
+    dialogue:
+    - Hm? Oh, yeah, I'm just trying to study, that's all. We've got a test coming
+      up.
+    - After this, I'll need to get Mitsuko and Katsuko to study with me so I know
+      they understand what we were taught.
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - Sounds great! So how's the studying coming along? Think you'll do better than
+      last time?
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Haruko
+    dialogue:
+    - Uh... I don't know... I've been struggling to stay focused for the past ten
+      minutes...
+    - Aaah! Damn it! I forgot what I was even studying! D-don't bother me! I need
+      to work this out!
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - O-oh... Sorry. Don't stress yourself out too much, Haruko.
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Haruko
+    dialogue:
+    - S-sure, thanks Dad.
+    - (Aaaah... How long am I going to sit here? I hate studying...)
+  alternateSequences: []

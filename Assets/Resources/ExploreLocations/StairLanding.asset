@@ -23,4 +23,76 @@ MonoBehaviour:
     - pos: {x: -200, y: -425}
       destination: {fileID: 11400000, guid: c34c2ac6b782a8247b2b575ccfd4d85e, type: 2}
     interactables: []
-  locationVariants: []
+  locationVariants:
+  - variantName: Night
+    day: -1
+    timeStart: 1900
+    timeEnd: 2159
+    variant:
+      background: {fileID: 21300000, guid: c152c606888debc4cb6587401df4aa28, type: 3}
+      travelPts:
+      - pos: {x: -575, y: -250}
+        destination: {fileID: 11400000, guid: d6cc61b6a5ef4d84286cd78e46710adf, type: 2}
+      - pos: {x: 700, y: -250}
+        destination: {fileID: 11400000, guid: 7a978b2952a41084fbfa383020db3a6a, type: 2}
+      - pos: {x: -200, y: -425}
+        destination: {fileID: 11400000, guid: c34c2ac6b782a8247b2b575ccfd4d85e, type: 2}
+      interactables: []
+  - variantName: Midnight
+    day: -1
+    timeStart: 2200
+    timeEnd: 559
+    variant:
+      background: {fileID: 21300000, guid: 12fb5cb0069330e4c885af474cf6c275, type: 3}
+      travelPts:
+      - pos: {x: 700, y: -250}
+        destination: {fileID: 11400000, guid: 7a978b2952a41084fbfa383020db3a6a, type: 2}
+      - pos: {x: -200, y: -425}
+        destination: {fileID: 11400000, guid: c34c2ac6b782a8247b2b575ccfd4d85e, type: 2}
+      interactables:
+      - name: Sisters' Bedroom (1)
+        pos: {x: -575, y: -250}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: 49bd40c17668ae843bb812a09aa48a11, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+  - variantName: Sister Study
+    day: 0
+    timeStart: 1000
+    timeEnd: 1659
+    variant:
+      background: {fileID: 21300000, guid: f2fdd3aec5705dd499446d2b55418e45, type: 3}
+      travelPts:
+      - pos: {x: 700, y: -250}
+        destination: {fileID: 11400000, guid: 7a978b2952a41084fbfa383020db3a6a, type: 2}
+      - pos: {x: -200, y: -425}
+        destination: {fileID: 11400000, guid: c34c2ac6b782a8247b2b575ccfd4d85e, type: 2}
+      interactables:
+      - name: Sisters' Bedroom (1)
+        pos: {x: -575, y: -250}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: 139322a24d08c804a82143880293a8aa, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2

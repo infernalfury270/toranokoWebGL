@@ -21,4 +21,180 @@ MonoBehaviour:
     - pos: {x: -575, y: -25}
       destination: {fileID: 11400000, guid: 0b687c2e4c9d0eb46885ba05f64221e3, type: 2}
     interactables: []
-  locationVariants: []
+  locationVariants:
+  - variantName: Night
+    day: -1
+    timeStart: 1900
+    timeEnd: 2159
+    variant:
+      background: {fileID: 21300000, guid: e1a564a23ceeb1847a3d0f68921d0c45, type: 3}
+      travelPts:
+      - pos: {x: -575, y: -425}
+        destination: {fileID: 11400000, guid: c34c2ac6b782a8247b2b575ccfd4d85e, type: 2}
+      - pos: {x: -575, y: -25}
+        destination: {fileID: 11400000, guid: 0b687c2e4c9d0eb46885ba05f64221e3, type: 2}
+      interactables: []
+  - variantName: Midnight
+    day: -1
+    timeStart: 2200
+    timeEnd: 559
+    variant:
+      background: {fileID: 21300000, guid: e4cb10188a4781b42981090d2aec21b1, type: 3}
+      travelPts:
+      - pos: {x: -575, y: -425}
+        destination: {fileID: 11400000, guid: c34c2ac6b782a8247b2b575ccfd4d85e, type: 2}
+      - pos: {x: -575, y: -25}
+        destination: {fileID: 11400000, guid: 0b687c2e4c9d0eb46885ba05f64221e3, type: 2}
+      interactables: []
+  - variantName: Midnight_Haruko
+    day: 1
+    timeStart: 0
+    timeEnd: 59
+    variant:
+      background: {fileID: 21300000, guid: 71dd2b3fbd04b78439f3dd6f6c706bb5, type: 3}
+      travelPts:
+      - pos: {x: -575, y: -425}
+        destination: {fileID: 11400000, guid: c34c2ac6b782a8247b2b575ccfd4d85e, type: 2}
+      - pos: {x: -575, y: -25}
+        destination: {fileID: 11400000, guid: 0b687c2e4c9d0eb46885ba05f64221e3, type: 2}
+      interactables: []
+  - variantName: HarukoStudy
+    day: 4
+    timeStart: 1700
+    timeEnd: 1859
+    variant:
+      background: {fileID: 21300000, guid: cde62440ddf064047a8cacbdf47fd006, type: 3}
+      travelPts:
+      - pos: {x: -575, y: -425}
+        destination: {fileID: 11400000, guid: c34c2ac6b782a8247b2b575ccfd4d85e, type: 2}
+      - pos: {x: -575, y: -25}
+        destination: {fileID: 11400000, guid: 0b687c2e4c9d0eb46885ba05f64221e3, type: 2}
+      interactables:
+      - name: Haruko
+        pos: {x: 725, y: -225}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: 3614d41cd8fe4e14496d7f39a44d18df, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+  - variantName: YuuchiStudy
+    day: 1
+    timeStart: 1700
+    timeEnd: 1859
+    variant:
+      background: {fileID: 21300000, guid: 12a8a68752e584946807b3d6437a11d0, type: 3}
+      travelPts:
+      - pos: {x: -575, y: -425}
+        destination: {fileID: 11400000, guid: c34c2ac6b782a8247b2b575ccfd4d85e, type: 2}
+      - pos: {x: -575, y: -25}
+        destination: {fileID: 11400000, guid: 0b687c2e4c9d0eb46885ba05f64221e3, type: 2}
+      interactables:
+      - name: Yuuchi
+        pos: {x: -150, y: -225}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: fa3aeb5d93ee5ba41a561ced3fe24cbe, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+  - variantName: MitsukoRead
+    day: 4
+    timeStart: 0
+    timeEnd: 159
+    variant:
+      background: {fileID: 21300000, guid: 20516ebdf24af614493a71339e5855ff, type: 3}
+      travelPts:
+      - pos: {x: -575, y: -425}
+        destination: {fileID: 11400000, guid: c34c2ac6b782a8247b2b575ccfd4d85e, type: 2}
+      - pos: {x: -575, y: -25}
+        destination: {fileID: 11400000, guid: 0b687c2e4c9d0eb46885ba05f64221e3, type: 2}
+      interactables:
+      - name: Mitsuko
+        pos: {x: 100, y: -225}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: 0ada85c9b73b34a419d60b86d1df8d49, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+  - variantName: Breakfast
+    day: -1
+    timeStart: 600
+    timeEnd: 759
+    variant:
+      background: {fileID: 21300000, guid: 92da6293e3392d9408290c8c1f07b58b, type: 3}
+      travelPts:
+      - pos: {x: -575, y: -425}
+        destination: {fileID: 11400000, guid: c34c2ac6b782a8247b2b575ccfd4d85e, type: 2}
+      - pos: {x: -575, y: -25}
+        destination: {fileID: 11400000, guid: 0b687c2e4c9d0eb46885ba05f64221e3, type: 2}
+      interactables:
+      - name: Family
+        pos: {x: -115, y: -75}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: 676d59211502fb447904cf45c309eb77, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+  - variantName: BreakfastOverride1
+    day: 6
+    timeStart: 600
+    timeEnd: 759
+    variant:
+      background: {fileID: 21300000, guid: 6bc7d05d74abb9d44b27548faeb56b34, type: 3}
+      travelPts:
+      - pos: {x: -575, y: -425}
+        destination: {fileID: 11400000, guid: c34c2ac6b782a8247b2b575ccfd4d85e, type: 2}
+      - pos: {x: -575, y: -25}
+        destination: {fileID: 11400000, guid: 0b687c2e4c9d0eb46885ba05f64221e3, type: 2}
+      interactables: []
+  - variantName: BreakfastOverride2
+    day: 0
+    timeStart: 600
+    timeEnd: 759
+    variant:
+      background: {fileID: 21300000, guid: 6bc7d05d74abb9d44b27548faeb56b34, type: 3}
+      travelPts:
+      - pos: {x: -575, y: -425}
+        destination: {fileID: 11400000, guid: c34c2ac6b782a8247b2b575ccfd4d85e, type: 2}
+      - pos: {x: -575, y: -25}
+        destination: {fileID: 11400000, guid: 0b687c2e4c9d0eb46885ba05f64221e3, type: 2}
+      interactables: []

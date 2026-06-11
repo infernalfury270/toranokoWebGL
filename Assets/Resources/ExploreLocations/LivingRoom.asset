@@ -23,4 +23,418 @@ MonoBehaviour:
     - pos: {x: 0, y: -425}
       destination: {fileID: 11400000, guid: a5485f414ef256c4e8777888ab0d9686, type: 2}
     interactables: []
-  locationVariants: []
+  locationVariants:
+  - variantName: Night
+    day: -1
+    timeStart: 1900
+    timeEnd: 2159
+    variant:
+      background: {fileID: 21300000, guid: 83b6378a2d77b7d4f91bf072cd5d9292, type: 3}
+      travelPts:
+      - pos: {x: -600, y: 50}
+        destination: {fileID: 11400000, guid: c79a75f74d86fd64fbc9fa70efbcaf0c, type: 2}
+      - pos: {x: -95, y: 250}
+        destination: {fileID: 11400000, guid: 386a0fb946d73774991d04d3fa38f965, type: 2}
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: a5485f414ef256c4e8777888ab0d9686, type: 2}
+      interactables: []
+  - variantName: Midnight
+    day: -1
+    timeStart: 2200
+    timeEnd: 559
+    variant:
+      background: {fileID: 21300000, guid: fc76d92d222e3c84db072cab2ec1e8e0, type: 3}
+      travelPts:
+      - pos: {x: -600, y: 50}
+        destination: {fileID: 11400000, guid: c79a75f74d86fd64fbc9fa70efbcaf0c, type: 2}
+      - pos: {x: -95, y: 250}
+        destination: {fileID: 11400000, guid: 386a0fb946d73774991d04d3fa38f965, type: 2}
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: a5485f414ef256c4e8777888ab0d9686, type: 2}
+      interactables: []
+  - variantName: Midnight_Mitsuko
+    day: 4
+    timeStart: 0
+    timeEnd: 159
+    variant:
+      background: {fileID: 21300000, guid: efa4feb3e3def3242949d080768bb59d, type: 3}
+      travelPts:
+      - pos: {x: -600, y: 50}
+        destination: {fileID: 11400000, guid: c79a75f74d86fd64fbc9fa70efbcaf0c, type: 2}
+      - pos: {x: -95, y: 250}
+        destination: {fileID: 11400000, guid: 386a0fb946d73774991d04d3fa38f965, type: 2}
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: a5485f414ef256c4e8777888ab0d9686, type: 2}
+      interactables: []
+  - variantName: MitsukoKatsuko
+    day: 1
+    timeStart: 1700
+    timeEnd: 1859
+    variant:
+      background: {fileID: 21300000, guid: 71f6a004c8e32c241b8fd9364cab4fc1, type: 3}
+      travelPts:
+      - pos: {x: -600, y: 50}
+        destination: {fileID: 11400000, guid: c79a75f74d86fd64fbc9fa70efbcaf0c, type: 2}
+      - pos: {x: -95, y: 250}
+        destination: {fileID: 11400000, guid: 386a0fb946d73774991d04d3fa38f965, type: 2}
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: a5485f414ef256c4e8777888ab0d9686, type: 2}
+      interactables:
+      - name: Daughters
+        pos: {x: 275, y: 0}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: b8667964b131461438fabcdfe99c5996, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+  - variantName: TaigaTV
+    day: 1
+    timeStart: 1900
+    timeEnd: 2159
+    variant:
+      background: {fileID: 21300000, guid: 693b2a236c42cef44b6e27bdd889ea80, type: 3}
+      travelPts:
+      - pos: {x: -600, y: 50}
+        destination: {fileID: 11400000, guid: c79a75f74d86fd64fbc9fa70efbcaf0c, type: 2}
+      - pos: {x: -95, y: 250}
+        destination: {fileID: 11400000, guid: 386a0fb946d73774991d04d3fa38f965, type: 2}
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: a5485f414ef256c4e8777888ab0d9686, type: 2}
+      interactables:
+      - name: Taiga
+        pos: {x: 400, y: -150}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: 584fc6e6f15b4964f924ea7050ef9e6a, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+  - variantName: YuuchiTVNight
+    day: 2
+    timeStart: 100
+    timeEnd: 159
+    variant:
+      background: {fileID: 21300000, guid: 503413c966c4f714ea13d5feae7fb300, type: 3}
+      travelPts:
+      - pos: {x: -600, y: 50}
+        destination: {fileID: 11400000, guid: c79a75f74d86fd64fbc9fa70efbcaf0c, type: 2}
+      - pos: {x: -95, y: 250}
+        destination: {fileID: 11400000, guid: 386a0fb946d73774991d04d3fa38f965, type: 2}
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: a5485f414ef256c4e8777888ab0d9686, type: 2}
+      interactables:
+      - name: Yuuchi
+        pos: {x: 400, y: -150}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: 27c838d91e3a2534a947ddee1c6e3ade, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+  - variantName: KatsukoNap
+    day: 5
+    timeStart: 0
+    timeEnd: 559
+    variant:
+      background: {fileID: 21300000, guid: d0cec5d8305100f47ae0df0337fd0ea7, type: 3}
+      travelPts:
+      - pos: {x: -600, y: 50}
+        destination: {fileID: 11400000, guid: c79a75f74d86fd64fbc9fa70efbcaf0c, type: 2}
+      - pos: {x: -95, y: 250}
+        destination: {fileID: 11400000, guid: 386a0fb946d73774991d04d3fa38f965, type: 2}
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: a5485f414ef256c4e8777888ab0d9686, type: 2}
+      interactables:
+      - name: Katsuko
+        pos: {x: 400, y: -200}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: d1c7ed72fd5f53b4580d127d6ad954a3, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+  - variantName: YuuchiTV
+    day: 6
+    timeStart: 600
+    timeEnd: 959
+    variant:
+      background: {fileID: 21300000, guid: 3b18e0a52866e754797fb8367ce2ea34, type: 3}
+      travelPts:
+      - pos: {x: -600, y: 50}
+        destination: {fileID: 11400000, guid: c79a75f74d86fd64fbc9fa70efbcaf0c, type: 2}
+      - pos: {x: -95, y: 250}
+        destination: {fileID: 11400000, guid: 386a0fb946d73774991d04d3fa38f965, type: 2}
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: a5485f414ef256c4e8777888ab0d9686, type: 2}
+      interactables:
+      - name: Yuuchi
+        pos: {x: 400, y: -150}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: f49fed04bf264b94b9a07a482c9fce79, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+  - variantName: YuuchiTV2
+    day: 0
+    timeStart: 600
+    timeEnd: 959
+    variant:
+      background: {fileID: 21300000, guid: 3b18e0a52866e754797fb8367ce2ea34, type: 3}
+      travelPts:
+      - pos: {x: -600, y: 50}
+        destination: {fileID: 11400000, guid: c79a75f74d86fd64fbc9fa70efbcaf0c, type: 2}
+      - pos: {x: -95, y: 250}
+        destination: {fileID: 11400000, guid: 386a0fb946d73774991d04d3fa38f965, type: 2}
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: a5485f414ef256c4e8777888ab0d9686, type: 2}
+      interactables:
+      - name: Yuuchi
+        pos: {x: 400, y: -150}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: f49fed04bf264b94b9a07a482c9fce79, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+  - variantName: TaigaLivingRoom
+    day: 6
+    timeStart: 1000
+    timeEnd: 1659
+    variant:
+      background: {fileID: 21300000, guid: e5f360889e48bdb4aab18d3ea2bf0f16, type: 3}
+      travelPts:
+      - pos: {x: -600, y: 50}
+        destination: {fileID: 11400000, guid: c79a75f74d86fd64fbc9fa70efbcaf0c, type: 2}
+      - pos: {x: -95, y: 250}
+        destination: {fileID: 11400000, guid: 386a0fb946d73774991d04d3fa38f965, type: 2}
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: a5485f414ef256c4e8777888ab0d9686, type: 2}
+      interactables:
+      - name: Taiga
+        pos: {x: 350, y: -50}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: 584fc6e6f15b4964f924ea7050ef9e6a, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+  - variantName: HarukoKatsuko
+    day: 6
+    timeStart: 1300
+    timeEnd: 1659
+    variant:
+      background: {fileID: 21300000, guid: a96653e0303d3494084da64f004badd4, type: 3}
+      travelPts:
+      - pos: {x: -600, y: 50}
+        destination: {fileID: 11400000, guid: c79a75f74d86fd64fbc9fa70efbcaf0c, type: 2}
+      - pos: {x: -95, y: 250}
+        destination: {fileID: 11400000, guid: 386a0fb946d73774991d04d3fa38f965, type: 2}
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: a5485f414ef256c4e8777888ab0d9686, type: 2}
+      interactables:
+      - name: Daughters
+        pos: {x: 350, y: -50}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: a5db50650dcdf7a409baf4a5474806b5, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+  - variantName: TaigaComputerNight
+    day: 0
+    timeStart: 0
+    timeEnd: 159
+    variant:
+      background: {fileID: 21300000, guid: 07a470d7a9214864997ea95e7f6feb8f, type: 3}
+      travelPts:
+      - pos: {x: -600, y: 50}
+        destination: {fileID: 11400000, guid: c79a75f74d86fd64fbc9fa70efbcaf0c, type: 2}
+      - pos: {x: -95, y: 250}
+        destination: {fileID: 11400000, guid: 386a0fb946d73774991d04d3fa38f965, type: 2}
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: a5485f414ef256c4e8777888ab0d9686, type: 2}
+      interactables:
+      - name: Taiga
+        pos: {x: 500, y: -25}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: 547233840b8cdef41a99278f1b0c228a, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+  - variantName: TaigaComputer
+    day: 0
+    timeStart: 1000
+    timeEnd: 1659
+    variant:
+      background: {fileID: 21300000, guid: 7a616baf68f459948964ab0e5b5ccf14, type: 3}
+      travelPts:
+      - pos: {x: -600, y: 50}
+        destination: {fileID: 11400000, guid: c79a75f74d86fd64fbc9fa70efbcaf0c, type: 2}
+      - pos: {x: -95, y: 250}
+        destination: {fileID: 11400000, guid: 386a0fb946d73774991d04d3fa38f965, type: 2}
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: a5485f414ef256c4e8777888ab0d9686, type: 2}
+      interactables:
+      - name: Taiga
+        pos: {x: 500, y: -25}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: b18c7fcdd1cc86244b8d8bc58c7cf9d2, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+  - variantName: Everyone
+    day: 6
+    timeStart: 1700
+    timeEnd: 1859
+    variant:
+      background: {fileID: 21300000, guid: 3ccde7bda3775da4f8aad4ff87d20c22, type: 3}
+      travelPts:
+      - pos: {x: -600, y: 50}
+        destination: {fileID: 11400000, guid: c79a75f74d86fd64fbc9fa70efbcaf0c, type: 2}
+      - pos: {x: -95, y: 250}
+        destination: {fileID: 11400000, guid: 386a0fb946d73774991d04d3fa38f965, type: 2}
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: a5485f414ef256c4e8777888ab0d9686, type: 2}
+      interactables:
+      - name: Family
+        pos: {x: 500, y: -25}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: 4abc901e16816b5479ea0209350e2153, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+  - variantName: Everyone2
+    day: 0
+    timeStart: 1700
+    timeEnd: 1859
+    variant:
+      background: {fileID: 21300000, guid: 3ccde7bda3775da4f8aad4ff87d20c22, type: 3}
+      travelPts:
+      - pos: {x: -600, y: 50}
+        destination: {fileID: 11400000, guid: c79a75f74d86fd64fbc9fa70efbcaf0c, type: 2}
+      - pos: {x: -95, y: 250}
+        destination: {fileID: 11400000, guid: 386a0fb946d73774991d04d3fa38f965, type: 2}
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: a5485f414ef256c4e8777888ab0d9686, type: 2}
+      interactables:
+      - name: Family
+        pos: {x: 500, y: -25}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: 4abc901e16816b5479ea0209350e2153, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2

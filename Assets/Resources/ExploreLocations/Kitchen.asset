@@ -18,5 +18,103 @@ MonoBehaviour:
     travelPts:
     - pos: {x: 0, y: -425}
       destination: {fileID: 11400000, guid: 0b687c2e4c9d0eb46885ba05f64221e3, type: 2}
-    interactables: []
-  locationVariants: []
+    interactables:
+    - name: Fridge
+      pos: {x: -500, y: -25}
+      OnInteract:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000, guid: 6370f38fd78dcdb429508871fdc478c6, type: 2}
+            m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+            m_MethodName: InvokeCutscene
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+  locationVariants:
+  - variantName: Night
+    day: -1
+    timeStart: 1900
+    timeEnd: 2159
+    variant:
+      background: {fileID: 21300000, guid: 89d7ddedb51caab4786c42203cb4812a, type: 3}
+      travelPts:
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: 0b687c2e4c9d0eb46885ba05f64221e3, type: 2}
+      interactables:
+      - name: Fridge
+        pos: {x: -500, y: -25}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: 6370f38fd78dcdb429508871fdc478c6, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+  - variantName: Midnight
+    day: -1
+    timeStart: 2200
+    timeEnd: 559
+    variant:
+      background: {fileID: 21300000, guid: 3422d84b45e6b074485b2431fc04c665, type: 3}
+      travelPts:
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: 0b687c2e4c9d0eb46885ba05f64221e3, type: 2}
+      interactables:
+      - name: Fridge
+        pos: {x: -500, y: -25}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: 6370f38fd78dcdb429508871fdc478c6, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+  - variantName: Haruko
+    day: 1
+    timeStart: 0
+    timeEnd: 59
+    variant:
+      background: {fileID: 21300000, guid: 86299bb73cdf4b542a8283459b35b91b, type: 3}
+      travelPts:
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: 0b687c2e4c9d0eb46885ba05f64221e3, type: 2}
+      interactables:
+      - name: Haruko
+        pos: {x: -500, y: -25}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: 9d2864540a711754887afeb23a2f0e50, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2

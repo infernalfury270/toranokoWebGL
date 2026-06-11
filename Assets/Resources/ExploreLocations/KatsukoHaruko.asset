@@ -21,4 +21,149 @@ MonoBehaviour:
     - pos: {x: -750, y: -425}
       destination: {fileID: 11400000, guid: a9a54034344b3454c9f4c4b6d6b05100, type: 2}
     interactables: []
-  locationVariants: []
+  locationVariants:
+  - variantName: HarukoSnacking
+    day: 2
+    timeStart: 1700
+    timeEnd: 1859
+    variant:
+      background: {fileID: 21300000, guid: fb03e6432e5760a44ada29e8940aa042, type: 3}
+      travelPts:
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: c79a75f74d86fd64fbc9fa70efbcaf0c, type: 2}
+      - pos: {x: -750, y: -425}
+        destination: {fileID: 11400000, guid: a9a54034344b3454c9f4c4b6d6b05100, type: 2}
+      interactables:
+      - name: Haruko
+        pos: {x: 0, y: -50}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: 86ec25c746f370f42bd1462e1cb6beed, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+  - variantName: KatsukoNapping
+    day: 5
+    timeStart: 1700
+    timeEnd: 1859
+    variant:
+      background: {fileID: 21300000, guid: 19621cc4446480a43aaa9f77e6713c97, type: 3}
+      travelPts:
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: c79a75f74d86fd64fbc9fa70efbcaf0c, type: 2}
+      - pos: {x: -750, y: -425}
+        destination: {fileID: 11400000, guid: a9a54034344b3454c9f4c4b6d6b05100, type: 2}
+      interactables:
+      - name: Katsuko
+        pos: {x: 650, y: -225}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: 9f42856fbcd92b64089082f32b43b980, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+  - variantName: MorningBed
+    day: 6
+    timeStart: 600
+    timeEnd: 959
+    variant:
+      background: {fileID: 21300000, guid: ca64c930097e2eb48bc68fcae9f16c73, type: 3}
+      travelPts:
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: c79a75f74d86fd64fbc9fa70efbcaf0c, type: 2}
+      - pos: {x: -750, y: -425}
+        destination: {fileID: 11400000, guid: a9a54034344b3454c9f4c4b6d6b05100, type: 2}
+      interactables:
+      - name: Haruko
+        pos: {x: -650, y: -225}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: 30bb7c7e363a0444e8ec5a88f68db5a4, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+  - variantName: MorningBed2
+    day: 0
+    timeStart: 600
+    timeEnd: 959
+    variant:
+      background: {fileID: 21300000, guid: ca64c930097e2eb48bc68fcae9f16c73, type: 3}
+      travelPts:
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: c79a75f74d86fd64fbc9fa70efbcaf0c, type: 2}
+      - pos: {x: -750, y: -425}
+        destination: {fileID: 11400000, guid: a9a54034344b3454c9f4c4b6d6b05100, type: 2}
+      interactables:
+      - name: Haruko
+        pos: {x: -650, y: -225}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: 30bb7c7e363a0444e8ec5a88f68db5a4, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+  - variantName: Night
+    day: -1
+    timeStart: 1900
+    timeEnd: 2159
+    variant:
+      background: {fileID: 21300000, guid: 8626f9a1b3cab8945b84afce755c15dd, type: 3}
+      travelPts:
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: c79a75f74d86fd64fbc9fa70efbcaf0c, type: 2}
+      - pos: {x: -750, y: -425}
+        destination: {fileID: 11400000, guid: a9a54034344b3454c9f4c4b6d6b05100, type: 2}
+      interactables:
+      - name: Haruko
+        pos: {x: -650, y: -225}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: a2788edb55998094887b6e68de6db98b, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2

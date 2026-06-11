@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce4091efa6b73194680553dd3dac51da, type: 3}
+  m_Name: DiningTable_Yuuchi
+  m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
+  sequence:
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - (Looks like Yuuchi's trying to study.)
+    - (Compared to what I've seen from Haruko... His notes are a lot more organised.)
+    - (He looks a lot more relaxed too. He really knows his stuff, huh?)
+    - (I wonder what makes him perform better than the girls...)
+    - (Well, I better not bother him.)
+  alternateSequences: []
