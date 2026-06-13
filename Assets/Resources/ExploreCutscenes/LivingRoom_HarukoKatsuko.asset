@@ -12,5 +12,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce4091efa6b73194680553dd3dac51da, type: 3}
   m_Name: LivingRoom_HarukoKatsuko
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
-  sequence: []
+  sequence:
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - (Looks like Haruko and Katsuko have returned from their day out together.)
+  - background: {fileID: 21300000, guid: c04eb80f54b963c4688e8c562474dedd, type: 3}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - (.....................)
+    - (That's a rather unflattering position.)
+    - (Some things never change, huh? Katsuko's still clinging to her big sister...
+      Even though they were only born less than an hour apart.)
+    - (The triplets were always together since they were infants. They were inseparable
+      in school.)
+    - (But since Mitsuko's not as social as they are, I think they've formed an even
+      tighter bond with each other.)
+    - (As they got older, it became just the two of them playing together while Mitsuko
+      indulged in her interest in books.)
+    - (Although... Now that Mitsuko has friends of her own, it looks like they only
+      have each other while Mitsuko's with her own people.)
+    - (I suppose it is nice seeing them still close with each other.)
   alternateSequences: []

@@ -12,5 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce4091efa6b73194680553dd3dac51da, type: 3}
   m_Name: Mitsuko_Uniform
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
-  sequence: []
+  sequence:
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - (It's Mitsuko's school uniform.)
+    - (Looks like she changed out of it so she could go out with her friends.)
+    - (She's always been really shy and has a hard time speaking to people, so seeing
+      her spend time with other kids her age after school is a nice change.)
   alternateSequences: []

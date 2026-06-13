@@ -12,5 +12,50 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce4091efa6b73194680553dd3dac51da, type: 3}
   m_Name: KatsukoHaruko_KatsukoNap
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
-  sequence: []
+  sequence:
+  - background: {fileID: 21300000, guid: a0092c6ece646c046bb7ae236813b17e, type: 3}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - (Oh, Katsuko's napping again.)
+    - (Even though she isn't wearing anything, she never locks the door while she
+      naps like this...)
+    - (She probably doesn't want to lock her sisters out of the room while she naps.
+      She's a heavy sleeper after all.)
+    - (It's not the first time I've walked in on her like this... But she's never
+      had a problem when she wakes up and sees me.)
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Katsuko
+    dialogue:
+    - Uuuurrghhh... Guuuurghhh...
+    - Nguuuuurhh... D... Dad...
+    - Dad... No... Dad... Don't...
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - (Is... Is she talking to me?)
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Katsuko
+    dialogue:
+    - Don't... Don't...
+    - Don't iron... My T-shirt... It doesn't need to... You'll tear it up... Mom
+      will throw it out...
+    - I like my shirt...
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - (I suppose I should take note...)
+    - (Seeing her like this just reminds me of the times she'd run around the house
+      in her diaper...)
+    - (The way she moved was always so wild... There was no rhyme or reason in where
+      she placed her feet, she was just running around and slamming into walls.)
+    - (Well, she might've been moving that way because she was still recovering from
+      her illness she sustained when Taiga was struggling to give birth to her.)
+    - (She's much healthier now. She's even the strongest player on the softball
+      team, I heard.)
+    - (She's really grown, huh.)
   alternateSequences: []

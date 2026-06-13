@@ -12,5 +12,116 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce4091efa6b73194680553dd3dac51da, type: 3}
   m_Name: Ryuuji_TaigaMidnight
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
-  sequence: []
-  alternateSequences: []
+  sequence:
+  - background: {fileID: 21300000, guid: d44c341fb97f82f479bffc32f47765c2, type: 3}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - (Monday's finally come to an end...)
+    - (It's the hardest day of the week for everyone in this house...)
+    - (I'm keeping the house as clean as I can... Feeding them the best meals I can
+      make...)
+    - (But part of me wonders if that's really helping at all...)
+    - (I'll just have to keep moving along like they do...)
+    - (We've all gotten this far just doing what we do best, right?)
+  alternateSequences:
+  - dayOfTheWeek: 2
+    sequence:
+    - background: {fileID: 21300000, guid: d44c341fb97f82f479bffc32f47765c2, type: 3}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (I miss the old Taiga.)
+      - (I'm not afraid to admit it.)
+      - (I'll always love Taiga for who she is, but this has nothing to do with me.)
+      - (Motherhood has been nothing but draining for her. She used to be bolder,
+        feistier. Her days used to be filled with energy and optimism...)
+      - (It doesn't feel right seeing her so stressed all the time, and it doesn't
+        feel right how she's doing worse than I am, especially with how much she's
+        supported this whole family.)
+      - (We were both hoping for this future. I want her to enjoy it as much as I
+        am.)
+      - (I just don't know what to do.)
+  - dayOfTheWeek: 3
+    sequence:
+    - background: {fileID: 21300000, guid: d44c341fb97f82f479bffc32f47765c2, type: 3}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (She's always been hard on herself.)
+      - (We thought... Things were going well in the first years of the girls' birth.)
+      - (But Taiga kept struggling... She just couldn't be happy with how well she
+        had been doing as a mother...)
+      - (Everything seemed to change a few years after Yuuchi was born.)
+      - (She still worries about the girls, but... She seems much more resigned now.)
+      - (I think we've both come to accept that there isn't much we can do about
+        how our daughters behave. That's just how they are.)
+  - dayOfTheWeek: 4
+    sequence:
+    - background: {fileID: 21300000, guid: d44c341fb97f82f479bffc32f47765c2, type: 3}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (I can't remember the last time Taiga and I have made love.)
+      - (We've gotten only a little physical, but we've never gone as far as we did
+        when we were young.)
+      - (Every time I try to initiate, she'd be too stressed for us to go further.)
+      - (The thing is, she used to be the one to lead these kinds of things. It's
+        all flipped around now.)
+      - (I think the worst part of all of this is that she started feeling bad about
+        it.)
+      - (She's aware of my needs, so she suggested I use adult magazines instead.
+        She even bought one for me at some point.)
+      - (She was really insistent on it too. It got to the point where I was tempted
+        to try it, but... I couldn't.)
+      - (She thinks I'm using them now. She lets me fondle her body every now and
+        then. But there's only one truth in all of this.)
+      - (It's her I love. Always. There isn't another woman I want to look at besides
+        her.)
+  - dayOfTheWeek: 5
+    sequence:
+    - background: {fileID: 21300000, guid: d44c341fb97f82f479bffc32f47765c2, type: 3}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (I've come to accept this version of Taiga.)
+      - (This version of Taiga that's always worried and always exhausted.)
+      - (Well, I actually did that long ago.)
+      - (It's hard to do anything when she's accepted it too.)
+      - (I don't really think either of us are capable of standing up and saying
+        things need to change, especially when neither of us can really envision
+        it.)
+      - (It's not like I can just walk into Taiga's office and ask everyone to take
+        it easy on her. I have no authority on that.)
+      - (It's not like we can just ask our daughters to make our lives easier either.
+        That would just be selfish.)
+      - (This struggle is what life is all about, and we're just doing whatever we
+        can to get by.)
+  - dayOfTheWeek: 6
+    sequence:
+    - background: {fileID: 21300000, guid: d44c341fb97f82f479bffc32f47765c2, type: 3}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (Part of me just wants to ask Taiga straight to her face...)
+      - ("Am I an adequate husband? Is my care not enough? Is there any more I can
+        do?")
+      - (We have a big and clean house. We get to eat good food everyday. We get
+        to go on nice vacations as a family. We don't have to worry about what's
+        right in front of us.)
+      - (And yet, it feels like there's so much we're missing.)
+      - (Is this what life is supposed to be? Just an endless cycle of stress, with
+        the occasional breaks?)
+      - (Wouldn't it be great to see a smile from her when her daughters get mentioned
+        once?)
+      - (Is there something I can do about it, at least?)
+      - (Or am I just asking that because I've convinced myself that I can't do anymore
+        than what I know?)
+      - (I don't know... I just need some sleep...)
+  - dayOfTheWeek: 0
+    sequence:
+    - background: {fileID: 21300000, guid: d44c341fb97f82f479bffc32f47765c2, type: 3}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (I love you, Taiga.)

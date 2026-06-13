@@ -12,5 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce4091efa6b73194680553dd3dac51da, type: 3}
   m_Name: Mitsuko_Library
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
-  sequence: []
+  sequence:
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - (Looks like some library books Mitsuko borrowed...)
+    - (They're all way overdue... I have a feeling she forgot to bring these along
+      when she went to the library...)
+    - (Looks like we're in for more late return fees... Usually this means Mitsuko
+      wouldn't be allowed to borrow anymore books, but she'd just go to a different
+      library instead.)
+    - (I guess I could just return these for her, but it'd be nice if she could practise
+      a little personal responsibility every once in a while.)
   alternateSequences: []

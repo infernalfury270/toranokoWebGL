@@ -12,5 +12,56 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce4091efa6b73194680553dd3dac51da, type: 3}
   m_Name: LivingRoom_TaigaTV
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
-  sequence: []
-  alternateSequences: []
+  sequence:
+  - background: {fileID: 21300000, guid: 166c7c036bbfef74bb76a20667c0a0aa, type: 3}
+    clearBackground: 0
+    speakerName: Taiga
+    dialogue:
+    - Hey, Ryuuji. Minorin's playing today. You here to watch?
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - Maybe just a little. How's she doing?
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Taiga
+    dialogue:
+    - Her team's behind by a point, but they might be making a comeback. They can't
+      lose when they've got Minorin on their team.
+    - If they win this, they'll make it to the finals.
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - And when they win that, they'll become world champion...
+    - She ought to come back from America to visit us. I'm sure the girls would love
+      to see her again.
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Taiga
+    dialogue:
+    - She definitely feels the same way. She's always asking about the girls when
+      we get the chance to call each other.
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - She's been supporting us since the start, after all.
+    - I wonder what her reaction would be when she finally sees how big the girls
+      have gotten.
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Taiga
+    dialogue:
+    - I'd totally love to see that!
+  alternateSequences:
+  - dayOfTheWeek: 6
+    sequence:
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (Looks like Taiga's just relaxing in the living room.)
+      - (She must be tired from working all week. I'll leave her be for now.)
+      - (I should probably ask her out on a date when she's free again.)

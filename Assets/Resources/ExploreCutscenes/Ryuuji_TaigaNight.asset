@@ -12,5 +12,370 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce4091efa6b73194680553dd3dac51da, type: 3}
   m_Name: Ryuuji_TaigaNight
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
-  sequence: []
-  alternateSequences: []
+  sequence:
+  - background: {fileID: 21300000, guid: df0a50da8559010479396e0818b9fe5b, type: 3}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - Hey there...
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Taiga
+    dialogue:
+    - Hey, Ryuuji.
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - Had a rough day at work?
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Taiga
+    dialogue:
+    - I don't know what you mean. I'm always like this.
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - You just look a little tired.
+    - Want me to give you another one of those signature Takasu massages?
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Taiga
+    dialogue:
+    - I'm not pregnant, Ryuuji. I haven't been for over a decade.
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - I'm sure you'll love it even if I leave out a few steps.
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Taiga
+    dialogue:
+    - Just let me fall asleep...
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - If you say so.
+  alternateSequences:
+  - dayOfTheWeek: 3
+    sequence:
+    - background: {fileID: 21300000, guid: df0a50da8559010479396e0818b9fe5b, type: 3}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - Hey, Taiga! How was your day?
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - Same as always.
+      - Some juniors invited me for drinks, but I declined. You know how I handle
+        alcohol.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - Hey, I don't mind carrying you home every once in a while.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - I don't want to cover your shirt in vomit again. It's gross on all fronts.
+      - I can't stand the smell or the sight of it, and it's especially weird when
+        you're just smiling through it.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - Suit yourself, heheh...
+      - It's better than getting your senses bombarded by cigarette smoke.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - What're you talking about? You know I haven't smoked a day in my life. We're
+        both against tobacco!
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - I'm just saying you should easen up a little. It's fine if you have a drink
+        or two.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - Who're you to tell me that? You haven't had a drink in years!
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - But I know how tough work can get.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - I'm tough! I don't need alcohol to drown my sorrows or whatever!
+      - I can't believe you'd even suggest that.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - Hey, you're a free soul, Taiga.
+  - dayOfTheWeek: 4
+    sequence:
+    - background: {fileID: 21300000, guid: df0a50da8559010479396e0818b9fe5b, type: 3}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - You ready for bed, beautiful?
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - Save the nicknames for another day, Ryuuji. I'm not in the mood.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - Am I wrong though? Your chest is as lovely as ever, you know.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - I don't feel like letting you touch it either.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - If that's how you feel, I'm cool.
+      - Is there anything on your mind at all?
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - Those girls definitely are.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - Of course they are.
+      - Did they get into trouble again?
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - When are they not?
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - How about we clear your mind a little? You won't get any sleep like this,
+        you know.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - Do I really want to? Mmmmh......
+      - Fine, you can massage them.
+      - Just take your hands off once I fall asleep, alright? I don't want to wake
+        up sore.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - I'll get right to it soon.
+  - dayOfTheWeek: 5
+    sequence:
+    - background: {fileID: 21300000, guid: df0a50da8559010479396e0818b9fe5b, type: 3}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - The weekend's coming, Taiga. Can't you smile a little?
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - What is there to smile about? The week's been terrible as always.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - What was terrible about it?
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - Do I have to tell you every time? I'm sure you already know by now.
+      - Having to deal with clueless juniors while I'm trying to meet deadlines myself...
+      - 'Bowing my head to all the teachers complaining about all the trouble our
+        daughters are giving them... '
+      - Honestly, I'm pretty sure every single moment of this week has been terrible.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - Every single one?
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - Mhm.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - Even this one? The one we're having right now?
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - Y-...... Well, maybe not this one.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - Then maybe it's not such a terrible week after all.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - F-fine... But I better not hear from the girls while I rest. If they're not
+        causing trouble in school, they're definitely causing trouble somewhere else.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - You worry too much.
+  - dayOfTheWeek: 6
+    sequence:
+    - background: {fileID: 21300000, guid: df0a50da8559010479396e0818b9fe5b, type: 3}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - Enjoying your rest, beautiful?
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - I was until you decided to put your ugly face through the bed curtains.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - Sheesh, that hurt, Taiga.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - ........ Was I being too harsh?
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - ........ I was kidding.
+      - Do you ever feel like eating out?
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - Maybe if it's somewhere out of town.
+      - I've gotten too used to your cooking. Now, every restaurant in town just
+        doesn't live up to whatever you do.
+      - I don't really feel like hearing Haruko whine about that, either.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - I figured it'd just be the two us.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - Oh. Then I'd be happy to.
+      - I just need to find a good time to take leave.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - You don't want to go out during the weekend?
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - I need the full weekend to charge up, Ryuuji. Anything else costs extra.
+      - Besides, it's less crowded everywhere on weekdays.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - If you say so...
+  - dayOfTheWeek: 0
+    sequence:
+    - background: {fileID: 21300000, guid: df0a50da8559010479396e0818b9fe5b, type: 3}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - DId you rest well, Taiga?
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - As well as I could, I suppose.
+      - It's not like I can escape work, so I'll just roll through as easily as I
+        can.
+      - Of course, I have to deal with whatever the girls throw at me again.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - Those girls are always on your mind, huh?
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - Of course they are. I'm their mother.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - You always sound like you're full of dread whenever you mention them.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - How can I not? Those girls are not normal!
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - I suppose they aren't.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - ....................... Don't look at me like that, Ryuuji. You know I love
+        them as much as you do.
+      - It's just... I can never feel like I've found my footing with them, you know?
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - It's alright, Taiga.
+      - There's some things I don't understand about them either.
+      - We're just taking it one day at a time, remember?
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - We just have to watch them grow and see what they become.
+      - It's not something either of us can control.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - It's the only way we know to go about things.
+      - Get some good sleep, Taiga.

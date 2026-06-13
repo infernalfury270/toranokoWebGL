@@ -12,5 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce4091efa6b73194680553dd3dac51da, type: 3}
   m_Name: Yuuchi_Bed
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
-  sequence: []
+  sequence:
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - (This used to be Yasuko's bed before Yuuchi became old enough to sleep in his
+      own room.)
+    - (We considered having him sleep in the guest bedroom, but Taiga mentioned it
+      would be much safer having him sleep right next to our room.)
+    - (Yasuko was happy to oblige and move into the guest bedroom. I felt a little
+      guilty making her move all her things, but I figured it would be best for Yuuchi
+      if he ever needed anything in the middle of the night. A little child climbing
+      a long flight of stairs in the dark certainly doesn't sound safe.)
+    - (Yasuko's been the most accommodating throughout both of Taiga's pregnancies.
+      It's a shame she isn't living under the same roof as us anymore.)
   alternateSequences: []

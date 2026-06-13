@@ -12,5 +12,149 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce4091efa6b73194680553dd3dac51da, type: 3}
   m_Name: LivingRoom_Everyone
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
-  sequence: []
-  alternateSequences: []
+  sequence:
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - (Ah, everyone's in the living room together.)
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Haruko
+    dialogue:
+    - Aaaah... The weather's going to suck next week... Isn't there anything fun
+      to do indoors?
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Katsuko
+    dialogue:
+    - There's an indoor skating rink in the next town over. We could go there.
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Haruko
+    dialogue:
+    - I'm not in the mood for anything cold, though...
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Katsuko
+    dialogue:
+    - Mitsuko? What about you?
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Mitsuko
+    dialogue:
+    - Wearing ice skates doesn't feel good on my feet... It's too slippery too...
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Taiga
+    dialogue:
+    - I don't trust you with those sharp things, Katsuko.
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Katsuko
+    dialogue:
+    - Damn it... If you two won't go with me, I might just kidnap Yuuchi and bring
+      him along instead.
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Taiga
+    dialogue:
+    - You better not.
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Yuuchi
+    dialogue:
+    - I'm busy next week.
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Katsuko
+    dialogue:
+    - Uuuugh...
+  alternateSequences:
+  - dayOfTheWeek: 0
+    sequence:
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (Oh, everyone's in the living room.)
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Katsuko
+      dialogue:
+      - Man, this show sucks. When is that cute and pretty girl going to show up?
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - I don't need your commentary on the weather, Katsuko.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Katsuko
+      dialogue:
+      - But she's the only good part of the weather reports. She's got a lot of charm
+        in her voice.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Haruko
+      dialogue:
+      - I thought you always had a thing for hot guys.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Katsuko
+      dialogue:
+      - If they had hot guys in the weather reports, I'd start hearing about it.
+      - Actually maybe it's best if they didn't. You never know what thoughts Mom
+        would have if they came on.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - Katsuko.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Mitsuko
+      dialogue:
+      - D-don't say that... We already have a hot guy at home, right?
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Katsuko
+      dialogue:
+      - Mitsuko. Look at him standing there. Does he look like a hot guy to you?
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Mitsuko
+      dialogue:
+      - I... I think so.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Katsuko
+      dialogue:
+      - You've got no taste, Mitsuko... He's more like a cute guy, not based on his
+        looks. Why do you think Mom has a job and he doesn't?
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - Do not talk about your father like that, Katsuko.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Haruko
+      dialogue:
+      - Geez...
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Katsuko
+      dialogue:
+      - Come on... Look! Yuuchi agrees with me! Look at him trying to cover up his
+        smile!
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Yuuchi
+      dialogue:
+      - Sh-shut up!
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (Wow, my kids are harsh...)

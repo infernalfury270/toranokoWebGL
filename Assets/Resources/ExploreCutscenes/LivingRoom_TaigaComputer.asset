@@ -12,5 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce4091efa6b73194680553dd3dac51da, type: 3}
   m_Name: LivingRoom_TaigaComputer
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
-  sequence: []
+  sequence:
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - (Taiga's doing her work on the computer again.)
+    - (Hard to believe she's doing work even on the weekend...)
+    - (Well, I better not get in her way.)
   alternateSequences: []

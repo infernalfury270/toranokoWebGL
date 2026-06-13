@@ -12,5 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce4091efa6b73194680553dd3dac51da, type: 3}
   m_Name: Ryuuji_Bed
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
-  sequence: []
+  sequence:
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - (A lovely bed built for me and my wife.)
+    - (Taiga demanded a bed like this for our new home. She said it was an absolute
+      necessity.)
+    - (It's the type of bed she'd always been used to sleeping in. She must've gotten
+      sick of sleeping in futons when she was living with me and Yasuko in our apartment.)
+    - (It must've been especially unpleasant when she was carrying our daughters...)
+    - (Now that I think about it, this bed must've been what made her pregnancy with
+      Yuuchi much easier...)
   alternateSequences: []

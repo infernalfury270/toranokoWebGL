@@ -12,5 +12,43 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce4091efa6b73194680553dd3dac51da, type: 3}
   m_Name: LivingRoom_YuuchiTVNight
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
-  sequence: []
+  sequence:
+  - background: {fileID: 21300000, guid: 3047a4202f5b4d946b09a0ea9829d84b, type: 3}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - Yuuchi?
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Yuuchi
+    dialogue:
+    - Yeah?
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - What're you doing playing video games in the middle of the night?
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Yuuchi
+    dialogue:
+    - Just let me finish this level.
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - Shouldn't you be in bed? It's a school day, you know.
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Yuuchi
+    dialogue:
+    - Mom doesn't have a problem with it if I do it every now and then.
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - (He doesn't even look at me while I'm talking to him...)
+    - (I guess if Taiga's alright with it... It's not like he's struggling in school
+      or anything...)
+    - (I suppose I can let this slide...)
   alternateSequences: []

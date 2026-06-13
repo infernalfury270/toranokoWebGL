@@ -12,5 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce4091efa6b73194680553dd3dac51da, type: 3}
   m_Name: Mitsuko_StudyTable
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
-  sequence: []
+  sequence:
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - (Mitsuko's studying... I think...)
+    - (Is the book she's reading part of her schoolwork, or is she just reading for
+      fun again?)
+    - (She's always losing herself in all her books... It's been a problem since
+      elementary school, and we still haven't found a solution for it.)
+    - (Well, I wouldn't want to bother her. I'll just hope she's doing something
+      productive.)
   alternateSequences: []

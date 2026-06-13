@@ -12,5 +12,64 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce4091efa6b73194680553dd3dac51da, type: 3}
   m_Name: LivingRoom_TaigaComputerNight
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
-  sequence: []
+  sequence:
+  - background: {fileID: 21300000, guid: 3327fc399a02412418bc259c39e577b4, type: 3}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - Taiga?
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Taiga
+    dialogue:
+    - Oh, hey Ryuuji. What're you doing up at this hour?
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - I should be asking you the same thing...
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Taiga
+    dialogue:
+    - I just have some extra work I wanted to finish up. I need to make good use
+      of my weekend, you know.
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - The weekend's supposed to be for rest... Don't you think you're pushing yourself
+      a little too hard?
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Taiga
+    dialogue:
+    - I can handle it, Ryuuji.
+    - Did you really think I landed this great job position, bought you and the kids
+      nice things, just by doing the bare minimum?
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - Taiga...
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Taiga
+    dialogue:
+    - I'll be fine, Ryuuji. Besides, I still have the rest of the day to rest.
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - Fine... Should I make you some coffee?
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Taiga
+    dialogue:
+    - Already had some myself.
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - Alright then... I better see you back in bed before sunrise.
   alternateSequences: []

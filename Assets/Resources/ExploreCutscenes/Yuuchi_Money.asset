@@ -12,5 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce4091efa6b73194680553dd3dac51da, type: 3}
   m_Name: Yuuchi_Money
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
-  sequence: []
+  sequence:
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - (Looks like Yuuchi left his money jar out before he went to the arcade.)
+    - (Taiga's really generous with his pocket money, so he's got a lot saved up
+      for these kinds of occasions.)
+    - (Man, Taiga really loves spoiling that boy. He gets all the games he wants,
+      and he gets to go wherever he wants.)
+    - (I suppose I'm not so different with the girls... I rarely ever discipline
+      them the way Taiga does.)
   alternateSequences: []

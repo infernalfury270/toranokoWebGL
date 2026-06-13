@@ -12,5 +12,95 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce4091efa6b73194680553dd3dac51da, type: 3}
   m_Name: Mitsuko_InBed
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
-  sequence: []
-  alternateSequences: []
+  sequence:
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - (Mitsuko's doing some reading before bed...)
+    - (Yasuko used to read to her before bed when she was little. I'd even hear from
+      Yasuko about the dreams Mitsuko had on those nights.)
+    - (The characters from her books would speak to her... Sometimes Yasuko would
+      be there too.)
+    - (I wonder what kind of dreams she's having these days.)
+  alternateSequences:
+  - dayOfTheWeek: 2
+    sequence:
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (Mitsuko's doing some reading before bed...)
+      - (I still remember the first time she got a book confiscated.)
+      - (She was already sobbing before she entered the house.)
+      - (She was planning on reading the book before bed, but without it, she just
+        wouldn't fall asleep no matter how much Taiga and I tried to comfort her.)
+      - (In the end, Taiga just went out and bought her another book to read.)
+      - (It worked in the moment, but I can't help but wonder if that had any lasting
+        effects...)
+  - dayOfTheWeek: 3
+    sequence:
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (Mitsuko's doing some reading before bed...)
+      - (She looks so happy doing it... Like an animal in its natural habitat...)
+      - (Taiga wishes she spoke more like her sisters, but I think she's fine just
+        like this.)
+  - dayOfTheWeek: 4
+    sequence:
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (Mitsuko's doing some reading before bed...)
+      - (.......... She does quite a lot of reading, huh? It feels like that's the
+        only thing I see her do...)
+      - (Wouldn't it be nicer if she spent the night texting her friends instead?
+        That could probably deepen their connection a little beyond their interest
+        in books...)
+      - (Well, I suppose there's no problem letting her stay in her own little world
+        a bit longer...)
+  - dayOfTheWeek: 5
+    sequence:
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (Mitsuko's doing some reading before bed...)
+      - (I wonder if she knows that I saw all the adult books she keeps under her
+        bed...)
+      - (Not that I have a problem with it, of course. I think it's normal for a
+        girl her age.)
+      - (I just find the secrecy a little strange considering one of her only friends
+        is pretty open about reading that kind of stuff.)
+      - (It's only logical that her tastes would be influenced by those around her.)
+  - dayOfTheWeek: 6
+    sequence:
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (Mitsuko's doing some reading before bed...)
+      - (Before she had any friends, she used to spend most of her weekends just
+        reading either here or at the library.)
+      - (Haruko and Katsuko never accompanied her to the library and she always felt
+        they were too loud to be around. There were times where she'd get so overwhelmed,
+        she'd come home before they did.)
+      - (Now that she has her own circle, she seems a lot happier, and she's getting
+        a lot more quality time out of her weekends.)
+      - (She's grown really well...)
+  - dayOfTheWeek: 6
+    sequence:
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (Mitsuko's doing some reading before bed...)
+      - (Would it be wrong of me to think she might be the most well-adjusted of
+        my daughters?)
+      - (She has friends, and in terms of the trouble she gets into in school, it's
+        a lot milder than what Haruko and Katsuko have done.)
+      - (Ah, nevermind. It's not a good idea to compare my daughters.)
+      - (I love all three of them the same.)

@@ -12,5 +12,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce4091efa6b73194680553dd3dac51da, type: 3}
   m_Name: LivingRoom_KatsukoSleep
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
-  sequence: []
+  sequence:
+  - background: {fileID: 21300000, guid: 2957a6f37850f774e91979a5bd226925, type: 3}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - (Katsuko? What's she doing sleeping out here?)
+    - (... ... Oh... She has an odour. Must be the sweat after playing softball.
+      Looks like she didn't want her sisters to smell her in the middle of the night.)
+    - (It's nice that she's thinking of her sisters, but she wouldn't have to do
+      this had she just taken a shower the moment she got home...)
+    - (This is just a recurring problem, huh? Even as a child, she'd fight us when
+      we brought her into the shower, and she'd fight us when we tried to take her
+      out of the shower.)
+    - (I figured she'd grow out of her childish nature eventually, but she's a little
+      old to be avoiding showers...)
+    - (The way she presents herself too... She's napping completely nude where everyone
+      would walk by...)
+    - (It seems she does understand that... She did bring a pillow along to cover
+      herself.)
+    - (But her lower body isn't covered at all... What if someone approaches the
+      window and tries to look past the curtains?)
+    - (If Taiga saw her like this, she'd probably get yelled at again...)
+    - (Is this something she'll ever grow out of?)
+    - (I'll just have to trust she does...)
+    - (For now, I'll just cover her with a blanket, then clean the sofa in the morning.
+      She's getting sweat all over it.)
   alternateSequences: []

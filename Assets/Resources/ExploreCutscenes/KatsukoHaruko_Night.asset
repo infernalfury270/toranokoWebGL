@@ -12,5 +12,109 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce4091efa6b73194680553dd3dac51da, type: 3}
   m_Name: KatsukoHaruko_Night
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
-  sequence: []
-  alternateSequences: []
+  sequence:
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - (Looks like Haruko and Katsuko are ready to fall asleep...)
+    - (I hope Haruko's had an easy Monday... She's not the best, but she's always
+      working the hardest in school.)
+    - (And I hate to say this, but I hope Katsuko hasn't given her too much trouble...)
+    - (As long as they're keeping each other company, I think they can make it through
+      high school just fine.)
+  alternateSequences:
+  - dayOfTheWeek: 2
+    sequence:
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (Looks like Haruko and Katsuko are ready to fall asleep...)
+      - (Haruko's always working hard to look after her sisters. It might just be
+        by a few minutes, but she's their big sister.)
+      - (She's done such a great job keeping her sisters together throughout their
+        school journey. Hopefully the pressure doesn't get to her.)
+      - (But if it does...)
+      - (I'll be here to make a delicious meal to calm her down.)
+  - dayOfTheWeek: 3
+    sequence:
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (Looks like Haruko and Katsuko are ready to fall asleep. Katsuko's already
+        snoozing, too.)
+      - (Even though Katsuko gives us a lot of trouble, I think she cares about her
+        sisters the most.)
+      - (From elementary school to now, she's always been fighting off bullies, especially
+        the ones that pick on her sisters.)
+      - (From elementary school to now, no matter how badly she got hurt, she's always
+        been fighting off bullies, especially the ones that pick on her sisters.)
+      - (As long as she was there for her sisters, she knew her sisters would be
+        there for her. Haruko even joined in on the fights when she felt she had
+        to.)
+      - (But as heartwarming as it is, seeing how tight their bond is, such behaviour
+        isn't going to help them find their place in the world...)
+      - (That's what Taiga thinks, at least.)
+  - dayOfTheWeek: 4
+    sequence:
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (Looks like Haruko and Katsuko are ready to fall asleep...)
+      - (I wonder if I should make something different for breakfast. I'd love to
+        hear what Haruko would think. She's very attentive to the different sensations
+        and flavours of everything she eats.)
+      - '(Of course, that doesn''t stop her from splurging on snacks.) '
+      - (She might be my biggest fan when it comes to food.)
+  - dayOfTheWeek: 5
+    sequence:
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (Looks like Haruko and Katsuko are ready to fall asleep...)
+      - (It's crazy how heavy of a sleeper Katsuko is. She managed to fall asleep
+        before any of her sisters have.)
+      - (... She does get scolded a lot for sleeping during class, though. Where
+        did this habit come from?)
+      - (She was seriously ill when she was a baby because Taiga had a hard time
+        pushing her out... When they were both recovering, they spent a lot of time
+        in bed. Could that be the reason? Is there still a part of her that's unwell?)
+      - (Or she could just be a big, walking baby that likes to nap, you never know.)
+  - dayOfTheWeek: 6
+    sequence:
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (Looks like Haruko and Katsuko are ready to fall asleep...)
+      - (I wonder what those two do on their dayouts together...)
+      - (The last time I followed them, Katsuko was going around buying little trinkets,
+        while Haruko was just... eating.)
+      - (Haruko's appetite really is insatiable, huh? Just like her mother's when
+        she was her age... Wait, no, Haruko's is muuuuuch more.)
+      - (Taiga and Yuuchi eat twice as much as I do, Mitsuko eats three times as
+        much as Taiga does, Katsuko eats four times as much as Mitsuko does, and
+        Haruko........... I can't even do the math when I compare it to Katsuko.)
+      - (She might be eating more than Taiga did while she was pregnant with her
+        and her sisters! And Taiga was basically a blackhole for food back then!
+        I can't say for sure that Haruko inherited this appetite from Taiga, and
+        she definitely didn't get it from me...)
+      - (Now, what did Katsuko inherit from her mother?)
+      - (.......... I feel like just thinking about the answer would upset Taiga.)
+  - dayOfTheWeek: 0
+    sequence:
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (Looks like Haruko and Katsuko are ready to fall asleep...)
+      - (It'll be another week of school for those two.)
+      - (Some weeks are better than others, and some weeks...)
+      - (....... tend to start and end with Haruko's tears.)
+      - (The sisters don't really have good control over their emotions. Haruko's
+        happens to cry a lot, like an overgrown baby.)
+      - (I always try my best to make Monday the easiest day of the week.)

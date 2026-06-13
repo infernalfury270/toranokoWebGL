@@ -101,6 +101,33 @@ MonoBehaviour:
                 m_StringArgument: 
                 m_BoolArgument: 0
               m_CallState: 2
+  - variantName: Closet
+    day: 6
+    timeStart: 1000
+    timeEnd: 1659
+    variant:
+      background: {fileID: 21300000, guid: cbf8514af57d97045bde92c63a991289, type: 3}
+      travelPts:
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: d6cc61b6a5ef4d84286cd78e46710adf, type: 2}
+      interactables:
+      - name: Closet
+        pos: {x: -725, y: 0}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: e8858f1bb053eed40bddea1302bb0ee7, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
   - variantName: MorningBed
     day: 6
     timeStart: 600

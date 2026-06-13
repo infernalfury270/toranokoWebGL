@@ -12,5 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce4091efa6b73194680553dd3dac51da, type: 3}
   m_Name: Mitsuko_Closet
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
-  sequence: []
+  sequence:
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - (Looks like Mitsuko left her closet open when she left to go out with her friends.)
+    - (She used to be scared of having that closet be right in front of her bed.
+      She was always afraid something would pop out and get her.)
+    - (Haruko and Katsuko would put on a brave front, but they were just using it
+      as an excuse to stay up and play.)
+    - (Yasuko would stay by Mitsuko's side until she fell asleep. Sometimes she'd
+      sing a few lullabies too.)
+    - (It's amazing seeing how much that little girl has grown.)
   alternateSequences: []

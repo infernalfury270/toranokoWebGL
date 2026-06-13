@@ -89,8 +89,8 @@ MonoBehaviour:
     speakerName: Mitsuko
     dialogue:
     - I... I want to read them, but I... I... I can't just... If I speak to her,
-      she'll... I don't know...
-    - Oohooh... I don't know... I can't... I can't do...  anything about it...
+      she'll...
+    - Huuuuuhn... I don't know... I can't do... anything about it...
   - background: {fileID: 0}
     clearBackground: 0
     speakerName: Ryuuji
@@ -112,7 +112,7 @@ MonoBehaviour:
       okay?
   - background: {fileID: 0}
     clearBackground: 0
-    speakerName: Ryuuji
+    speakerName: Mitsuko
     dialogue:
     - Mhm...
   - background: {fileID: 0}

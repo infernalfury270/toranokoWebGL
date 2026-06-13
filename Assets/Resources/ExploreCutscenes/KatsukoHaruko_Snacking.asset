@@ -12,5 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce4091efa6b73194680553dd3dac51da, type: 3}
   m_Name: KatsukoHaruko_Snacking
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
-  sequence: []
+  sequence:
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - (Ah... Haruko's snacking while studying again.)
+    - (I wonder how much she paid for all that... Has to be at least 10000 yen...)
+    - (Somehow, every time I see her binging like this, I never see her with an upset
+      tummy or anything. She's like a blackhole for food.)
+    - (Her love for my food is a nice bonus, though. She's always telling me I should
+      open a restaurant, though I always took more interest in being an architect.)
+    - (...... Something tells me I'm going to have to give this part of the room
+      another deep clean. Wouldn't want any ants invading this place while they're
+      asleep.)
   alternateSequences: []

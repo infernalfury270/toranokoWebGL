@@ -12,5 +12,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce4091efa6b73194680553dd3dac51da, type: 3}
   m_Name: KatsukoHaruko_Morning
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
-  sequence: []
-  alternateSequences: []
+  sequence:
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - (Looks like Haruko and Katsuko are still lazing around.)
+    - (Haruko... Isn't she messing up her back by laying on her stomach like that?
+      With her big chest in the way, I mean.)
+    - (And I'm afraid Katsuko would hit her head on the floor if she slips off...
+      She'd be in for a painful waking.)
+    - (Well, I wouldn't want to bother them on their weekend.)
+  alternateSequences:
+  - dayOfTheWeek: 0
+    sequence:
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (Hm... Haruko and Katsuko are still lazing around...)
+      - (Haruko's totally engrossed in her phone... But aren't her eyes a little
+        too close to her screen?)
+      - (And Katsuko's feet are pressing against the wall... Well, I don't mind cleaning
+        the walls every once in a while.)
+      - (The way they laze around... Always reminds me of their mother.)

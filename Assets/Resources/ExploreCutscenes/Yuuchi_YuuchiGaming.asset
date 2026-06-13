@@ -12,5 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce4091efa6b73194680553dd3dac51da, type: 3}
   m_Name: Yuuchi_YuuchiGaming
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
-  sequence: []
+  sequence:
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - (There's Yuuchi, gaming comfortably in his bed.)
+    - (Really makes me wonder how many hours he has on that little device. Does he
+      ever run out of games to play with how often Taiga buys them for him? Or does
+      he replay the old ones until he finally asks for another?)
+    - (Reminds me of all those nights Taiga would spend playing video games on the
+      TV in our old apartment. She even did it late into pregnancy with our daughters.
+      Whenever she had trouble sleeping, I'd hear the clicking of the controller
+      and upbeat music just outside my old bedroom.)
+    - (Now that I think about it, Katsuko likes playing video games too, doesn't
+      she? Haruko too, but not as much... Has Taiga ever bought any games for Katsuko?
+      Or does she just play the ones that Yuuchi has? He's never had a problem with
+      sharing, from what I've seen.)
   alternateSequences: []

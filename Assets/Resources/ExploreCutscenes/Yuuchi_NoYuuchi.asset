@@ -12,5 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce4091efa6b73194680553dd3dac51da, type: 3}
   m_Name: Yuuchi_NoYuuchi
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
-  sequence: []
+  sequence:
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - (Looks like Yuuchi's gone out. He's usually with Noto-san's kid at this time.)
+    - '(I still remember Maya-san''s excitement when she heard Taiga was pregnant
+      at the same time she was.) '
+    - ("Maybe our kids could be friends!", she said. From early on in their pregnancies,
+      until the boys started elementary school, they hung out together much more
+      than I'd ever seen since high school.)
+    - (I don't think Taiga even liked her that much. She was always complaining to
+      me behind Maya-san's back about things she said or did.)
+    - (And yet, she wouldn't stop hanging out with her. Was she just doing that for
+      Yuuchi's sake? It looks like she made the right call. Yuuchi and Hisanosuke-kun
+      look like good friends.)
+    - (If only we'd done the same for our daughters...)
   alternateSequences: []

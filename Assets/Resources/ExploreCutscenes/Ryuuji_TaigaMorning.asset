@@ -12,5 +12,112 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce4091efa6b73194680553dd3dac51da, type: 3}
   m_Name: Ryuuji_TaigaMorning
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
-  sequence: []
-  alternateSequences: []
+  sequence:
+  - background: {fileID: 21300000, guid: 0783455481e77fa4c9b2c353d82338f1, type: 3}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - Good morning, beautiful.
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Taiga
+    dialogue:
+    - Do you need something? I'm still resting here, you know.
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - Just wanted to see your cute little face again.
+    - Hey, what do you think of that vacuum I showed you? Do you think we should
+      get it?
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Taiga
+    dialogue:
+    - Mmmh... Is it really worth the price?
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - It definitely is. It's got wheels to roll around, it's got automatic steam
+      cleaning, it's got twice as much power as our older one. I loved how it felt
+      when we tried it at the store.
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Taiga
+    dialogue:
+    - I don't know... Couldn't we just get the same model as our old one? I feel
+      like that one worked just fine...
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - But this one's totally modern! Shouldn't we be getting with the times?
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Taiga
+    dialogue:
+    - That's why you said last time... It's not like our house has changed, why should
+      our vacuum model?
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - Well, it's not like you're the one that does all the vacuuming in this house.
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Taiga
+    dialogue:
+    - That housewife brain has completely taken over, hasn't it?
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - Pleeeease, Taiga...
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Taiga
+    dialogue:
+    - Let me think about it...
+  alternateSequences:
+  - dayOfTheWeek: 0
+    sequence:
+    - background: {fileID: 21300000, guid: 0783455481e77fa4c9b2c353d82338f1, type: 3}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - Are you planning on staying in bed all day, sleeping beauty?
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - It's still early, Ryuuji... Let me rest...
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - At least stretch your legs a little. It's not healthy laying around after
+        you spend most of your day sitting down to work.
+      - Maybe you should join me for those neighbourhood-get-together walks.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - No way! Not while Nishino-san's there! She's carrying her fifth, isn't she?
+        She's more annoying than I was when I was pregnant!
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - And how would you know that?
+      - If anything, I think you two could bond over that fact.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Taiga
+      dialogue:
+      - No, no, nooo way. Leave me alone. Let me enjoy my weekend.
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - Whatever you say.

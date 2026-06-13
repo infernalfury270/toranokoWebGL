@@ -12,5 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce4091efa6b73194680553dd3dac51da, type: 3}
   m_Name: Mitsuko_InBedMorning
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
-  sequence: []
-  alternateSequences: []
+  sequence:
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - (Mitsuko's doing some morning reading.)
+    - (Smells like a new book she bought with her pocket money.)
+    - (I wonder if the folks at the nearby bookstore ever recognise her, especially
+      with how odd she looks compared to other girls her age.)
+    - (I hope they're nice to her too... I've heard too many stories of creeps approaching
+      young girls like her... I'll have to get Taiga if I hear any of those stories
+      come from my girls...)
+  alternateSequences:
+  - dayOfTheWeek: 0
+    sequence:
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (Mitsuko's doing some morning reading.)
+      - (Looks like she's reading a library book.)
+      - (Haruko and Katsuko are banned from all the libraries in town because they
+        can barely keep their voices down or they're always getting into trouble.)
+      - (It's a shame. Mitsuko had to go to libraries all by herself for a while
+        before she started making friends in high school.)

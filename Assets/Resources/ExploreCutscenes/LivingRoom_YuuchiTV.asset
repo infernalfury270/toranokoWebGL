@@ -12,5 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce4091efa6b73194680553dd3dac51da, type: 3}
   m_Name: LivingRoom_YuuchiTV
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
-  sequence: []
-  alternateSequences: []
+  sequence:
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - (Yuuchi's playing video games again.)
+    - (I don't think I've seen this one before. Taiga must've bought it for him.)
+    - (I suppose he deserves to be rewarded for how well he does in school. Neither
+      of us really have to worry if he's playing too much.)
+    - (He's a lot more disciplined than his sisters, too. I wonder how that happened.)
+  alternateSequences:
+  - dayOfTheWeek: 0
+    sequence:
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (Yuuchi's playing video games again.)
+      - (I wonder if there's any father-son activities I could sign us up for.)
+      - (It could be better than spending the whole weekend just playing games.)
+      - (Yuuchi's never been receptive to the idea though...)

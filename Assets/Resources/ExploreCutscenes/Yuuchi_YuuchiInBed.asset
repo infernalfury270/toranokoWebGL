@@ -12,5 +12,81 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce4091efa6b73194680553dd3dac51da, type: 3}
   m_Name: Yuuchi_YuuchiInBed
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
-  sequence: []
-  alternateSequences: []
+  sequence:
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - (Looks like Yuuchi's ready to fall asleep. He already has the lights off.)
+    - (I used to watch Taiga tuck him into bed when he was little. I wonder when
+      that stopped.)
+  alternateSequences:
+  - dayOfTheWeek: 2
+    sequence:
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (Looks like Yuuchi's ready to fall asleep. He already has the lights off.)
+      - (When Yasuko was staying in this room, there were a few moments where all
+        three of my daughters were under the covers and cuddling with her before
+        they were put to bed.)
+      - (I really miss those days.)
+  - dayOfTheWeek: 3
+    sequence:
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (Looks like Yuuchi's ready to fall asleep. He already has the lights off.)
+      - (Noto-san told me something about teenage boys and their need for "privacy"
+        when they reach that age.)
+      - (But when I raised that concern to Taiga, she told me Yuuchi wasn't that
+        kind of boy...)
+      - (Honestly, I don't really know who to trust.)
+  - dayOfTheWeek: 4
+    sequence:
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (Looks like Yuuchi's ready to fall asleep. He already has the lights off.)
+      - (He's even inherited his mother's methods of lazing around... Undeniably
+        a spitting image of Taiga.)
+      - (When Taiga was pregnant with him, I was actually hoping he'd look at least
+        a little like me... Well, maybe it's for the best that my kids don't end
+        up looking like my dad.)
+  - dayOfTheWeek: 5
+    sequence:
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (Looks like Yuuchi's ready to fall asleep. He already has the lights off.)
+      - (It's actually a little baffling that we've never received any complaints
+        about him from his school in... forever.)
+      - (His sisters can't even go a week without getting complained about.)
+      - (It doesn't seem good on Taiga's psyche though... Hearing all those things
+        about her daughters...)
+  - dayOfTheWeek: 6
+    sequence:
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (Looks like Yuuchi's ready to fall asleep. He already has the lights off.)
+      - (Hm... It doesn't really feel right having him spend all his free time just
+        playing video games... Even when he's with friends, he's just gaming...)
+      - (Should I sign him up for something? Maybe some father-son activities?)
+      - (I... don't really think Yuuchi actually likes me enough to want to participate
+        in that kind of thing...)
+  - dayOfTheWeek: 0
+    sequence:
+    - background: {fileID: 0}
+      clearBackground: 0
+      speakerName: Ryuuji
+      dialogue:
+      - (Looks like Yuuchi's ready to fall asleep. He already has the lights off.)
+      - (It feels nice not having to worry about him starting another week of school.
+        Taiga's raised him quite well.)
+      - (It's hard to say the same for our daughters... But I love them all the same.)s

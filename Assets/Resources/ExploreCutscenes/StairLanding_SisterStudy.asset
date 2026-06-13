@@ -12,5 +12,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce4091efa6b73194680553dd3dac51da, type: 3}
   m_Name: StairLanding_SisterStudy
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
-  sequence: []
+  sequence:
+  - background: {fileID: 21300000, guid: b3ee503276706114e8c69bcd1fbcb4d7, type: 3}
+    clearBackground: 0
+    speakerName: Haruko
+    dialogue:
+    - What's so hard to understand!? You just put the numbers into the equation like
+      that!
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Katsuko
+    dialogue:
+    - Uh... Mhm... Right... You're not very good at explaining things, Haruko.
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Haruko
+    dialogue:
+    - Have you been listening to a single word I've been saying!?
+    - Alright, you know what? I'll come back to you later.
+    - Mitsuko! Let's go over another problem!
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Mitsuko
+    dialogue:
+    - Oh... R-right!
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Katsuko
+    dialogue:
+    - (Geez... Even at home I can't escape the nagging...)
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Haruko
+    dialogue:
+    - What was that!?
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Katsuko
+    dialogue:
+    - I don't know what you're talking about.
+  - background: {fileID: 0}
+    clearBackground: 1
+    speakerName: Ryuuji
+    dialogue:
+    - (I better not bother them during their study session...)
   alternateSequences: []

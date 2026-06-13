@@ -12,5 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce4091efa6b73194680553dd3dac51da, type: 3}
   m_Name: Ryuuji_Bathroom
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
-  sequence: []
+  sequence:
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - (Taiga and I have our own bathroom so we wouldn't have to share with the kids.)
+    - (We can spend as much time in there as we want.)
+    - (We can even do whatever we want without our kids knowing...)
+    - (It... It was a long time ago, and we never did it again, but that's not something
+      I'd like to go into detail on...)
   alternateSequences: []

@@ -12,5 +12,62 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce4091efa6b73194680553dd3dac51da, type: 3}
   m_Name: Kitchen_Haruko
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
-  sequence: []
+  sequence:
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - ................ Haruko?
+  - background: {fileID: 21300000, guid: 1eac8d3f82be10840859c7cc49e7a37a, type: 3}
+    clearBackground: 0
+    speakerName: Haruko
+    dialogue:
+    - Mmmh......
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - Have you been eating straight out of the fridge in the middle of the night?
+      You'll upset your stomach again...
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Haruko
+    dialogue:
+    - It helps me calm down...
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - What're you stressed about?
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Haruko
+    dialogue:
+    - I don't know... Everything?
+    - It's Monday... I have to go back to school again... I have to get yelled at
+      by Yuri again... I have to stay in the same room as everyone that doesn't like
+      me...
+    - Thinking about everything just makes me hungry...
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - That doesn't mean you should stuff your belly with candies and chocolates...
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Haruko
+    dialogue:
+    - But I do it all the time and it's never been a problem for me...
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - Just get some bedrest, okay? I'll make a good breakfast for you to start the
+      week. Slow down with the sweets.
+    - It'll just be like any other week. You'll be fine.
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Haruko
+    dialogue:
+    - Mmmmmh...... Okay......
   alternateSequences: []

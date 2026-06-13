@@ -12,5 +12,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce4091efa6b73194680553dd3dac51da, type: 3}
   m_Name: LivingRoom_MitsukoKatsuko
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
-  sequence: []
+  sequence:
+  - background: {fileID: 21300000, guid: ac7310b6608bf0644850fe9c464b5930, type: 3}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - (Ah, Mitsuko and Katsuko are reading together in the living room.)
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Katsuko
+    dialogue:
+    - Hahah! Hey, check it out, Mitsuko! This page is totally crazy!
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Mitsuko
+    dialogue:
+    - Mmh.
+  - background: {fileID: 0}
+    clearBackground: 0
+    speakerName: Ryuuji
+    dialogue:
+    - (Well, maybe "together" isn't the right word.)
+    - (I doubt Katsuko has the attention span to read books with just words like
+      Mitsuko does, so manga might be what's best for her.)
+    - (Even though Mitsuko's completely focused on her book, Katsuko still seems
+      quite happy. I suppose just being in her sister's presence is enough for her.)
+    - (Either way, seeing them spend time together is a nice thing to see.)
   alternateSequences: []
