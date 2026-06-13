@@ -186,10 +186,10 @@ MonoBehaviour:
                 m_StringArgument: 
                 m_BoolArgument: 0
               m_CallState: 2
-  - variantName: Midnight_Taiga
+  - variantName: Midnight_TaigaNight
     day: -1
     timeStart: 2200
-    timeEnd: 559
+    timeEnd: 2359
     variant:
       background: {fileID: 21300000, guid: 8ada508d1335343479826c1c15d72c1f, type: 3}
       travelPts:
@@ -219,6 +219,50 @@ MonoBehaviour:
           m_PersistentCalls:
             m_Calls:
             - m_Target: {fileID: 11400000, guid: d0eec662e86d1994690ea0a1be95a021, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+  - variantName: Midnight_TaigaMorning
+    day: -1
+    timeStart: 0
+    timeEnd: 559
+    variant:
+      background: {fileID: 21300000, guid: 8ada508d1335343479826c1c15d72c1f, type: 3}
+      travelPts:
+      - pos: {x: 0, y: -425}
+        destination: {fileID: 11400000, guid: 7a978b2952a41084fbfa383020db3a6a, type: 2}
+      interactables:
+      - name: Bathroom
+        pos: {x: -750, y: 50}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: 60427602088374d49b4eeb8f3bb650df, type: 2}
+              m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
+              m_MethodName: InvokeCutscene
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+      - name: Taiga
+        pos: {x: 750, y: -25}
+        OnInteract:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: d0d0406492b2805428fb034e8c48a175, type: 2}
               m_TargetAssemblyTypeName: CutsceneData, Assembly-CSharp
               m_MethodName: InvokeCutscene
               m_Mode: 1

@@ -80,6 +80,9 @@ MonoBehaviour:
       - (Should I sign him up for something? Maybe some father-son activities?)
       - (I... don't really think Yuuchi actually likes me enough to want to participate
         in that kind of thing...)
+      - (Or is it because we haven't had much time alone together that he doesn't
+        like me much?)
+      - (What does he even think of me?)
   - dayOfTheWeek: 0
     sequence:
     - background: {fileID: 0}
@@ -89,4 +92,4 @@ MonoBehaviour:
       - (Looks like Yuuchi's ready to fall asleep. He already has the lights off.)
       - (It feels nice not having to worry about him starting another week of school.
         Taiga's raised him quite well.)
-      - (It's hard to say the same for our daughters... But I love them all the same.)s
+      - (It's hard to say the same for our daughters... But I love them all the same.)

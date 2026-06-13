@@ -3683,8 +3683,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278196781
-  m_fontColor: {r: 0.17735851, g: 0.103081636, b: 0, a: 1}
+    rgba: 4294955981
+  m_fontColor: {r: 0.80566037, g: 0.82585, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -5692,6 +5692,7 @@ MonoBehaviour:
   _dialogueGrp: {fileID: 401305498}
   _morningBG: {fileID: 1032560292}
   _nightBG: {fileID: 1930434172}
+  _msgTxt: {fileID: 484048289}
   _morningTrans: {fileID: 166813069}
   _nightTrans: {fileID: 552504252}
   _moveBtn: {fileID: 8148140476536390635, guid: 277cac47c8c65424a9cdab5783a4c726, type: 3}
@@ -14988,7 +14989,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1930434173
 RectTransform:
   m_ObjectHideFlags: 0

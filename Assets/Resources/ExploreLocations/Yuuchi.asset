@@ -146,9 +146,9 @@ MonoBehaviour:
                 m_BoolArgument: 0
               m_CallState: 2
   - variantName: YuuchiArcade
-    day: 0
-    timeStart: 1000
-    timeEnd: 1659
+    day: 3
+    timeStart: 1700
+    timeEnd: 1859
     variant:
       background: {fileID: 21300000, guid: 3adc65f63173c434f916ae30fc705f8d, type: 3}
       travelPts:

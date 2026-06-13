@@ -14,6 +14,7 @@ public class ExploreManager : MonoBehaviour
     [SerializeField] CanvasGroup _interactablesGrp;
     [SerializeField] CanvasGroup _dialogueGrp;
     [SerializeField] GameObject _morningBG, _nightBG;
+    [SerializeField] TMP_Text _msgTxt;
     [SerializeField] CanvasGroup _morningTrans, _nightTrans;
     [SerializeField] GameObject _moveBtn, _interactBtn;
     [SerializeField] LocationData _startLocationMorning, _startLocationNight;
@@ -62,6 +63,7 @@ public class ExploreManager : MonoBehaviour
             _morningTrans.gameObject.SetActive(true);
             _nightTrans.gameObject.SetActive(false);
             _locationTransition = _morningTrans;
+            _msgTxt.color = new Color(45.0f/255, 26.0f/255, 0.0f);
             SetLocation(_startLocationMorning);
         } else
         {
@@ -70,6 +72,7 @@ public class ExploreManager : MonoBehaviour
             _morningTrans.gameObject.SetActive(false);
             _nightTrans.gameObject.SetActive(true);
             _locationTransition = _nightTrans;
+            _msgTxt.color = new Color(206.0f / 255, 211.0f / 255, 1.0f);
             SetLocation(_startLocationNight);
         }
     }
