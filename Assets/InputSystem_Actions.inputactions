@@ -1029,6 +1029,17 @@
                     "action": "DialogueProgress",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "481db391-47ea-42f1-8edb-efbd3268ad30",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DialogueProgress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }

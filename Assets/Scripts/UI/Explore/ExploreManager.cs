@@ -86,13 +86,17 @@ public class ExploreManager : MonoBehaviour
             _bgmSource.clip = _midnightBGM;
         _bgmSource.Play();
     }
+    public void ToggleUI()
+    {
+        if (_uiGrp.alpha == 0)
+            _uiGrp.alpha = 1;
+        else
+            _uiGrp.alpha = 0;
+    }
     private void Update()
     {
         if (InputSystem.actions["ExploreUIToggle"].WasPressedThisFrame())
-            if (_uiGrp.alpha == 0)
-                _uiGrp.alpha = 1;
-            else
-                _uiGrp.alpha = 0;
+            ToggleUI();
         _cfmRT.Rotate(0,0, _rot * Time.deltaTime);
         _cfmRT.anchoredPosition = _ogBob + new Vector2(0,_jitter * Mathf.Sin(Time.time * _jitterSpeed));
     }

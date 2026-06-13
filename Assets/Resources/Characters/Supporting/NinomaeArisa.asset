@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: NinomaeArisa
   m_EditorClassIdentifier: Assembly-CSharp::CharacterInfo
   characterName: Ninomae Arisa
-  description: She's always trying to stay true to her own values no matter what,
-    even if it makes herself look a little too serious sometimes. Lightening up isn't
-    easy for her, but as Takasu Mitsuko's best friend, she tries to become someone
-    more fun to be around. At the same time, she helps Mitsuko keep her head out
-    of the clouds.
+  description: She's always trying to stay true to herself no matter what, even if
+    it makes herself look a little too serious sometimes. Lightening up isn't easy
+    for her, but as Takasu Mitsuko's best friend, she tries to become someone more
+    fun to be around. At the same time, she helps Mitsuko keep her head out of the
+    clouds.
   fullBody: {fileID: 21300000, guid: 7acce89a08543734290a79887833e6ab, type: 3}
   portrait: {fileID: 21300000, guid: fe592574472b0614fadbe7d69509110d, type: 3}
   relationships:

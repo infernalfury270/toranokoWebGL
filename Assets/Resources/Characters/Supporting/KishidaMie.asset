@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: KishidaMie
   m_EditorClassIdentifier: Assembly-CSharp::CharacterInfo
   characterName: Kishida Mie
-  description: She's a bit of a perv and while she likes to act aloof on her own,
-    she's more perceptive than people think, though it has led her to be rather antisocial.
-    Drawn in by her passion for (adult) books, Takasu Mitsuko would approach her
-    with the intention of becoming friends, regardless of how many times she would
-    get turned down. Through their bond, they learn to become more open about themselves.
+  description: While she likes to act pervy and aloof, her hidden perceptiveness
+    has led her to be rather antisocial. Drawn in by her passion for (adult) books,
+    Takasu Mitsuko would approach her with the intention of becoming friends, regardless
+    of how many times she would get turned down. Through their bond, they learn to
+    become more open about themselves.
   fullBody: {fileID: 21300000, guid: c9885c3cd2976ee4b85ca368232fc7ef, type: 3}
   portrait: {fileID: 21300000, guid: fe5de477e4c68a745bb918edf22b7374, type: 3}
   relationships:

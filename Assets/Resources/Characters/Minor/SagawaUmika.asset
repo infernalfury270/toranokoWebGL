@@ -15,8 +15,8 @@ MonoBehaviour:
   characterName: Sagawa Umika
   description: Kaito's little sister. A twin. She enjoys arts and crafts with her
     little sister, but needs Kaito to fund it behind their mother's back. Despite
-    their circumstances, seeing her mother and brother put their family before their
-    own health never makes her happy.
+    their circumstances, and while she doesn't express it, seeing her mother and
+    brother put their family before their own health never makes her happy.
   fullBody: {fileID: 0}
   portrait: {fileID: 0}
   relationships: []

@@ -13,14 +13,11 @@ MonoBehaviour:
   m_Name: TakasuKatsuko
   m_EditorClassIdentifier: Assembly-CSharp::CharacterInfo
   characterName: Takasu Katsuko
-  description: All brawn, no brains. That's what she is. There isn't a better feeling
-    than being stronger than everyone else. But status isn't the reason she became
-    so strong. Her strength helps her knock any obstacles out of her sisters' way.
-    She's the most hostile of the sisters, so nobody dares to mess with her, besides
-    a few outliers. She isn't afraid to get violent as long as it protects the secure
-    triangle the sisters have formed. But at worst, you'll get put six feet under.
-    The only one that can take her on is Haruko, who is always trying to get her
-    study.
+  description: All brawn, no brains. That's what she is. Her strength helps her knock
+    any obstacles out of her sisters' way. She's the most hostile of the sisters,
+    so most won't dare mess with her. She isn't afraid to get violent to protect
+    the secure triangle the sisters have formed. The only one that can take her on
+    is Haruko, who is always trying to get her study.
   fullBody: {fileID: 21300000, guid: 5405de38358b4c94fac9de5a17e17c79, type: 3}
   portrait: {fileID: 21300000, guid: c514af5ff6f0fea4097444afaac67ece, type: 3}
   relationships:

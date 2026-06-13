@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CharacterInfo
   characterName: Noto Hisamitsu
   description: An old friend of Ryuuji's from his time at Ohashi High School. Despite
-    his rocky marriage with his high school crush, he's always open to giving Ryuuji
-    some (less than helpful) advice.
+    his rocky marriage with his once high school crush, he's always open to giving
+    Ryuuji some (less than helpful) advice.
   fullBody: {fileID: 0}
   portrait: {fileID: 0}
   relationships:

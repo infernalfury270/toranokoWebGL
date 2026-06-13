@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: TakasuMitsuko
   m_EditorClassIdentifier: Assembly-CSharp::CharacterInfo
   characterName: Takasu Mitsuko
-  description: Compared to her sisters, she's a lot more passive and mellow. While
-    she spends most of her time in her own world, she always tries to be kind wherever
-    she can. She usually finds herself getting between her sisters, while her sisters
+  description: Compared to her sisters, she's a lot more passive and mellow. She
+    always tries to be kind wherever she can, but she has a lot of trouble speaking
+    up. She usually finds herself getting between her sisters, while her sisters
     are always trying to protect her from any threats that come her way. She really,
-    really loves books, so much so that it disrupts her performance in class. While
-    she hides from the scary world outside her books, her wish to share this love
-    of books remains.
+    really loves books, so much so that it disrupts her focus in class. While she
+    hides from the world outside her books, her wish to share this love of books
+    remains.
   fullBody: {fileID: 21300000, guid: 92b496b2ce0900444b62a6f2b7e19589, type: 3}
   portrait: {fileID: 21300000, guid: e23e6cdc27a584d42a95a4bb1976f000, type: 3}
   relationships:

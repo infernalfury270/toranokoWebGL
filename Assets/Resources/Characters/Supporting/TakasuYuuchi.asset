@@ -13,12 +13,10 @@ MonoBehaviour:
   m_Name: TakasuYuuchi
   m_EditorClassIdentifier: Assembly-CSharp::CharacterInfo
   characterName: Takasu Yuuchi
-  description: The youngest in the family and an avid gamer. He's in a weird position
-    when it comes to his family. His sisters never stopped treating him like a kid.
-    Especially Katsuko, who's always picking on him. He doesn't find his father very
-    remarkable, and his mother is extremely doting towards him. Now in his second
-    year of junior high, he goes about his life without a care in the world, only
-    needing his video games and gamer friends to keep him company, or so he believes.
+  description: The youngest in the family and an avid gamer. He does well in school,
+    and has friends he can play with. The last thing he wants is to end up like his
+    sisters. Especially Katsuko, who's always picking on him. His mother is extremely
+    doting, and he wants to live up to her expectations.
   fullBody: {fileID: 21300000, guid: 580336c43b3d1a041a12b2c8b522cbb3, type: 3}
   portrait: {fileID: 21300000, guid: 3d0b89639cd08f04ba8325e876701893, type: 3}
   relationships:

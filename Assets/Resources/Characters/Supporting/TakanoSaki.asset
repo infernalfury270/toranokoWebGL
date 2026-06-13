@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: TakanoSaki
   m_EditorClassIdentifier: Assembly-CSharp::CharacterInfo
   characterName: Takano Saki
-  description: A short and plump girl with a strong will and a heart of gold. In
-    spite of her size, she never holds herself back from achieving big things. The
-    harmony of the classroom amongst all the students in her class is of utmost importance,
+  description: A short and plump girl with a strong will and a heart of gold. Despite
+    her small size, she never holds herself back from achieving big things. The harmony
+    of the classroom amongst all the students in her class is of utmost importance,
     so she always delivers a big smile to everyone she talks to. She's destined for
     student council president!
   fullBody: {fileID: 21300000, guid: 21ae31a041bf039469ffb09d05ae7b5e, type: 3}

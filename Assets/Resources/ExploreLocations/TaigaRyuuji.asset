@@ -99,7 +99,7 @@ MonoBehaviour:
                 m_BoolArgument: 0
               m_CallState: 2
   - variantName: Morning_Taiga
-    day: 6
+    day: 0
     timeStart: 600
     timeEnd: 959
     variant:

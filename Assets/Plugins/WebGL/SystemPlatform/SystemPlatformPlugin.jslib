@@ -1,7 +1,7 @@
 var MyPlugin = {
     IsMobile: function()
     {
-        return UnityLoader.SystemInfo.mobile;
+        return /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
     }
 };
 
